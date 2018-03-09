@@ -923,6 +923,10 @@ padding: 20px 0px;
 
 h3.post-title, .comments h4 {
  font-family: "微軟正黑體","Microsoft JhengHei","Times New Roman",Times,serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: "微軟正黑體","Microsoft JhengHei","Times New Roman",Times,serif;
 }]]></b:skin>
 <b:template-skin>
 <![CDATA[
@@ -3049,77 +3053,21 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
 
 <div id='kaplan-footer-cols'> 
 <b:section class='kaplan-fcols-inner kaplan-widetize' id='Footer widget(1)' name='Footer Column [1]' preferred='yes'>
-   <b:widget id='Profile1' locked='false' title='About Me 關於我' type='Profile'>
+   <b:widget id='HTML2' locked='false' title='About Me 關於我' type='HTML'>
      <b:widget-settings>
-       <b:widget-setting name='showaboutme'>true</b:widget-setting>
-       <b:widget-setting name='showlocation'>false</b:widget-setting>
+       <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot; src=&quot;https://platform.linkedin.com/badges/js/profile.js&quot; async defer&gt;&lt;/script&gt;
+&lt;div class=&quot;LI-profile-badge&quot;  data-version=&quot;v1&quot; data-size=&quot;medium&quot; data-locale=&quot;zh_TW&quot; data-type=&quot;horizontal&quot; data-theme=&quot;light&quot; data-vanity=&quot;bo-yu-yang-a17b2413a&quot;&gt;&lt;a class=&quot;LI-simple-link&quot; href=&#39;https://tw.linkedin.com/in/bo-yu-yang-a17b2413a?trk=profile-badge&#39;&gt;Bo-Yu Yang&lt;/a&gt;&lt;/div&gt;</b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2><data:title/></h2>
-    </b:if>
-    <div class='widget-content'>
-    <b:if cond='data:team'> <!-- team blog profile -->
-      <ul>
-        <b:loop values='data:authors' var='i'>
-          <li><a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&quot;background-image: url(&quot; + data:i.profileLogo + &quot;);&quot;'><data:i.display-name/></a></li>
-        </b:loop>
-      </ul>
-
-    <b:else/> <!-- normal blog profile -->
-
-      <b:if cond='data:photo.url != &quot;&quot;'>
-        <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
-      </b:if>
-
-      <dl class='profile-datablock'>
-        <dt class='profile-data'>
-          <a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;' rel='author'>
-            <data:displayname/>
-          </a>
-          <b:if cond='data:hasgoogleprofile'>
-            <br/>
-            <div class='g-follow' data-annotation='bubble' data-height='20' expr:data-href='data:userUrl'/>
-          </b:if>
-        </dt>
-
-        <b:if cond='data:showlocation'>
-          <dd class='profile-data'><data:location/></dd>
-        </b:if>
-
-        <b:if cond='data:aboutme != &quot;&quot;'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
-      </dl>
-      <a class='profile-link' expr:href='data:userUrl' rel='author'><data:viewProfileMsg/></a>
-    </b:if>
-
-     <b:include name='quickedit'/>
-    </div>
-  </b:includable>
-   </b:widget>
-   <b:widget id='FollowByEmail1' locked='false' title='Newsletter' type='FollowByEmail' version='1'>
-     <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'><h2 class='title'><data:title/></h2></b:if>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
   <div class='widget-content'>
-    <div class='follow-by-email-inner'>
-      <form action='https://feedburner.google.com/fb/a/mailverify' expr:onsubmit='&quot;window.open(\&quot;https://feedburner.google.com/fb/a/mailverify?uri=&quot; + data:feedPath + &quot;\&quot;, \&quot;popupwindow\&quot;, \&quot;scrollbars=yes,width=550,height=520\&quot;); return true&quot;' method='post' target='popupwindow'>
-        <table width='100%'>
-          <tr>
-            <td>
-              <input class='follow-by-email-address' name='email' placeholder='Email address...' type='text'/>
-            </td>
-            <td width='64px'>
-              <input class='follow-by-email-submit' type='submit' value='Submit'/>
-            </td>
-          </tr>
-        </table>
-        <input expr:value='data:feedPath' name='uri' type='hidden'/>
-        <input name='loc' type='hidden' value='en_US'/>
-      </form>
-    </div>
+    <data:content/>
   </div>
-  <span class='item-control blog-admin'>
-  <!--b:include name='quickedit'/-->
-  </span>
+
+  <b:include name='quickedit'/>
 </b:includable>
    </b:widget>
  </b:section> 
