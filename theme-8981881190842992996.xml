@@ -1390,7 +1390,64 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
     <div class='body-row' id='content-wrapper'>
     <div id='main-wrapper'>
       <div class='custwid' id='customwid'>
-        <b:section class='customwidgets' id='customwidget' name='Customized Widgets' preferred='no' showaddelement='yes'/>
+        <b:section class='customwidgets' id='customwidget' name='Customized Widgets' preferred='no' showaddelement='yes'>
+          <b:widget id='HTML4' locked='false' title='公告' type='HTML'>
+            <b:widget-settings>
+              <b:widget-setting name='content'>&lt;div id=&quot;bulletin&quot;&gt;&lt;/div&gt;
+ 
+&lt;style type=&#39;text/css&#39;&gt;
+.bulletin {
+  word-wrap: break-word;
+  margin: 0 auto;
+  width: 90%;
+  color: #990000;
+  font-size: 14pt;
+  display: block;
+  overflow: auto;
+  border: 1px dotted lavender;
+  box-shadow: 2px 2px 2px #d6d6d6;
+  padding: 5px 10px 5px 25px;
+  line-height: 1.2em;
+  background: #FFFBFA url(http://1.bp.blogspot.com/-iujhNevrFvc/UGvTJMTPOFI/AAAAAAAAEsM/eNSFQxfTDL8/s1600/bulletin.jpg) left top repeat-y;
+}
+ 
+.bulletin-home {
+  height: 100px;
+  overflow: auto;
+  padding: 5px;
+  border: 1px solid #dddddd;
+}
+&lt;/style&gt;
+ 
+&lt;script src=&#39;http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&#39;&gt;&lt;/script&gt;
+&lt;script&gt;
+function showBulletin(){
+  $(&quot;#bulletin&quot;).html(&quot;&lt;img style=&#39;display:block; margin:auto;&#39; src=&#39;https://lh5.googleusercontent.com/-EyVZ0f8J0qQ/UCeEG7aa8nI/AAAAAAAADtY/9sXw53XkYXM/s512/indicator-light.gif&#39;/&gt;&quot;);
+  $(&quot;#bulletin&quot;).attr(&quot;class&quot;,&quot;bulletin-home&quot;).load(&quot;/p/blog-page.html .bulletin&quot;);
+  $(&quot;#bulletin&quot;).parent().append(&quot;&lt;div style=&#39;text-align: center;&#39;&gt;&lt;a href=&#39;http://spicyboyd.blogspot.tw/p/blog-page.html&#39; target=&#39;_blank&#39;&gt;按此觀看完整公告&lt;/a&gt;&lt;/div&gt;&quot;);
+}
+ 
+if(top.location.pathname == &quot;/&quot;){
+  $(&quot;#bulletin&quot;).html(&quot;&lt;img style=&#39;display:block; margin:auto;&#39; src=&#39;https://lh5.googleusercontent.com/-EyVZ0f8J0qQ/UCeEG7aa8nI/AAAAAAAADtY/9sXw53XkYXM/s512/indicator-light.gif&#39;/&gt;&quot;);
+  showBulletin();
+} else {
+  $(&quot;#bulletin&quot;).html(&quot;&lt;a href=&#39;javascript:showBulletin();&#39;&gt;&#65086; 展開公告內容&lt;/a&gt;&quot;);    
+}
+&lt;/script&gt;</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+          </b:widget>
+        </b:section>
       </div>
 
 <div id='ads-blog'>
