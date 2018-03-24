@@ -3,6 +3,14 @@
 <html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
 
+	<script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: &quot;ca-pub-4405261381209984&quot;,
+              enable_page_level_ads: true
+         });
+    </script>
+
     <b:if cond='data:blog.pageType == &quot;index&quot;'>
     <title><data:blog.pageTitle/></title>
     <b:else/>
@@ -19,8 +27,10 @@
     <meta content='true' name='HandheldFriendly'/>
     <meta content='yes' name='apple-mobile-web-app-capable'/>
     <meta content='index,nofollow' name='robots'/>
-     <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
 	<meta content='5B0012D6AF3036ED342495DA4596C2B5' name='msvalidate.01'/>
+	<meta content='website' property='og:type'/> 
+	<meta content='https://4.bp.blogspot.com/-I4yK_XTmN18/WoMF2y_zC1I/AAAAAAAAF3w/-R1tVNDdE6cwmT7FffNBGgoafgK2jt78QCK4BGAYYCw/s1600/9h6Vq5N.jpg' property='og:image'/> 
 
     <!-- Blogger main head data and meta -->
     <b:include data='blog' name='all-head-content'/>
@@ -986,14 +996,6 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 //]]>
 </script>
 
-<script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: &quot;ca-pub-4405261381209984&quot;,
-          enable_page_level_ads: true
-     });
-</script>
-
 </head>
 <body expr:class='data:blog.pageType'>
 
@@ -1174,11 +1176,11 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
      <div class='logoleft'>
     <div class='kaplan-wide'> 
       <b:section class='kaplan-wide' id='kaplan-wide' maxwidgets='1' name='Blog Header' preferred='no' showaddelement='no'>
-         <b:widget id='Header1' locked='true' title='SpicyBoyd (標頭)' type='Header' version='1'>
+         <b:widget id='Header1' locked='true' title='SpicyBoyd 部落格 (標頭)' type='Header' version='1'>
            <b:widget-settings>
              <b:widget-setting name='displayUrl'>http://4.bp.blogspot.com/-I4yK_XTmN18/WoMF2y_zC1I/AAAAAAAAF3w/-R1tVNDdE6cwmT7FffNBGgoafgK2jt78QCK4BGAYYCw/s1600/9h6Vq5N.jpg</b:widget-setting>
              <b:widget-setting name='displayHeight'>362</b:widget-setting>
-             <b:widget-setting name='sectionWidth'>274</b:widget-setting>
+             <b:widget-setting name='sectionWidth'>150</b:widget-setting>
              <b:widget-setting name='useImage'>true</b:widget-setting>
              <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
              <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
@@ -1454,7 +1456,7 @@ if(top.location.pathname == &quot;/&quot;){
 <b:section class='ad-top-widget' id='kaplan-advert-2' maxwidgets='1' name='Post Page Advertisement [Top]' preferred='no' showaddelement='no'>
   <b:widget id='HTML991' locked='true' title='Post Page Advertisement [Top]' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<a href="http://www.blossomtheme.com" target="_blank"><img style="width:100%;" src="https://1.bp.blogspot.com/-D_rMZslf_Pg/WgyZDIFc0LI/AAAAAAAABCI/GhgwxoRMw2YVxVwI2dKBt4dOnNs0ga3fwCLcBGAs/s1600/ad1.png"/></a>]]></b:widget-setting>
+      <b:widget-setting name='content'/>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -1484,13 +1486,14 @@ if(top.location.pathname == &quot;/&quot;){
          <b:widget-setting name='style.linkcolor'>#00c8d7</b:widget-setting>
          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
          <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
+         <b:widget-setting name='timestampLabel'>v&#65533;o l&#65533;c</b:widget-setting>
          <b:widget-setting name='reactionsLabel'>Ph?n ?ng:</b:widget-setting>
          <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
          <b:widget-setting name='style.layout'>728x90</b:widget-setting>
          <b:widget-setting name='showLabels'>true</b:widget-setting>
          <b:widget-setting name='showLocation'>false</b:widget-setting>
          <b:widget-setting name='showTimestamp'>true</b:widget-setting>
-         <b:widget-setting name='postsPerAd'>3</b:widget-setting>
+         <b:widget-setting name='postsPerAd'>1</b:widget-setting>
          <b:widget-setting name='showBacklinks'>false</b:widget-setting>
          <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
          <b:widget-setting name='showInlineAds'>true</b:widget-setting>
@@ -2689,7 +2692,7 @@ $('.kaplan-navigation').after(codei);
 <b:section class='ad-bottom-widget' id='kaplan-advert-3' maxwidgets='1' name='Bottom Ad [Post Page]' preferred='no' showaddelement='no'>
   <b:widget id='HTML988' locked='true' title='Bottom Ad [Post Page]' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<a href="http://www.blossomtheme.com" target="_blank"><img style="width:100%;" src="https://1.bp.blogspot.com/-D_rMZslf_Pg/WgyZDIFc0LI/AAAAAAAABCI/GhgwxoRMw2YVxVwI2dKBt4dOnNs0ga3fwCLcBGAs/s1600/ad1.png"/></a>]]></b:widget-setting>
+      <b:widget-setting name='content'/>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -2761,7 +2764,7 @@ $('.kaplan-navigation').after(codei);
       gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
         if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
           gapi.iframes.getContext().openChild({
-              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d8981881190842992996\x26blogName\x3dSpicyBoyd\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dDISABLED\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://spicyboyd.blogspot.com/search\x26blogLocale\x3dzh_TW\x26v\x3d2\x26homepageUrl\x3dhttps://spicyboyd.blogspot.com/\x26vt\x3d-5618074554364911747&#39;,
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d8981881190842992996\x26blogName\x3dSpicyBoyd+%E9%83%A8%E8%90%BD%E6%A0%BC\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dDISABLED\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://spicyboyd.blogspot.com/search\x26blogLocale\x3dzh_TW\x26v\x3d2\x26homepageUrl\x3dhttps://spicyboyd.blogspot.com/\x26vt\x3d-5618074554364911747&#39;,
               where: document.getElementById(&quot;navbar-iframe-container&quot;),
               id: &quot;navbar-iframe&quot;
           });
@@ -2779,20 +2782,32 @@ head.appendChild(script);
 &lt;/script&gt;
 </b:includable>
       </b:widget>
-      <b:widget id='HTML3' locked='false' title='Fan Page 粉絲專頁' type='HTML'>
+      <b:widget id='Followers1' locked='false' title='Follower 追蹤者' type='Followers'>
         <b:widget-settings>
-          <b:widget-setting name='content'><![CDATA[<iframe allowtransparency='true' scrolling='no' src='//www.facebook.com/v2.5/plugins/page.php?href=https://www.facebook.com/SpicyBoydBlogger&amp;width=300&amp;show_facepile=true&amp;small_header=false&amp;hide_cover=false&amp;show_posts=true&amp;locale=zh_TW' style='border:none; overflow:hidden;max-width: 100%; height: 300;'></iframe>]]></b:widget-setting>
+          <b:widget-setting name='borderColorTransparent'>true</b:widget-setting>
+          <b:widget-setting name='useTemplateDefaultStyles'>true</b:widget-setting>
+          <b:widget-setting name='contentSecondaryTextColor'>#000000</b:widget-setting>
+          <b:widget-setting name='contentHeadlineColor'>#000000</b:widget-setting>
+          <b:widget-setting name='endcapTextColor'>#000000</b:widget-setting>
+          <b:widget-setting name='contentTextColor'>#000000</b:widget-setting>
+          <b:widget-setting name='contentSecondaryLinkColor'>#FFFFFF</b:widget-setting>
+          <b:widget-setting name='endcapLinkColor'>#000000</b:widget-setting>
+          <b:widget-setting name='contentLinkColor'>#000000</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
+  <b:if cond='data:title != &quot;&quot; and data:codeSnippet != &quot;&quot;'>
     <h2 class='title'><data:title/></h2>
   </b:if>
   <div class='widget-content'>
-    <data:content/>
+    <div expr:id='data:widget.instanceId + &quot;-wrapper&quot;'>
+      <b:if cond='data:codeSnippet != &quot;&quot;'>
+        <div style='margin-right:2px;'>
+          <data:codeSnippet/>
+        </div>
+      </b:if>
+    </div>
+    <b:include name='quickedit'/>
   </div>
-
-  <b:include name='quickedit'/>
 </b:includable>
       </b:widget>
       <b:widget id='BlogSearch2' locked='false' title='Search Blog 搜尋部落格' type='BlogSearch'>
@@ -2875,7 +2890,7 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
         </b:widget>
       </b:section>
       <b:section class='sidebar kaplan-widetize' id='tabside2' maxwidgets='1' name='Tab [2]' showaddelement='yes'>
-        <b:widget id='PopularPosts1' locked='false' title='Popular' type='PopularPosts' version='1'>
+        <b:widget id='PopularPosts1' locked='false' title='Popular' type='PopularPosts'>
           <b:widget-settings>
             <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
             <b:widget-setting name='showThumbnails'>true</b:widget-setting>
@@ -2883,43 +2898,45 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
             <b:widget-setting name='timeRange'>ALL_TIME</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
-                <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
-                <div class='widget-content popular-posts'>
-                  <ul>
-                    <b:loop values='data:posts' var='post'>
-                      <li>
-                        <b:if cond='!data:showThumbnails'>
-                          <b:if cond='!data:showSnippets'>
-                            <!-- (1) No snippet/thumbnail -->
-                            <a expr:href='data:post.href'><data:post.title/></a>
-                            <b:else/>
-                            <!-- (2) Show only snippets -->
-                            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
-                            <div class='item-snippet'><data:post.snippet/></div>
-                          </b:if>
-                          <b:else/>
-                          <!-- (3) Show only thumbnails or (4) Snippets and thumbnails. -->
-                          <div expr:class='data:showSnippets ? &quot;item-content&quot; : &quot;item-thumbnail-only&quot;'>
-                            <b:if cond='data:post.thumbnail'>
-                              <div class='item-thumbnail'>
-                                <a expr:href='data:post.href'>
-                                  <img border='0' expr:alt='data:post.title' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
-                                </a>
-                              </div>
-                            </b:if>
-                            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
-                            <b:if cond='data:showSnippets'>
-                              <div class='item-snippet'><data:post.snippet/></div>
-                            </b:if>
-                          </div>
-                          <div style='clear: both;'/>
-                        </b:if>
-                      </li>
-                    </b:loop>
-                  </ul>
-                 <!--b:include name='quickedit'/-->
-                </div>
-              </b:includable>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content popular-posts'>
+    <ul>
+      <b:loop values='data:posts' var='post'>
+      <li>
+        <b:if cond='!data:showThumbnails'>
+          <b:if cond='!data:showSnippets'>
+            <!-- (1) No snippet/thumbnail -->
+            <a expr:href='data:post.href'><data:post.title/></a>
+          <b:else/>
+            <!-- (2) Show only snippets -->
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <div class='item-snippet'><data:post.snippet/></div>
+          </b:if>
+        <b:else/>
+          <!-- (3) Show only thumbnails or (4) Snippets and thumbnails. -->
+          <div expr:class='data:showSnippets ? &quot;item-content&quot; : &quot;item-thumbnail-only&quot;'>
+            <b:if cond='data:post.featuredImage.isResizable or data:post.thumbnail'>
+              <div class='item-thumbnail'>
+                <a expr:href='data:post.href' target='_blank'>
+                  <b:with value='data:post.featuredImage.isResizable                                  ? resizeImage(data:post.featuredImage, 72, &quot;1:1&quot;)                                  : data:post.thumbnail' var='image'>
+                    <img alt='' border='0' expr:src='data:image'/>
+                  </b:with>
+                </a>
+              </div>
+            </b:if>
+            <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            <b:if cond='data:showSnippets'>
+              <div class='item-snippet'><data:post.snippet/></div>
+            </b:if>
+          </div>
+          <div style='clear: both;'/>
+        </b:if>
+      </li>
+      </b:loop>
+    </ul>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
         </b:widget>
       </b:section>
   <b:section class='sidebar kaplan-widetize' id='tabside3' maxwidgets='1' name='Tab [3]' showaddelement='yes'>
@@ -3050,8 +3067,8 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
     <b:widget-settings>
       <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
       <b:widget-setting name='display'>LIST</b:widget-setting>
-      <b:widget-setting name='selectedLabelsList'>AngularJS,Bonita BPM,Bootstrap,Codewars,Drama,JavaScript,MySQL,Note,Photonics,PrimeFaces,Youtube</b:widget-setting>
-      <b:widget-setting name='showType'>ALL</b:widget-setting>
+      <b:widget-setting name='selectedLabelsList'>APP,AngularJS,Bonita BPM,CSS,Drama,Front end,Intern,JSF,JavaScript,Life,Note,PrimeFaces,Travel,心得,推薦</b:widget-setting>
+      <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
       <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
@@ -3126,10 +3143,9 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
 
 <div id='kaplan-footer-cols'> 
 <b:section class='kaplan-fcols-inner kaplan-widetize' id='Footer widget(1)' name='Footer Column [1]' preferred='yes'>
-   <b:widget id='HTML2' locked='false' title='About Me 關於我' type='HTML'>
+   <b:widget id='HTML3' locked='false' title='Fan Page 粉絲專頁' type='HTML'>
      <b:widget-settings>
-       <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot; src=&quot;https://platform.linkedin.com/badges/js/profile.js&quot; async defer&gt;&lt;/script&gt;
-&lt;div class=&quot;LI-profile-badge&quot;  data-version=&quot;v1&quot; data-size=&quot;medium&quot; data-locale=&quot;zh_TW&quot; data-type=&quot;horizontal&quot; data-theme=&quot;light&quot; data-vanity=&quot;bo-yu-yang-a17b2413a&quot;&gt;&lt;a class=&quot;LI-simple-link&quot; href=&#39;https://tw.linkedin.com/in/bo-yu-yang-a17b2413a?trk=profile-badge&#39;&gt;Bo-Yu Yang&lt;/a&gt;&lt;/div&gt;</b:widget-setting>
+       <b:widget-setting name='content'><![CDATA[<iframe allowtransparency='true' scrolling='no' src='//www.facebook.com/v2.5/plugins/page.php?href=https://www.facebook.com/SpicyBoydBlogger&amp;width=300&amp;show_facepile=true&amp;small_header=false&amp;hide_cover=false&amp;show_posts=true&amp;locale=zh_TW' style='border:none; overflow:hidden;max-width: 100%; height: 300;'></iframe>]]></b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -3148,45 +3164,7 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
 
 <div id='kaplan-footer-cols'> 
 <b:section class='kaplan-fcols-inner kaplan-widetize' id='Footer widget(2)' name='Footer Column [2]' preferred='yes'>
-   <b:widget id='ContactForm1' locked='false' title='聯絡表單' type='ContactForm' version='1'>
-     <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='contact-form-widget'>
-    <div class='form'>
-      <form name='contact-form'>
-        <p/>
-        <data:contactFormNameMsg/>
-        <br/>
-        <input class='contact-form-name' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' name='name' size='30' type='text' value=''/>
-        <p/>
-        <data:contactFormEmailMsg/> <span style='font-weight: bolder;'>*</span>
-        <br/>
-        <input class='contact-form-email' expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' name='email' size='30' type='text' value=''/>
-        <p/>
-        <data:contactFormMessageMsg/> <span style='font-weight: bolder;'>*</span>
-        <br/>
-        <textarea class='contact-form-email-message' cols='25' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' name='email-message' rows='5'/>
-        <p/>
-        <input class='contact-form-button contact-form-button-submit' expr:id='data:widget.instanceId + &quot;_contact-form-submit&quot;' expr:value='data:contactFormSendMsg' type='button'/>
-        <p/>
-        <div style='text-align: center; max-width: 222px; width: 100%'>
-          <p class='contact-form-error-message' expr:id='data:widget.instanceId + &quot;_contact-form-error-message&quot;'/>
-          <p class='contact-form-success-message' expr:id='data:widget.instanceId + &quot;_contact-form-success-message&quot;'/>
-        </div>
-      </form>
-    </div>
-  </div>
-<!--b:include name='quickedit'/-->
-</b:includable>
-   </b:widget>
- </b:section> 
-</div>
-
-<div id='kaplan-footer-cols'> 
-<b:section class='kaplan-fcols-inner kaplan-widetize' id='Footer widget(3)' name='Footer Column [3]' preferred='yes'>
-   <b:widget id='Text1' locked='false' title='AdSense 廣告' type='Text'>
+   <b:widget id='Text1' locked='false' title='Google AdSense 廣告' type='Text'>
      <b:widget-settings>
        <b:widget-setting name='content'/>
      </b:widget-settings>
@@ -3204,12 +3182,12 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
    </b:widget>
    <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
      <b:widget-settings>
-       <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
-       <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
-       <b:widget-setting name='style.layout'>300x250</b:widget-setting>
-       <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-       <b:widget-setting name='style.urlcolor'>#000000</b:widget-setting>
-       <b:widget-setting name='style.linkcolor'>#000000</b:widget-setting>
+       <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
+       <b:widget-setting name='style.textcolor'>#ef476f</b:widget-setting>
+       <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+       <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
+       <b:widget-setting name='style.urlcolor'>#ef476f</b:widget-setting>
+       <b:widget-setting name='style.linkcolor'>#ef476f</b:widget-setting>
        <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
@@ -3217,6 +3195,27 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
     <data:adCode/>
     <b:include name='quickedit'/>
   </div>
+</b:includable>
+   </b:widget>
+ </b:section> 
+</div>
+
+<div id='kaplan-footer-cols'> 
+<b:section class='kaplan-fcols-inner kaplan-widetize' id='Footer widget(3)' name='Footer Column [3]' preferred='yes'>
+   <b:widget id='HTML5' locked='false' title='BloggerAds 廣告' type='HTML'>
+     <b:widget-settings>
+       <b:widget-setting name='content'><![CDATA[<script type="text/javascript" src="//js1.bloggerads.net/ShowAds.aspx?blogid=20180324000006" async="async" ></script>]]></b:widget-setting>
+     </b:widget-settings>
+     <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
 </b:includable>
    </b:widget>
  </b:section> 
