@@ -930,6 +930,46 @@ h3.post-title, .comments h4 {
 
 h1, h2, h3, h4, h5, h6 {
  font-family: "微軟正黑體","Microsoft JhengHei","Times New Roman",Times,serif;
+}#main-wrapper{
+ max-width:1440px;
+ width:73%;
+}
+
+#sidebar-wrapper{
+ max-width:480px;
+ width:25%;
+}
+
+.body-row{
+ width:90%;
+}
+
+.markdown-body{
+ max-width:1440px !important;
+}
+
+.kaplan-top-menu ul li a{
+ font-size:16px;
+}
+
+#kaplan-menu ul > li > a{
+ font-size:16px;
+}
+
+#kaplan-menu ul > li > ul > li a{
+ font-size:14px;
+}
+
+.r-p-title a{
+ font-size:16px !important;
+}
+
+.PopularPosts ul li a{
+ font-size:16px !important;
+}
+
+.kaplan-social #social a{
+ font-size:22px;
 }]]></b:skin>
 <b:template-skin>
 <![CDATA[
@@ -1272,15 +1312,16 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
         <b:section class='menu' id='kaplan-menu' maxwidgets='1' name='Main Navigation Menu' preferred='no' showaddelement='no'>
           <b:widget id='LinkList996' locked='true' title='Main Navigation Menu' type='LinkList' version='1'>
             <b:widget-settings>
-              <b:widget-setting name='text-10'>_Japanese Drama 日劇</b:widget-setting>
+              <b:widget-setting name='text-10'>_Japanese Drama</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
               <b:widget-setting name='link-1'><![CDATA[http://spicyboyd.blogspot.tw/search/label/Bonita%20BPM&max-results=6]]></b:widget-setting>
+              <b:widget-setting name='link-13'><![CDATA[https://spicyboyd.blogspot.tw/search/label/Travel?&max-results=6]]></b:widget-setting>
               <b:widget-setting name='link-2'><![CDATA[https://spicyboyd.blogspot.tw/search/label/PrimeFaces?&max-results=6]]></b:widget-setting>
-              <b:widget-setting name='link-12'><![CDATA[https://spicyboyd.blogspot.tw/search/label/Life?&max-results=6]]></b:widget-setting>
+              <b:widget-setting name='link-12'>#</b:widget-setting>
               <b:widget-setting name='link-0'>#</b:widget-setting>
               <b:widget-setting name='link-11'>http://spicyboyd.blogspot.tw/2018/01/drama_91.html</b:widget-setting>
               <b:widget-setting name='link-10'>http://spicyboyd.blogspot.tw/2018/01/drama_27.html</b:widget-setting>
-              <b:widget-setting name='text-9'>_Taiwan Drama 台劇</b:widget-setting>
+              <b:widget-setting name='text-9'>_Taiwan Drama</b:widget-setting>
               <b:widget-setting name='link-9'>http://spicyboyd.blogspot.tw/2018/01/drama_12.html</b:widget-setting>
               <b:widget-setting name='text-8'>__2017</b:widget-setting>
               <b:widget-setting name='link-7'>https://spicyboyd.blogspot.tw/2017/12/blog-post.html</b:widget-setting>
@@ -1293,12 +1334,13 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
               <b:widget-setting name='text-0'>Programming 程設</b:widget-setting>
               <b:widget-setting name='text-3'>_JavaScript</b:widget-setting>
               <b:widget-setting name='text-2'>_PrimeFaces</b:widget-setting>
-              <b:widget-setting name='text-5'>_Movie 電影</b:widget-setting>
+              <b:widget-setting name='text-5'>_Movie</b:widget-setting>
               <b:widget-setting name='text-4'>Drama 影劇</b:widget-setting>
               <b:widget-setting name='text-7'>__推薦列表</b:widget-setting>
-              <b:widget-setting name='text-6'>_Korean Drama 韓劇</b:widget-setting>
-              <b:widget-setting name='text-11'>_Chinese Drama 陸劇</b:widget-setting>
+              <b:widget-setting name='text-6'>_Korean Drama</b:widget-setting>
+              <b:widget-setting name='text-11'>_Chinese Drama</b:widget-setting>
               <b:widget-setting name='text-12'>Life 生活札記</b:widget-setting>
+              <b:widget-setting name='text-13'>_Travel</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
             <div class='widget-content'>
@@ -3144,7 +3186,7 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
   </div>
 </b:includable>
   </b:widget>
-  <b:widget id='Feed1' locked='false' title='Comments 最新留言' type='Feed'>
+  <b:widget id='Feed1' locked='false' title='Comments 訪客留言' type='Feed'>
     <b:widget-settings>
       <b:widget-setting name='feedUrl'>http://spicyboyd.blogspot.com/feeds/comments/default</b:widget-setting>
       <b:widget-setting name='openLinksInNewWindow'>false</b:widget-setting>
