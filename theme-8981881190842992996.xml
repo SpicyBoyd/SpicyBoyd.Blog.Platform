@@ -930,63 +930,67 @@ h3.post-title, .comments h4 {
 
 h1, h2, h3, h4, h5, h6 {
  font-family: "微軟正黑體","Microsoft JhengHei","Times New Roman",Times,serif;
-}@media screen{
-#main-wrapper{
- max-width:1440px;
- width:73%;
+}#linkedInDiv div div{
+	text-align: initial;
 }
 
-#sidebar-wrapper{
- max-width:480px;
- width:25%;
-}
+@media screen{
+	#main-wrapper{
+		max-width:1440px;
+		width:73%;
+	}
 
-.body-row{
- width:90%;
-}
+	#sidebar-wrapper{
+		max-width:480px;
+		width:25%;
+	}
 
-.markdown-body{
- max-width:1440px !important;
-}
+	.body-row{
+		width:90%;
+	}
 
-.kaplan-top-menu ul li a{
- font-size:16px;
-}
+	.markdown-body{
+		max-width:1440px !important;
+	}
 
-#kaplan-menu ul > li > a{
- font-size:16px;
-}
+	.kaplan-top-menu ul li a{
+		font-size:16px;
+	}
 
-#kaplan-menu ul > li > ul > li a{
- font-size:14px;
-}
+	#kaplan-menu ul > li > a{
+		font-size:16px;
+	}
 
-.r-p-title a{
- font-size:16px !important;
-}
+	#kaplan-menu ul > li > ul > li a{
+		font-size:14px;
+	}
 
-.PopularPosts ul li a{
- font-size:16px !important;
-}
+	.r-p-title a{
+		font-size:16px !important;
+	}
 
-.kaplan-social #social a{
- font-size:22px;
-}
+	.PopularPosts ul li a{
+		font-size:16px !important;
+	}
 
-.bulletin-home{
- overflow:hidden !important;
- border:none !important;
-}
+	.kaplan-social #social a{
+		font-size:22px;
+	}
+
+	.bulletin-home{
+		overflow:hidden !important;
+		border:none !important;
+	}
 }
 
 @media screen and (max-width:980px){
-#main-wrapper{
- width:100%;
-}
+	#main-wrapper{
+		width:100%;
+	}
 
-#sidebar-wrapper{
- width:100%;
-}
+	#sidebar-wrapper{
+		width:100%;
+	}
 }]]></b:skin>
 <b:template-skin>
 <![CDATA[
@@ -1083,7 +1087,7 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 <b:section class='naver-kaplan' id='naver-kaplan' maxwidgets='1' name='Navigation' preferred='no' showaddelement='no'>
   <b:widget id='HTML996' locked='true' title='Posts Per Page' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'>6</b:widget-setting>
+      <b:widget-setting name='content'>7</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>  
           <b:if cond='data:content == &quot;&quot;'>       
@@ -1327,37 +1331,39 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
         <b:section class='menu' id='kaplan-menu' maxwidgets='1' name='Main Navigation Menu' preferred='no' showaddelement='no'>
           <b:widget id='LinkList996' locked='true' title='Main Navigation Menu' type='LinkList' version='1'>
             <b:widget-settings>
-              <b:widget-setting name='text-10'>_Taiwan Drama</b:widget-setting>
+              <b:widget-setting name='text-10'>__2017</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='link-1'><![CDATA[https://spicyboyd.blogspot.tw/search/label/APP?&max-results=6]]></b:widget-setting>
-              <b:widget-setting name='link-13'>#</b:widget-setting>
-              <b:widget-setting name='link-2'><![CDATA[http://spicyboyd.blogspot.tw/search/label/Bonita%20BPM&max-results=6]]></b:widget-setting>
-              <b:widget-setting name='link-12'>http://spicyboyd.blogspot.tw/2018/01/drama_91.html</b:widget-setting>
+              <b:widget-setting name='link-1'><![CDATA[https://spicyboyd.blogspot.tw/search/label/APP?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-13'>http://spicyboyd.blogspot.tw/2018/01/drama_91.html</b:widget-setting>
+              <b:widget-setting name='link-2'><![CDATA[http://spicyboyd.blogspot.tw/search/label/Bonita%20BPM&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-12'>http://spicyboyd.blogspot.tw/2018/01/drama_27.html</b:widget-setting>
+              <b:widget-setting name='link-15'><![CDATA[https://spicyboyd.blogspot.tw/search/label/Travel?&max-results=7]]></b:widget-setting>
               <b:widget-setting name='link-0'>#</b:widget-setting>
-              <b:widget-setting name='link-14'><![CDATA[https://spicyboyd.blogspot.tw/search/label/Travel?&max-results=6]]></b:widget-setting>
-              <b:widget-setting name='link-11'>http://spicyboyd.blogspot.tw/2018/01/drama_27.html</b:widget-setting>
-              <b:widget-setting name='link-10'>http://spicyboyd.blogspot.tw/2018/01/drama_12.html</b:widget-setting>
-              <b:widget-setting name='text-9'>__2017</b:widget-setting>
-              <b:widget-setting name='link-9'>#</b:widget-setting>
-              <b:widget-setting name='text-8'>__推薦列表</b:widget-setting>
-              <b:widget-setting name='link-7'>#</b:widget-setting>
-              <b:widget-setting name='link-8'>https://spicyboyd.blogspot.tw/2017/12/blog-post.html</b:widget-setting>
+              <b:widget-setting name='link-14'>#</b:widget-setting>
+              <b:widget-setting name='link-11'>http://spicyboyd.blogspot.tw/2018/01/drama_12.html</b:widget-setting>
+              <b:widget-setting name='link-10'>#</b:widget-setting>
+              <b:widget-setting name='text-9'>__推薦列表</b:widget-setting>
+              <b:widget-setting name='link-9'>https://spicyboyd.blogspot.tw/2017/12/blog-post.html</b:widget-setting>
+              <b:widget-setting name='text-8'>_Korean Drama</b:widget-setting>
+              <b:widget-setting name='link-7'>http://spicyboyd.blogspot.tw/2018/01/drama.html</b:widget-setting>
+              <b:widget-setting name='link-8'>#</b:widget-setting>
               <b:widget-setting name='link-5'>#</b:widget-setting>
-              <b:widget-setting name='link-6'>http://spicyboyd.blogspot.tw/2018/01/drama.html</b:widget-setting>
-              <b:widget-setting name='link-3'><![CDATA[https://spicyboyd.blogspot.tw/search/label/PrimeFaces?&max-results=6]]></b:widget-setting>
-              <b:widget-setting name='link-4'><![CDATA[https://spicyboyd.blogspot.tw/search/label/JavaScript?&max-results=6]]></b:widget-setting>
-              <b:widget-setting name='text-1'>_APP</b:widget-setting>
+              <b:widget-setting name='link-6'>https://drive.google.com/open?id=11O9Cugsj_dFflwg7HFPA9O2mG7gJDgqQG9ARaAdMF6g</b:widget-setting>
+              <b:widget-setting name='link-3'><![CDATA[https://spicyboyd.blogspot.tw/search/label/PrimeFaces?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-4'><![CDATA[https://spicyboyd.blogspot.tw/search/label/JavaScript?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='text-1'>_APP/Android</b:widget-setting>
               <b:widget-setting name='text-0'>Programming 程設</b:widget-setting>
               <b:widget-setting name='text-3'>_PrimeFaces</b:widget-setting>
               <b:widget-setting name='text-2'>_Bonita BPM</b:widget-setting>
               <b:widget-setting name='text-5'>Drama 影劇</b:widget-setting>
               <b:widget-setting name='text-4'>_JavaScript</b:widget-setting>
-              <b:widget-setting name='text-7'>_Korean Drama</b:widget-setting>
-              <b:widget-setting name='text-6'>_Movie</b:widget-setting>
-              <b:widget-setting name='text-11'>_Japanese Drama</b:widget-setting>
-              <b:widget-setting name='text-12'>_Chinese Drama</b:widget-setting>
-              <b:widget-setting name='text-13'>Life 生活札記</b:widget-setting>
-              <b:widget-setting name='text-14'>_Travel</b:widget-setting>
+              <b:widget-setting name='text-7'>_Movie</b:widget-setting>
+              <b:widget-setting name='text-6'>_懶人包</b:widget-setting>
+              <b:widget-setting name='text-15'>_Travel</b:widget-setting>
+              <b:widget-setting name='text-11'>_Taiwan Drama</b:widget-setting>
+              <b:widget-setting name='text-12'>_Japanese Drama</b:widget-setting>
+              <b:widget-setting name='text-13'>_Chinese Drama</b:widget-setting>
+              <b:widget-setting name='text-14'>Life 生活札記</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
             <div class='widget-content'>
@@ -3241,7 +3247,7 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
   </b:widget>
   <b:widget id='HTML2' locked='false' title='LinkedIn 關於我' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="zh_TW" data-type="horizontal" data-theme="light" data-vanity="bo-yu-yang-a17b2413a"><a class="LI-simple-link" href='https://tw.linkedin.com/in/bo-yu-yang-a17b2413a?trk=profile-badge'>Bo-Yu Yang</a></div>]]></b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<div id="linkedInDiv" class="LI-profile-badge" style="clear: both; text-align: center;" data-version="v1" data-size="medium" data-locale="zh_TW" data-type="horizontal" data-theme="light" data-vanity="bo-yu-yang-a17b2413a"><a class="LI-simple-link" href='https://tw.linkedin.com/in/bo-yu-yang-a17b2413a?trk=profile-badge'>Bo-Yu Yang</a></div>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
