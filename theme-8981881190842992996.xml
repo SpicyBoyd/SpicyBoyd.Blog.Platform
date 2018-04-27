@@ -930,7 +930,11 @@ h3.post-title, .comments h4 {
 
 h1, h2, h3, h4, h5, h6 {
  font-family: "微軟正黑體","Microsoft JhengHei","Times New Roman",Times,serif;
-}#linkedInDiv div div{
+}.post-body iframe{
+	border-radius: 20px;
+}
+
+#linkedInDiv div div{
 	text-align: initial;
 }
 
@@ -981,15 +985,23 @@ h1, h2, h3, h4, h5, h6 {
 		overflow:hidden !important;
 		border:none !important;
 	}
+
+	.bulletin-home #blog-2012-history{
+		width: 100%;
+		height: 100%;
+		overflow-y: scroll;
+		padding-right: 17px;
+		box-sizing: content-box;
+	}
 }
 
 @media screen and (max-width:980px){
 	#main-wrapper{
-		width:100%;
+		width:95%;
 	}
 
 	#sidebar-wrapper{
-		width:100%;
+		width:95%;
 	}
 }]]></b:skin>
 <b:template-skin>
