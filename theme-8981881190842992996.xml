@@ -1169,15 +1169,17 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
       <b:section class='kaplan-social blue' id='header social widget' maxwidgets='1' name='Top Social Widget' preferred='no' showaddelement='no'>
         <b:widget id='LinkList998' locked='true' title='Social Media Icons' type='LinkList' version='1'>
           <b:widget-settings>
-            <b:widget-setting name='link-5'>https://stackoverflow.com/users/9516932/spicyboyd</b:widget-setting>
+            <b:widget-setting name='link-5'>https://github.com/SpicyBoyd</b:widget-setting>
+            <b:widget-setting name='link-6'>https://stackoverflow.com/users/9516932/spicyboyd</b:widget-setting>
             <b:widget-setting name='link-3'>https://plus.google.com/105746017168872375971</b:widget-setting>
             <b:widget-setting name='link-4'>https://www.linkedin.com/in/bo-yu-yang-a17b2413a</b:widget-setting>
             <b:widget-setting name='text-1'>youtube</b:widget-setting>
             <b:widget-setting name='text-0'>facebook</b:widget-setting>
             <b:widget-setting name='text-3'>gplus</b:widget-setting>
             <b:widget-setting name='text-2'>instagram</b:widget-setting>
-            <b:widget-setting name='text-5'>stack-overflow</b:widget-setting>
+            <b:widget-setting name='text-5'>github</b:widget-setting>
             <b:widget-setting name='text-4'>linkedin</b:widget-setting>
+            <b:widget-setting name='text-6'>stack-overflow</b:widget-setting>
             <b:widget-setting name='sorting'>NONE</b:widget-setting>
             <b:widget-setting name='link-1'>https://youtube.com/Egbert0267</b:widget-setting>
             <b:widget-setting name='link-2'>https://www.instagram.com/spicyboy_0510</b:widget-setting>
@@ -1331,39 +1333,65 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
         <b:section class='menu' id='kaplan-menu' maxwidgets='1' name='Main Navigation Menu' preferred='no' showaddelement='no'>
           <b:widget id='LinkList996' locked='true' title='Main Navigation Menu' type='LinkList' version='1'>
             <b:widget-settings>
-              <b:widget-setting name='text-10'>__2017</b:widget-setting>
-              <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='link-1'><![CDATA[https://spicyboyd.blogspot.tw/search/label/APP?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-13'>http://spicyboyd.blogspot.tw/2018/01/drama_91.html</b:widget-setting>
-              <b:widget-setting name='link-2'><![CDATA[http://spicyboyd.blogspot.tw/search/label/Bonita%20BPM&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-12'>http://spicyboyd.blogspot.tw/2018/01/drama_27.html</b:widget-setting>
-              <b:widget-setting name='link-15'><![CDATA[https://spicyboyd.blogspot.tw/search/label/Travel?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-0'>#</b:widget-setting>
-              <b:widget-setting name='link-14'>#</b:widget-setting>
-              <b:widget-setting name='link-11'>http://spicyboyd.blogspot.tw/2018/01/drama_12.html</b:widget-setting>
-              <b:widget-setting name='link-10'>#</b:widget-setting>
-              <b:widget-setting name='text-9'>__推薦列表</b:widget-setting>
-              <b:widget-setting name='link-9'>https://spicyboyd.blogspot.tw/2017/12/blog-post.html</b:widget-setting>
-              <b:widget-setting name='text-8'>_Korean Drama</b:widget-setting>
-              <b:widget-setting name='link-7'>http://spicyboyd.blogspot.tw/2018/01/drama.html</b:widget-setting>
-              <b:widget-setting name='link-8'>#</b:widget-setting>
-              <b:widget-setting name='link-5'>#</b:widget-setting>
-              <b:widget-setting name='link-6'>https://drive.google.com/open?id=11O9Cugsj_dFflwg7HFPA9O2mG7gJDgqQG9ARaAdMF6g</b:widget-setting>
-              <b:widget-setting name='link-3'><![CDATA[https://spicyboyd.blogspot.tw/search/label/PrimeFaces?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-4'><![CDATA[https://spicyboyd.blogspot.tw/search/label/JavaScript?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='text-26'>__新訓篇</b:widget-setting>
+              <b:widget-setting name='text-27'>__受訓篇</b:widget-setting>
+              <b:widget-setting name='text-28'>__部隊篇</b:widget-setting>
+              <b:widget-setting name='text-22'>_Chinese Drama</b:widget-setting>
+              <b:widget-setting name='text-23'>Life Journal</b:widget-setting>
+              <b:widget-setting name='text-24'>_Travel</b:widget-setting>
+              <b:widget-setting name='text-25'>_軍旅</b:widget-setting>
+              <b:widget-setting name='text-9'>__海線車站旅遊札記</b:widget-setting>
+              <b:widget-setting name='text-8'>__Blogger版面配置</b:widget-setting>
+              <b:widget-setting name='text-20'>_Taiwan Drama</b:widget-setting>
+              <b:widget-setting name='text-21'>_Japanese Drama</b:widget-setting>
               <b:widget-setting name='text-1'>_APP/Android</b:widget-setting>
-              <b:widget-setting name='text-0'>Programming 程設</b:widget-setting>
+              <b:widget-setting name='text-0'>Programming</b:widget-setting>
               <b:widget-setting name='text-3'>_PrimeFaces</b:widget-setting>
               <b:widget-setting name='text-2'>_Bonita BPM</b:widget-setting>
-              <b:widget-setting name='text-5'>Drama 影劇</b:widget-setting>
+              <b:widget-setting name='text-5'>Collection</b:widget-setting>
               <b:widget-setting name='text-4'>_JavaScript</b:widget-setting>
-              <b:widget-setting name='text-7'>_Movie</b:widget-setting>
-              <b:widget-setting name='text-6'>_懶人包</b:widget-setting>
-              <b:widget-setting name='text-15'>_Travel</b:widget-setting>
-              <b:widget-setting name='text-11'>_Taiwan Drama</b:widget-setting>
-              <b:widget-setting name='text-12'>_Japanese Drama</b:widget-setting>
-              <b:widget-setting name='text-13'>_Chinese Drama</b:widget-setting>
-              <b:widget-setting name='text-14'>Life 生活札記</b:widget-setting>
+              <b:widget-setting name='text-7'>__自我介紹</b:widget-setting>
+              <b:widget-setting name='text-6'>_Github</b:widget-setting>
+              <b:widget-setting name='text-19'>__2017</b:widget-setting>
+              <b:widget-setting name='text-15'>_懶人包</b:widget-setting>
+              <b:widget-setting name='text-16'>_Movie</b:widget-setting>
+              <b:widget-setting name='text-17'>_Korean Drama</b:widget-setting>
+              <b:widget-setting name='text-18'>__推薦列表</b:widget-setting>
+              <b:widget-setting name='text-11'>_影片剪輯</b:widget-setting>
+              <b:widget-setting name='text-12'>_Photoshop</b:widget-setting>
+              <b:widget-setting name='text-13'><![CDATA[_測驗成績 & 資格認證]]></b:widget-setting>
+              <b:widget-setting name='text-14'>Drama</b:widget-setting>
+              <b:widget-setting name='text-10'>_海線車站旅遊札記</b:widget-setting>
+              <b:widget-setting name='link-17'>#</b:widget-setting>
+              <b:widget-setting name='link-16'>http://spicyboyd.blogspot.tw/2018/01/drama.html</b:widget-setting>
+              <b:widget-setting name='link-19'>#</b:widget-setting>
+              <b:widget-setting name='sorting'>NONE</b:widget-setting>
+              <b:widget-setting name='link-18'>https://spicyboyd.blogspot.tw/2017/12/blog-post.html</b:widget-setting>
+              <b:widget-setting name='link-1'><![CDATA[https://spicyboyd.blogspot.tw/search/label/APP?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-13'>https://spicyboyd.blogspot.tw/p/blog-page_27.html</b:widget-setting>
+              <b:widget-setting name='link-2'><![CDATA[http://spicyboyd.blogspot.tw/search/label/Bonita%20BPM&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-12'>https://spicyboyd.blogspot.tw/p/ps.html</b:widget-setting>
+              <b:widget-setting name='link-15'>https://drive.google.com/open?id=11O9Cugsj_dFflwg7HFPA9O2mG7gJDgqQG9ARaAdMF6g</b:widget-setting>
+              <b:widget-setting name='link-0'>#</b:widget-setting>
+              <b:widget-setting name='link-14'>#</b:widget-setting>
+              <b:widget-setting name='link-11'>https://spicyboyd.blogspot.tw/p/youtube.html</b:widget-setting>
+              <b:widget-setting name='link-10'>https://spicyboyd.blogspot.tw/p/2.html</b:widget-setting>
+              <b:widget-setting name='link-9'>https://github.com/SpicyBoyd/CoastLineApp</b:widget-setting>
+              <b:widget-setting name='link-7'>https://spicyboyd.github.io/project1/index.html</b:widget-setting>
+              <b:widget-setting name='link-8'>https://github.com/SpicyBoyd/SpicyBoyd.Blog.Platform</b:widget-setting>
+              <b:widget-setting name='link-5'>#</b:widget-setting>
+              <b:widget-setting name='link-6'>https://github.com/SpicyBoyd</b:widget-setting>
+              <b:widget-setting name='link-3'><![CDATA[https://spicyboyd.blogspot.tw/search/label/PrimeFaces?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-4'><![CDATA[https://spicyboyd.blogspot.tw/search/label/JavaScript?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-28'>#</b:widget-setting>
+              <b:widget-setting name='link-27'><![CDATA[https://spicyboyd.blogspot.tw/search/label/%E5%8F%97%E8%A8%93%E7%AF%87?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-24'><![CDATA[https://spicyboyd.blogspot.tw/search/label/Travel?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-23'>#</b:widget-setting>
+              <b:widget-setting name='link-26'>#</b:widget-setting>
+              <b:widget-setting name='link-25'>#</b:widget-setting>
+              <b:widget-setting name='link-20'>http://spicyboyd.blogspot.tw/2018/01/drama_12.html</b:widget-setting>
+              <b:widget-setting name='link-22'>http://spicyboyd.blogspot.tw/2018/01/drama_91.html</b:widget-setting>
+              <b:widget-setting name='link-21'>http://spicyboyd.blogspot.tw/2018/01/drama_27.html</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
             <div class='widget-content'>
@@ -2116,6 +2144,7 @@ if(top.location.pathname == &quot;/&quot;){
                       <li class='social-item google'>
                           <a class='googleplus' expr:href='&quot;https://plus.google.com/share?url=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&apos;);return false;' title='google +'> <i class='fa fa-google-plus'/> </a>
                       </li>
+
                   </ul>
                  </div>
                 </div>
@@ -3020,7 +3049,7 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
       <b:widget-settings>
         <b:widget-setting name='showSnippet'>true</b:widget-setting>
         <b:widget-setting name='showPostTitle'>true</b:widget-setting>
-        <b:widget-setting name='postId'>3501562455754776643</b:widget-setting>
+        <b:widget-setting name='postId'>8546373058399800337</b:widget-setting>
         <b:widget-setting name='showFirstImage'>true</b:widget-setting>
         <b:widget-setting name='useMostRecentPost'>false</b:widget-setting>
       </b:widget-settings>
@@ -3231,6 +3260,24 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
     <b:widget-settings>
       <b:widget-setting name='content'>&lt;div style=&quot;clear: both; text-align: center;&quot;&gt;
 &lt;iframe allowtransparency=&#39;true&#39; scrolling=&#39;no&#39; src=&#39;//www.facebook.com/v2.5/plugins/page.php?href=https://www.facebook.com/SpicyBoydBlogger&amp;amp;width=300&amp;amp;show_facepile=true&amp;amp;small_header=false&amp;amp;hide_cover=false&amp;amp;show_posts=true&amp;amp;locale=zh_TW&#39; style=&#39;border:none; overflow:hidden;max-width: 100%; height: 300;&#39;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML6' locked='false' title='Fan Page 相關粉專' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;div style=&quot;clear: both; text-align: center;&quot;&gt;
+&lt;iframe src=&quot;https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FShyhDer%2F&amp;tabs=timeline&amp;width=340&amp;height=300&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=150432502292056&quot; max-width=&quot;100%&quot; height=&quot;130px&quot; style=&quot;border:none;overflow:hidden&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
