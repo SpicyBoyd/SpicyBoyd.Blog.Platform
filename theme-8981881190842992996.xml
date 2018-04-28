@@ -930,7 +930,11 @@ h3.post-title, .comments h4 {
 
 h1, h2, h3, h4, h5, h6 {
  font-family: "微軟正黑體","Microsoft JhengHei","Times New Roman",Times,serif;
-}.post-body iframe{
+}#nav li a:hover{
+	color: #49A8D1 !important;
+}
+
+.post-body iframe{
 	border-radius: 20px;
 }
 
@@ -1237,8 +1241,15 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
         </div>
       </div>
     </div>
-
   </div>
+
+	<script>
+		window.onload = function github(){
+			var x = document.getElementsByClassName(&quot;github&quot;);
+			x[0].innerHTML = &quot;<a class='github' href='https://github.com/SpicyBoyd' title='github'><i class='fa fa-github'/></a>&quot;;
+		}
+	</script>
+
 <!--   <div class='kaplan-top-slider wrapper'>
     <div class='kaplan-top-container body-row midalizer'>
       <b:section class='kaplan-hidden' id='slider-top-nav-kaplan' maxwidgets='1' name='Top Post Slider' preferred='no' showaddelement='no'>
@@ -2976,7 +2987,7 @@ head.appendChild(script);
 .recentpostarea li:before {background: #69B7E2;float: left;counter-increment: countposts;content: counter(countposts,decimal);z-index: 2;position:relative;font-size: 20px;font-weight: bold;color: #fff; padding: 0px 10px; margin: 15px 5px 0px -6px; border-radius: 100%;}
 li.r-p-title { padding: 5px 0px;}
 .r-p-title { font-family: &quot;Avant Garde&quot;,Avantgarde,&quot;Century Gothic&quot;,CenturyGothic,AppleGothic,sans-serif;}
-.r-p-title a {text-decoration: none;color: #444;font-weight: bold;font-size: 13px; padding: 2px;}
+.r-p-title a {text-decoration: none;font-weight: bold;font-size: 13px; padding: 2px;}
 .recent-post-date {padding: 5px 2px 5px 30px; font-size: 11px; color: #999; margin-bottom: 5px;}
 .r-p-summ { border-left: 1px solid #69B7E2; color: #777; padding: 0px 5px 0px 20px; margin-left: 11px; font-family: Garamond,Baskerville,&quot;Baskerville Old Face&quot;,&quot;Hoefler Text&quot;,&quot;Times New Roman&quot;,serif; font-size: 15px;}
 &lt;/style&gt;
@@ -3184,7 +3195,7 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
     <b:widget-settings>
       <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
       <b:widget-setting name='display'>CLOUD</b:widget-setting>
-      <b:widget-setting name='selectedLabelsList'>APP,Alfresco,Android Studio,AngularJS,Bonita BPM,CSS,Chinese Drama,Codewars,Drama,Eclipse,Front end,Hardware,Intern,JSF,Japanese Drama,JavaScript,Korean Drama,Life,Liferay,Movie,MySQL,Note,Photonics,Photoshop,PrimeFaces,Taiwan Drama,Travel,Web Design,Youtube,html,心得,推薦,自學,路徑概念</b:widget-setting>
+      <b:widget-setting name='selectedLabelsList'>APP,Alfresco,Android Studio,AngularJS,Bonita BPM,CSS,Chinese Drama,Codewars,Drama,Eclipse,Front end,Hardware,Intern,JSF,Japanese Drama,JavaScript,Korean Drama,Life,Liferay,Matlab,Movie,MySQL,Note,Photonics,Photoshop,PrimeFaces,Taiwan Drama,Travel,Web Design,Youtube,html,心得,推薦,自學,路徑概念,車站</b:widget-setting>
       <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
       <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
     </b:widget-settings>
