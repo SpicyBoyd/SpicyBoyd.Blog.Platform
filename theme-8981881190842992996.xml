@@ -583,7 +583,7 @@ article.hentry .kaplan-article-image {width: 45%;float: left;}
 .kaplan-tabs-header h3{display:inline-block;font-size:18px;margin:0;color:#010101;top:2px;font-weight:500;padding-bottom:2px}
 .kaplan-tabs-header h3 h9{display:none}
 .kaplan-tabs-header .kaplan-tab-wrapper a{height:auto;line-height:1.2em;padding:8px 5px;display:block;text-align:center}
-.kaplan-tabs-header .kaplan-tab-wrapper li{float:left;width:33%;padding:0}
+.kaplan-tabs-header .kaplan-tab-wrapper li{float:left;width:50%;padding:0}
 .facebook-tab,.fb_iframe_widget_fluid span,.fb_iframe_widget iframe{width:100%!important}
 .kaplan-tabs.simplyTab .content-tab{background-color:transparent;padding:0;margin-top:20px}
 .kaplan-tabs.simplyTab .kaplan-tab-wrapper li a{text-transform: uppercase;color: $(maincolor);font-weight: 500;font-size: 12px;border-bottom: 2px solid #f7f7f7;}
@@ -1145,6 +1145,7 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 <b:section class='post-author-social' id='Postwidegt2' maxwidgets='1' name='Author Social Links' preferred='no' showaddelement='no'>
   <b:widget id='LinkList999' locked='true' title='Author Social Links' type='LinkList' version='1'>
     <b:widget-settings>
+      <b:widget-setting name='link-7'>https://twitter.com/Spicy_Boyd</b:widget-setting>
       <b:widget-setting name='link-5'>https://github.com/SpicyBoyd</b:widget-setting>
       <b:widget-setting name='link-6'>https://stackoverflow.com/users/9516932/spicyboyd</b:widget-setting>
       <b:widget-setting name='link-3'>https://plus.google.com/105746017168872375971</b:widget-setting>
@@ -1155,6 +1156,7 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
       <b:widget-setting name='text-2'><![CDATA[<i class="fa fa-instagram"></i>]]></b:widget-setting>
       <b:widget-setting name='text-5'><![CDATA[<i class="fa fa-github"></i>]]></b:widget-setting>
       <b:widget-setting name='text-4'><![CDATA[<i class="fa fa-linkedin"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-7'><![CDATA[<i class="fa fa-twitter"></i>]]></b:widget-setting>
       <b:widget-setting name='text-6'><![CDATA[<i class="fa fa-stack-overflow"></i>]]></b:widget-setting>
       <b:widget-setting name='sorting'>NONE</b:widget-setting>
       <b:widget-setting name='link-1'>https://youtube.com/Egbert0267</b:widget-setting>
@@ -1185,6 +1187,7 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
       <b:section class='kaplan-social blue' id='header social widget' maxwidgets='1' name='Top Social Widget' preferred='no' showaddelement='no'>
         <b:widget id='LinkList998' locked='true' title='Social Media Icons' type='LinkList' version='1'>
           <b:widget-settings>
+            <b:widget-setting name='link-7'>https://twitter.com/Spicy_Boyd</b:widget-setting>
             <b:widget-setting name='link-5'>https://github.com/SpicyBoyd</b:widget-setting>
             <b:widget-setting name='link-6'>https://stackoverflow.com/users/9516932/spicyboyd</b:widget-setting>
             <b:widget-setting name='link-3'>https://plus.google.com/105746017168872375971</b:widget-setting>
@@ -1195,6 +1198,7 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
             <b:widget-setting name='text-2'>instagram</b:widget-setting>
             <b:widget-setting name='text-5'>github</b:widget-setting>
             <b:widget-setting name='text-4'>linkedin</b:widget-setting>
+            <b:widget-setting name='text-7'>twitter</b:widget-setting>
             <b:widget-setting name='text-6'>stack-overflow</b:widget-setting>
             <b:widget-setting name='sorting'>NONE</b:widget-setting>
             <b:widget-setting name='link-1'>https://youtube.com/Egbert0267</b:widget-setting>
@@ -2673,7 +2677,7 @@ $('.kaplan-navigation').after(codei);
      </b:widget>
      <b:widget id='HTML990' locked='true' title='Comments System' type='HTML' version='1'>
        <b:widget-settings>
-         <b:widget-setting name='content'>[blogger][disqus][facebook]</b:widget-setting>
+         <b:widget-setting name='content'>[facebook][blogger]</b:widget-setting>
        </b:widget-settings>
        <b:includable id='main'>
 
@@ -2800,7 +2804,7 @@ $('.kaplan-navigation').after(codei);
      </b:widget>
      <b:widget id='HTML989' locked='true' title='Disqus Shortname' type='HTML' version='1'>
        <b:widget-settings>
-         <b:widget-setting name='content'>theme-daddy</b:widget-setting>
+         <b:widget-setting name='content'>spicyboyd</b:widget-setting>
        </b:widget-settings>
        <b:includable id='main'>
           <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
@@ -3261,24 +3265,6 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
   </div>
 </b:includable>
   </b:widget>
-  <b:widget id='Feed1' locked='false' title='Comments 訪客留言' type='Feed'>
-    <b:widget-settings>
-      <b:widget-setting name='feedUrl'>http://spicyboyd.blogspot.com/feeds/comments/default</b:widget-setting>
-      <b:widget-setting name='openLinksInNewWindow'>false</b:widget-setting>
-      <b:widget-setting name='numItemsShow'>5</b:widget-setting>
-      <b:widget-setting name='showItemDate'>false</b:widget-setting>
-      <b:widget-setting name='showItemAuthor'>true</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-    <h2><data:title/></h2>
-    <div class='widget-content' expr:id='data:widget.instanceId + &quot;_feedItemListDisplay&quot;'>
-      <span style='filter: alpha(25); opacity: 0.25;'>
-        <a expr:href='data:feedUrl'><data:loadingMsg/></a>
-      </span>
-    </div>
-    <b:include name='quickedit'/>
-  </b:includable>
-  </b:widget>
   <b:widget id='HTML3' locked='false' title='Fan Page 粉絲專頁' type='HTML'>
     <b:widget-settings>
       <b:widget-setting name='content'>&lt;div style=&quot;clear: both; text-align: center;&quot;&gt;
@@ -3330,6 +3316,24 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
 
   <b:include name='quickedit'/>
 </b:includable>
+  </b:widget>
+  <b:widget id='Feed1' locked='false' title='Comments 訪客留言' type='Feed'>
+    <b:widget-settings>
+      <b:widget-setting name='feedUrl'>http://spicyboyd.blogspot.com/feeds/comments/default</b:widget-setting>
+      <b:widget-setting name='openLinksInNewWindow'>false</b:widget-setting>
+      <b:widget-setting name='numItemsShow'>5</b:widget-setting>
+      <b:widget-setting name='showItemDate'>false</b:widget-setting>
+      <b:widget-setting name='showItemAuthor'>true</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+    <h2><data:title/></h2>
+    <div class='widget-content' expr:id='data:widget.instanceId + &quot;_feedItemListDisplay&quot;'>
+      <span style='filter: alpha(25); opacity: 0.25;'>
+        <a expr:href='data:feedUrl'><data:loadingMsg/></a>
+      </span>
+    </div>
+    <b:include name='quickedit'/>
+  </b:includable>
   </b:widget>
   <b:widget id='HTML5' locked='false' title='BloggerAds 廣告' type='HTML'>
     <b:widget-settings>
