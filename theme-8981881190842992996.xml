@@ -1360,65 +1360,67 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
         <b:section class='menu' id='kaplan-menu' maxwidgets='1' name='Main Navigation Menu' preferred='no' showaddelement='no'>
           <b:widget id='LinkList996' locked='true' title='Main Navigation Menu' type='LinkList' version='1'>
             <b:widget-settings>
-              <b:widget-setting name='text-26'>__新訓篇</b:widget-setting>
-              <b:widget-setting name='text-27'>__受訓篇</b:widget-setting>
-              <b:widget-setting name='text-28'>__部隊篇</b:widget-setting>
-              <b:widget-setting name='text-22'>_Chinese Drama</b:widget-setting>
-              <b:widget-setting name='text-23'>Life Journal</b:widget-setting>
-              <b:widget-setting name='text-24'>_Travel</b:widget-setting>
-              <b:widget-setting name='text-25'>_軍旅</b:widget-setting>
-              <b:widget-setting name='text-9'>__海線車站旅遊札記</b:widget-setting>
-              <b:widget-setting name='text-8'>__Blogger版面配置</b:widget-setting>
-              <b:widget-setting name='text-20'>_Taiwan Drama</b:widget-setting>
-              <b:widget-setting name='text-21'>_Japanese Drama</b:widget-setting>
+              <b:widget-setting name='text-26'>_海線車站旅遊札記</b:widget-setting>
+              <b:widget-setting name='text-27'>_影片剪輯</b:widget-setting>
+              <b:widget-setting name='text-28'>_Photoshop</b:widget-setting>
+              <b:widget-setting name='text-29'><![CDATA[_測驗成績 & 資格認證]]></b:widget-setting>
+              <b:widget-setting name='text-22'>__自我介紹</b:widget-setting>
+              <b:widget-setting name='text-23'>__相簿</b:widget-setting>
+              <b:widget-setting name='text-24'>__Blogger版面配置</b:widget-setting>
+              <b:widget-setting name='text-25'>__海線車站旅遊札記</b:widget-setting>
+              <b:widget-setting name='text-9'>__推薦列表</b:widget-setting>
+              <b:widget-setting name='text-8'>_Korean Drama</b:widget-setting>
+              <b:widget-setting name='text-20'>Collection</b:widget-setting>
+              <b:widget-setting name='text-21'>_Github</b:widget-setting>
               <b:widget-setting name='text-1'>_APP/Android</b:widget-setting>
               <b:widget-setting name='text-0'>Programming</b:widget-setting>
               <b:widget-setting name='text-3'>_PrimeFaces</b:widget-setting>
               <b:widget-setting name='text-2'>_Bonita BPM</b:widget-setting>
-              <b:widget-setting name='text-5'>Collection</b:widget-setting>
+              <b:widget-setting name='text-5'>Drama</b:widget-setting>
               <b:widget-setting name='text-4'>_JavaScript</b:widget-setting>
-              <b:widget-setting name='text-7'>__自我介紹</b:widget-setting>
-              <b:widget-setting name='text-6'>_Github</b:widget-setting>
-              <b:widget-setting name='text-19'>__2017</b:widget-setting>
-              <b:widget-setting name='text-15'>_懶人包</b:widget-setting>
-              <b:widget-setting name='text-16'>_Movie</b:widget-setting>
-              <b:widget-setting name='text-17'>_Korean Drama</b:widget-setting>
-              <b:widget-setting name='text-18'>__推薦列表</b:widget-setting>
-              <b:widget-setting name='text-11'>_影片剪輯</b:widget-setting>
-              <b:widget-setting name='text-12'>_Photoshop</b:widget-setting>
-              <b:widget-setting name='text-13'><![CDATA[_測驗成績 & 資格認證]]></b:widget-setting>
-              <b:widget-setting name='text-14'>Drama</b:widget-setting>
-              <b:widget-setting name='text-10'>_海線車站旅遊札記</b:widget-setting>
+              <b:widget-setting name='text-7'>_Movie</b:widget-setting>
+              <b:widget-setting name='text-6'>_懶人包</b:widget-setting>
+              <b:widget-setting name='text-19'>__部隊篇</b:widget-setting>
+              <b:widget-setting name='text-15'>_Travel</b:widget-setting>
+              <b:widget-setting name='text-16'>_軍旅</b:widget-setting>
+              <b:widget-setting name='text-17'>__新訓篇</b:widget-setting>
+              <b:widget-setting name='text-18'>__受訓篇</b:widget-setting>
+              <b:widget-setting name='text-11'>_Taiwan Drama</b:widget-setting>
+              <b:widget-setting name='text-12'>_Japanese Drama</b:widget-setting>
+              <b:widget-setting name='text-13'>_Chinese Drama</b:widget-setting>
+              <b:widget-setting name='text-14'>Life Journal</b:widget-setting>
+              <b:widget-setting name='text-10'>__2017</b:widget-setting>
               <b:widget-setting name='link-17'>#</b:widget-setting>
-              <b:widget-setting name='link-16'>http://spicyboyd.blogspot.tw/2018/01/drama.html</b:widget-setting>
+              <b:widget-setting name='link-16'>#</b:widget-setting>
               <b:widget-setting name='link-19'>#</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='link-18'>https://spicyboyd.blogspot.tw/2017/12/blog-post.html</b:widget-setting>
+              <b:widget-setting name='link-18'><![CDATA[https://spicyboyd.blogspot.tw/search/label/%E5%8F%97%E8%A8%93%E7%AF%87?&max-results=7]]></b:widget-setting>
               <b:widget-setting name='link-1'><![CDATA[https://spicyboyd.blogspot.tw/search/label/APP?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-13'>https://spicyboyd.blogspot.tw/p/blog-page_27.html</b:widget-setting>
+              <b:widget-setting name='link-13'>http://spicyboyd.blogspot.tw/2018/01/drama_91.html</b:widget-setting>
               <b:widget-setting name='link-2'><![CDATA[http://spicyboyd.blogspot.tw/search/label/Bonita%20BPM&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-12'>https://spicyboyd.blogspot.tw/p/ps.html</b:widget-setting>
-              <b:widget-setting name='link-15'>https://drive.google.com/open?id=11O9Cugsj_dFflwg7HFPA9O2mG7gJDgqQG9ARaAdMF6g</b:widget-setting>
+              <b:widget-setting name='link-12'>http://spicyboyd.blogspot.tw/2018/01/drama_27.html</b:widget-setting>
+              <b:widget-setting name='link-15'><![CDATA[https://spicyboyd.blogspot.tw/search/label/Travel?&max-results=7]]></b:widget-setting>
               <b:widget-setting name='link-0'>#</b:widget-setting>
               <b:widget-setting name='link-14'>#</b:widget-setting>
-              <b:widget-setting name='link-11'>https://spicyboyd.blogspot.tw/p/youtube.html</b:widget-setting>
-              <b:widget-setting name='link-10'>https://spicyboyd.blogspot.tw/p/2.html</b:widget-setting>
-              <b:widget-setting name='link-9'>https://github.com/SpicyBoyd/CoastLineApp</b:widget-setting>
-              <b:widget-setting name='link-7'>https://spicyboyd.github.io/project1/index.html</b:widget-setting>
-              <b:widget-setting name='link-8'>https://github.com/SpicyBoyd/SpicyBoyd.Blog.Platform</b:widget-setting>
+              <b:widget-setting name='link-11'>http://spicyboyd.blogspot.tw/2018/01/drama_12.html</b:widget-setting>
+              <b:widget-setting name='link-10'>#</b:widget-setting>
+              <b:widget-setting name='link-9'>https://spicyboyd.blogspot.tw/2017/12/blog-post.html</b:widget-setting>
+              <b:widget-setting name='link-7'>http://spicyboyd.blogspot.tw/2018/01/drama.html</b:widget-setting>
+              <b:widget-setting name='link-8'>#</b:widget-setting>
               <b:widget-setting name='link-5'>#</b:widget-setting>
-              <b:widget-setting name='link-6'>https://github.com/SpicyBoyd</b:widget-setting>
+              <b:widget-setting name='link-6'>https://drive.google.com/open?id=11O9Cugsj_dFflwg7HFPA9O2mG7gJDgqQG9ARaAdMF6g</b:widget-setting>
               <b:widget-setting name='link-3'><![CDATA[https://spicyboyd.blogspot.tw/search/label/PrimeFaces?&max-results=7]]></b:widget-setting>
               <b:widget-setting name='link-4'><![CDATA[https://spicyboyd.blogspot.tw/search/label/JavaScript?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-28'>#</b:widget-setting>
-              <b:widget-setting name='link-27'><![CDATA[https://spicyboyd.blogspot.tw/search/label/%E5%8F%97%E8%A8%93%E7%AF%87?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-24'><![CDATA[https://spicyboyd.blogspot.tw/search/label/Travel?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-23'>#</b:widget-setting>
-              <b:widget-setting name='link-26'>#</b:widget-setting>
-              <b:widget-setting name='link-25'>#</b:widget-setting>
-              <b:widget-setting name='link-20'>http://spicyboyd.blogspot.tw/2018/01/drama_12.html</b:widget-setting>
-              <b:widget-setting name='link-22'>http://spicyboyd.blogspot.tw/2018/01/drama_91.html</b:widget-setting>
-              <b:widget-setting name='link-21'>http://spicyboyd.blogspot.tw/2018/01/drama_27.html</b:widget-setting>
+              <b:widget-setting name='link-28'>https://spicyboyd.blogspot.tw/p/ps.html</b:widget-setting>
+              <b:widget-setting name='link-27'>https://spicyboyd.blogspot.tw/p/youtube.html</b:widget-setting>
+              <b:widget-setting name='link-29'>https://spicyboyd.blogspot.tw/p/blog-page_27.html</b:widget-setting>
+              <b:widget-setting name='link-24'>https://github.com/SpicyBoyd/SpicyBoyd.Blog.Platform</b:widget-setting>
+              <b:widget-setting name='link-23'>https://spicyboyd.github.io/project2/index.html</b:widget-setting>
+              <b:widget-setting name='link-26'>https://spicyboyd.blogspot.tw/p/2.html</b:widget-setting>
+              <b:widget-setting name='link-25'>https://github.com/SpicyBoyd/CoastLineApp</b:widget-setting>
+              <b:widget-setting name='link-20'>#</b:widget-setting>
+              <b:widget-setting name='link-22'>https://spicyboyd.github.io/project1/index.html</b:widget-setting>
+              <b:widget-setting name='link-21'>https://github.com/SpicyBoyd</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
             <div class='widget-content'>
@@ -2981,47 +2983,6 @@ head.appendChild(script);
 <li class='item-3'><a href='#tabside3'/></li>
       </ul>
       <b:section class='sidebar kaplan-widetize' id='tabside1' maxwidgets='1' name='Tab [1]' showaddelement='yes'>
-        <b:widget id='HTML1' locked='false' title='Recent' type='HTML'>
-          <b:widget-settings>
-            <b:widget-setting name='content'>&lt;div class=&quot;recentpostarea&quot;&gt;
-&lt;style type=&quot;text/css&quot;&gt;
-.recentpostarea {list-style-type: none;counter-reset: countposts;}
-.recentpostarea a {text-decoration: none; color: #49A8D1;}
-.recentpostarea a:hover {color: #000;}
-.recentpostarea li:before {background: #69B7E2;float: left;counter-increment: countposts;content: counter(countposts,decimal);z-index: 2;position:relative;font-size: 20px;font-weight: bold;color: #fff; padding: 0px 10px; margin: 15px 5px 0px -6px; border-radius: 100%;}
-li.r-p-title { padding: 5px 0px;}
-.r-p-title { font-family: &quot;Avant Garde&quot;,Avantgarde,&quot;Century Gothic&quot;,CenturyGothic,AppleGothic,sans-serif;}
-.r-p-title a {text-decoration: none;font-weight: bold;font-size: 13px; padding: 2px;}
-.recent-post-date {padding: 5px 2px 5px 30px; font-size: 11px; color: #999; margin-bottom: 5px;}
-.r-p-summ { border-left: 1px solid #69B7E2; color: #777; padding: 0px 5px 0px 20px; margin-left: 11px; font-family: Garamond,Baskerville,&quot;Baskerville Old Face&quot;,&quot;Hoefler Text&quot;,&quot;Times New Roman&quot;,serif; font-size: 15px;}
-&lt;/style&gt;
-&lt;script type = &quot;text/JavaScript&quot;&gt;
-function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var entry = json.feed.entry[i];var posttitle = entry.title.$t;var posturl;if (i == json.feed.entry.length) break; for (var k = 0; k &lt; entry.link.length; k++) {if (entry.link[k].rel == &#39;alternate&#39;) {posturl = entry.link[k].href;break;}} posttitle = posttitle.link(posturl);var readmorelink = &quot;... read more&quot;;readmorelink = readmorelink.link(posturl); var postdate = entry.published.$t;var showyear = postdate.substring(0,4);var showmonth = postdate.substring(5,7);var showday = postdate.substring(8,10);var monthnames = new Array(); monthnames[1] = &quot;Jan&quot;;monthnames[2] = &quot;Feb&quot;;monthnames[3] = &quot;Mar&quot;;monthnames[4] = &quot;Apr&quot;;monthnames[5] = &quot;May&quot;;monthnames[6] = &quot;Jun&quot;;monthnames[7] = &quot;Jul&quot;;monthnames[8] = &quot;Aug&quot;;monthnames[9] = &quot;Sep&quot;;monthnames[10] = &quot;Oct&quot;;monthnames[11] = &quot;Nov&quot;;monthnames[12] = &quot;Dec&quot;; if (&quot;content&quot; in entry) {var postcontent = entry.content.$t;}else if (&quot;summary&quot; in entry) { var postcontent = entry.summary.$t;} else var postcontent = &quot;&quot;; var re = /&lt;\S[^&gt;]*&gt;/g; postcontent = postcontent.replace(re, &quot;&quot;); document.write(&#39;&lt;li class=&quot;r-p-title&quot;&gt;&#39;);document.write(posttitle);document.write(&#39;&lt;/li&gt;&lt;div class=&quot;r-p-summ&quot;&gt;&#39;);if (post_summary == true) {if (postcontent.length &lt; summary_chars) {document.write(postcontent);} else { postcontent = postcontent.substring(0, summary_chars);var quoteEnd = postcontent.lastIndexOf(&quot; &quot;);postcontent = postcontent.substring(0,quoteEnd);document.write(postcontent + &#39; &#39; + readmorelink);}} document.write(&#39;&lt;/div&gt;&#39;); if (posts_date == true) document.write(&#39;&lt;div class=&quot;recent-post-date&quot;&gt;&#39; + monthnames[parseInt(showmonth,10)] + &#39; &#39; + showday + &#39; &#39; + showyear + &#39;&lt;/div&gt;&#39;); }}
- &lt;/script&gt;
- &lt;script&gt;
- var posts_number = 5;
- var posts_date = true;
- var post_summary = false;
- var summary_chars = 80;
- &lt;/script&gt;
- &lt;script src=&quot;/feeds/posts/default?orderby=published&amp;amp;alt=json-in-script&amp;amp;callback=showrecentposts&quot;&gt;&lt;/script&gt;
- &lt;noscript&gt;Your browser does not support JavaScript!&lt;/noscript&gt;
-&lt;/div&gt;</b:widget-setting>
-          </b:widget-settings>
-          <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
-</b:includable>
-        </b:widget>
-      </b:section>
-      <b:section class='sidebar kaplan-widetize' id='tabside2' maxwidgets='1' name='Tab [2]' showaddelement='yes'>
         <b:widget id='PopularPosts1' locked='false' title='Popular' type='PopularPosts'>
           <b:widget-settings>
             <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
@@ -3068,6 +3029,47 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
     </ul>
     <b:include name='quickedit'/>
   </div>
+</b:includable>
+        </b:widget>
+      </b:section>
+      <b:section class='sidebar kaplan-widetize' id='tabside2' maxwidgets='1' name='Tab [2]' showaddelement='yes'>
+        <b:widget id='HTML1' locked='false' title='Recent' type='HTML'>
+          <b:widget-settings>
+            <b:widget-setting name='content'>&lt;div class=&quot;recentpostarea&quot;&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.recentpostarea {list-style-type: none;counter-reset: countposts;}
+.recentpostarea a {text-decoration: none; color: #49A8D1;}
+.recentpostarea a:hover {color: #000;}
+.recentpostarea li:before {background: #69B7E2;float: left;counter-increment: countposts;content: counter(countposts,decimal);z-index: 2;position:relative;font-size: 20px;font-weight: bold;color: #fff; padding: 0px 10px; margin: 15px 5px 0px -6px; border-radius: 100%;}
+li.r-p-title { padding: 5px 0px;}
+.r-p-title { font-family: &quot;Avant Garde&quot;,Avantgarde,&quot;Century Gothic&quot;,CenturyGothic,AppleGothic,sans-serif;}
+.r-p-title a {text-decoration: none;font-weight: bold;font-size: 13px; padding: 2px;}
+.recent-post-date {padding: 5px 2px 5px 30px; font-size: 11px; color: #999; margin-bottom: 5px;}
+.r-p-summ { border-left: 1px solid #69B7E2; color: #777; padding: 0px 5px 0px 20px; margin-left: 11px; font-family: Garamond,Baskerville,&quot;Baskerville Old Face&quot;,&quot;Hoefler Text&quot;,&quot;Times New Roman&quot;,serif; font-size: 15px;}
+&lt;/style&gt;
+&lt;script type = &quot;text/JavaScript&quot;&gt;
+function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var entry = json.feed.entry[i];var posttitle = entry.title.$t;var posturl;if (i == json.feed.entry.length) break; for (var k = 0; k &lt; entry.link.length; k++) {if (entry.link[k].rel == &#39;alternate&#39;) {posturl = entry.link[k].href;break;}} posttitle = posttitle.link(posturl);var readmorelink = &quot;... read more&quot;;readmorelink = readmorelink.link(posturl); var postdate = entry.published.$t;var showyear = postdate.substring(0,4);var showmonth = postdate.substring(5,7);var showday = postdate.substring(8,10);var monthnames = new Array(); monthnames[1] = &quot;Jan&quot;;monthnames[2] = &quot;Feb&quot;;monthnames[3] = &quot;Mar&quot;;monthnames[4] = &quot;Apr&quot;;monthnames[5] = &quot;May&quot;;monthnames[6] = &quot;Jun&quot;;monthnames[7] = &quot;Jul&quot;;monthnames[8] = &quot;Aug&quot;;monthnames[9] = &quot;Sep&quot;;monthnames[10] = &quot;Oct&quot;;monthnames[11] = &quot;Nov&quot;;monthnames[12] = &quot;Dec&quot;; if (&quot;content&quot; in entry) {var postcontent = entry.content.$t;}else if (&quot;summary&quot; in entry) { var postcontent = entry.summary.$t;} else var postcontent = &quot;&quot;; var re = /&lt;\S[^&gt;]*&gt;/g; postcontent = postcontent.replace(re, &quot;&quot;); document.write(&#39;&lt;li class=&quot;r-p-title&quot;&gt;&#39;);document.write(posttitle);document.write(&#39;&lt;/li&gt;&lt;div class=&quot;r-p-summ&quot;&gt;&#39;);if (post_summary == true) {if (postcontent.length &lt; summary_chars) {document.write(postcontent);} else { postcontent = postcontent.substring(0, summary_chars);var quoteEnd = postcontent.lastIndexOf(&quot; &quot;);postcontent = postcontent.substring(0,quoteEnd);document.write(postcontent + &#39; &#39; + readmorelink);}} document.write(&#39;&lt;/div&gt;&#39;); if (posts_date == true) document.write(&#39;&lt;div class=&quot;recent-post-date&quot;&gt;&#39; + monthnames[parseInt(showmonth,10)] + &#39; &#39; + showday + &#39; &#39; + showyear + &#39;&lt;/div&gt;&#39;); }}
+ &lt;/script&gt;
+ &lt;script&gt;
+ var posts_number = 5;
+ var posts_date = true;
+ var post_summary = false;
+ var summary_chars = 80;
+ &lt;/script&gt;
+ &lt;script src=&quot;/feeds/posts/default?orderby=published&amp;amp;alt=json-in-script&amp;amp;callback=showrecentposts&quot;&gt;&lt;/script&gt;
+ &lt;noscript&gt;Your browser does not support JavaScript!&lt;/noscript&gt;
+&lt;/div&gt;</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
 </b:includable>
         </b:widget>
       </b:section>
