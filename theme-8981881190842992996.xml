@@ -24,6 +24,8 @@
 	<meta content='website' property='og:type'/> 
 	<meta content='https://4.bp.blogspot.com/-I4yK_XTmN18/WoMF2y_zC1I/AAAAAAAAF3w/-R1tVNDdE6cwmT7FffNBGgoafgK2jt78QCK4BGAYYCw/s1600/9h6Vq5N.jpg' property='og:image'/> 
 	<meta content='T8mbGxNubBcEzVlSi8MHXFyw7IINUTKmYuOHpAy9OJ8' name='google-site-verification'/>
+	<meta content='fdf34baad6a0debc11ee4cbce76cf247' name='p:domain_verify'/>
+    <meta content='150432502292056' property='fb:app_id'/>
 
     <!-- Blogger main head data and meta -->
     <b:include data='blog' name='all-head-content'/>
@@ -1079,6 +1081,18 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 </head>
 <body expr:class='data:blog.pageType'>
 
+  <div id='fb-root'/>
+  <script>//<![CDATA[
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v3.0&appId=150432502292056&autoLogAppEvents=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    //]]>
+  </script>
+
 <div class='searchform-wrap search-transition-wrap'><div class='search-transition-inner'><form action='/search' class='searchform' method='get'><div class='input-group'> <input class='form-control' name='q' placeholder='Search ... ' type='text' value=''/> <span class='input-group-btn'> <button class='btn btn-primary'><i class='ti-search'/></button> </span></div></form>                                <button class='btn-mini-close pull-right'><i class='ion-ios-close-empty'/></button></div></div>
 <div class='adminbar' style='display:none'>
 <div class='theme-opt'>
@@ -1277,13 +1291,13 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
       <b:section class='kaplan-wide' id='kaplan-wide' maxwidgets='1' name='Blog Header' preferred='no' showaddelement='no'>
          <b:widget id='Header1' locked='true' title='SpicyBoyd 部落格 (標頭)' type='Header' version='1'>
            <b:widget-settings>
-             <b:widget-setting name='displayUrl'>http://4.bp.blogspot.com/-I4yK_XTmN18/WoMF2y_zC1I/AAAAAAAAF3w/-R1tVNDdE6cwmT7FffNBGgoafgK2jt78QCK4BGAYYCw/s1600/9h6Vq5N.jpg</b:widget-setting>
-             <b:widget-setting name='displayHeight'>362</b:widget-setting>
-             <b:widget-setting name='sectionWidth'>150</b:widget-setting>
+             <b:widget-setting name='displayUrl'>http://1.bp.blogspot.com/-oNGhgDgdIEY/WvPfmkCpsxI/AAAAAAAAGTY/iJ6tT6GhsgQsjtH2qkTYCsysbtNGQfyEQCK4BGAYYCw/s1600/9h6Vq5N.jpg</b:widget-setting>
+             <b:widget-setting name='displayHeight'>101</b:widget-setting>
+             <b:widget-setting name='sectionWidth'>274</b:widget-setting>
              <b:widget-setting name='useImage'>true</b:widget-setting>
              <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
              <b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting>
-             <b:widget-setting name='displayWidth'>1080</b:widget-setting>
+             <b:widget-setting name='displayWidth'>300</b:widget-setting>
            </b:widget-settings>
            <b:includable id='main'>
 
@@ -1360,67 +1374,71 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
         <b:section class='menu' id='kaplan-menu' maxwidgets='1' name='Main Navigation Menu' preferred='no' showaddelement='no'>
           <b:widget id='LinkList996' locked='true' title='Main Navigation Menu' type='LinkList' version='1'>
             <b:widget-settings>
-              <b:widget-setting name='text-26'>_海線車站旅遊札記</b:widget-setting>
-              <b:widget-setting name='text-27'>_影片剪輯</b:widget-setting>
-              <b:widget-setting name='text-28'>_Photoshop</b:widget-setting>
-              <b:widget-setting name='text-29'><![CDATA[_測驗成績 & 資格認證]]></b:widget-setting>
-              <b:widget-setting name='text-22'>__自我介紹</b:widget-setting>
-              <b:widget-setting name='text-23'>__相簿</b:widget-setting>
-              <b:widget-setting name='text-24'>__Blogger版面配置</b:widget-setting>
-              <b:widget-setting name='text-25'>__海線車站旅遊札記</b:widget-setting>
-              <b:widget-setting name='text-9'>__推薦列表</b:widget-setting>
-              <b:widget-setting name='text-8'>_Korean Drama</b:widget-setting>
-              <b:widget-setting name='text-20'>Collection</b:widget-setting>
-              <b:widget-setting name='text-21'>_Github</b:widget-setting>
+              <b:widget-setting name='text-30'>_自製手機鈴聲</b:widget-setting>
+              <b:widget-setting name='text-31'><![CDATA[_測驗成績 & 資格認證]]></b:widget-setting>
+              <b:widget-setting name='text-26'>__海線車站旅遊札記</b:widget-setting>
+              <b:widget-setting name='text-27'>_海線車站旅遊札記</b:widget-setting>
+              <b:widget-setting name='text-28'>_影片剪輯</b:widget-setting>
+              <b:widget-setting name='text-29'>_Photoshop</b:widget-setting>
+              <b:widget-setting name='text-22'>_Github</b:widget-setting>
+              <b:widget-setting name='link-31'>https://spicyboyd.blogspot.tw/p/blog-page_27.html</b:widget-setting>
+              <b:widget-setting name='text-23'>__自我介紹</b:widget-setting>
+              <b:widget-setting name='link-30'>https://spicyboyd.blogspot.tw/p/blog-page_12.html</b:widget-setting>
+              <b:widget-setting name='text-24'>__相簿</b:widget-setting>
+              <b:widget-setting name='text-25'>__Blogger版面配置</b:widget-setting>
+              <b:widget-setting name='text-9'>_Korean Drama</b:widget-setting>
+              <b:widget-setting name='text-8'>_Movie</b:widget-setting>
+              <b:widget-setting name='text-20'>__部隊篇</b:widget-setting>
+              <b:widget-setting name='text-21'>Collection</b:widget-setting>
               <b:widget-setting name='text-1'>_APP/Android</b:widget-setting>
               <b:widget-setting name='text-0'>Programming</b:widget-setting>
-              <b:widget-setting name='text-3'>_PrimeFaces</b:widget-setting>
-              <b:widget-setting name='text-2'>_Bonita BPM</b:widget-setting>
-              <b:widget-setting name='text-5'>Drama</b:widget-setting>
-              <b:widget-setting name='text-4'>_JavaScript</b:widget-setting>
-              <b:widget-setting name='text-7'>_Movie</b:widget-setting>
-              <b:widget-setting name='text-6'>_懶人包</b:widget-setting>
-              <b:widget-setting name='text-19'>__部隊篇</b:widget-setting>
-              <b:widget-setting name='text-15'>_Travel</b:widget-setting>
-              <b:widget-setting name='text-16'>_軍旅</b:widget-setting>
-              <b:widget-setting name='text-17'>__新訓篇</b:widget-setting>
-              <b:widget-setting name='text-18'>__受訓篇</b:widget-setting>
-              <b:widget-setting name='text-11'>_Taiwan Drama</b:widget-setting>
-              <b:widget-setting name='text-12'>_Japanese Drama</b:widget-setting>
-              <b:widget-setting name='text-13'>_Chinese Drama</b:widget-setting>
-              <b:widget-setting name='text-14'>Life Journal</b:widget-setting>
-              <b:widget-setting name='text-10'>__2017</b:widget-setting>
+              <b:widget-setting name='text-3'>_Bonita BPM</b:widget-setting>
+              <b:widget-setting name='text-2'>_Web/HTML</b:widget-setting>
+              <b:widget-setting name='text-5'>_JavaScript</b:widget-setting>
+              <b:widget-setting name='text-4'>_PrimeFaces</b:widget-setting>
+              <b:widget-setting name='text-7'>_懶人包</b:widget-setting>
+              <b:widget-setting name='text-6'>Drama</b:widget-setting>
+              <b:widget-setting name='text-19'>__受訓篇</b:widget-setting>
+              <b:widget-setting name='text-15'>Life Journal</b:widget-setting>
+              <b:widget-setting name='text-16'>_Travel</b:widget-setting>
+              <b:widget-setting name='text-17'>_軍旅</b:widget-setting>
+              <b:widget-setting name='text-18'>__新訓篇</b:widget-setting>
+              <b:widget-setting name='text-11'>__2017</b:widget-setting>
+              <b:widget-setting name='text-12'>_Taiwan Drama</b:widget-setting>
+              <b:widget-setting name='text-13'>_Japanese Drama</b:widget-setting>
+              <b:widget-setting name='text-14'>_Chinese Drama</b:widget-setting>
+              <b:widget-setting name='text-10'>__推薦列表</b:widget-setting>
               <b:widget-setting name='link-17'>#</b:widget-setting>
-              <b:widget-setting name='link-16'>#</b:widget-setting>
-              <b:widget-setting name='link-19'>#</b:widget-setting>
+              <b:widget-setting name='link-16'><![CDATA[https://spicyboyd.blogspot.tw/search/label/Travel?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-19'><![CDATA[https://spicyboyd.blogspot.tw/search/label/%E5%8F%97%E8%A8%93%E7%AF%87?&max-results=7]]></b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='link-18'><![CDATA[https://spicyboyd.blogspot.tw/search/label/%E5%8F%97%E8%A8%93%E7%AF%87?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-18'><![CDATA[https://spicyboyd.blogspot.tw/search/label/%E6%96%B0%E8%A8%93%E7%AF%87?&max-results=7]]></b:widget-setting>
               <b:widget-setting name='link-1'><![CDATA[https://spicyboyd.blogspot.tw/search/label/APP?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-13'>http://spicyboyd.blogspot.tw/2018/01/drama_91.html</b:widget-setting>
-              <b:widget-setting name='link-2'><![CDATA[http://spicyboyd.blogspot.tw/search/label/Bonita%20BPM&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-12'>http://spicyboyd.blogspot.tw/2018/01/drama_27.html</b:widget-setting>
-              <b:widget-setting name='link-15'><![CDATA[https://spicyboyd.blogspot.tw/search/label/Travel?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-13'>http://spicyboyd.blogspot.tw/2018/01/drama_27.html</b:widget-setting>
+              <b:widget-setting name='link-2'><![CDATA[https://spicyboyd.blogspot.tw/search/label/Web%20Design?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-12'>http://spicyboyd.blogspot.tw/2018/01/drama_12.html</b:widget-setting>
+              <b:widget-setting name='link-15'>#</b:widget-setting>
               <b:widget-setting name='link-0'>#</b:widget-setting>
-              <b:widget-setting name='link-14'>#</b:widget-setting>
-              <b:widget-setting name='link-11'>http://spicyboyd.blogspot.tw/2018/01/drama_12.html</b:widget-setting>
-              <b:widget-setting name='link-10'>#</b:widget-setting>
-              <b:widget-setting name='link-9'>https://spicyboyd.blogspot.tw/2017/12/blog-post.html</b:widget-setting>
-              <b:widget-setting name='link-7'>http://spicyboyd.blogspot.tw/2018/01/drama.html</b:widget-setting>
-              <b:widget-setting name='link-8'>#</b:widget-setting>
-              <b:widget-setting name='link-5'>#</b:widget-setting>
-              <b:widget-setting name='link-6'>https://drive.google.com/open?id=11O9Cugsj_dFflwg7HFPA9O2mG7gJDgqQG9ARaAdMF6g</b:widget-setting>
-              <b:widget-setting name='link-3'><![CDATA[https://spicyboyd.blogspot.tw/search/label/PrimeFaces?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-4'><![CDATA[https://spicyboyd.blogspot.tw/search/label/JavaScript?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-28'>https://spicyboyd.blogspot.tw/p/ps.html</b:widget-setting>
-              <b:widget-setting name='link-27'>https://spicyboyd.blogspot.tw/p/youtube.html</b:widget-setting>
-              <b:widget-setting name='link-29'>https://spicyboyd.blogspot.tw/p/blog-page_27.html</b:widget-setting>
-              <b:widget-setting name='link-24'>https://github.com/SpicyBoyd/SpicyBoyd.Blog.Platform</b:widget-setting>
-              <b:widget-setting name='link-23'>https://spicyboyd.github.io/project2/index.html</b:widget-setting>
-              <b:widget-setting name='link-26'>https://spicyboyd.blogspot.tw/p/2.html</b:widget-setting>
-              <b:widget-setting name='link-25'>https://github.com/SpicyBoyd/CoastLineApp</b:widget-setting>
+              <b:widget-setting name='link-14'>http://spicyboyd.blogspot.tw/2018/01/drama_91.html</b:widget-setting>
+              <b:widget-setting name='link-11'>#</b:widget-setting>
+              <b:widget-setting name='link-10'>https://spicyboyd.blogspot.tw/2017/12/blog-post.html</b:widget-setting>
+              <b:widget-setting name='link-9'>#</b:widget-setting>
+              <b:widget-setting name='link-7'>https://drive.google.com/open?id=11O9Cugsj_dFflwg7HFPA9O2mG7gJDgqQG9ARaAdMF6g</b:widget-setting>
+              <b:widget-setting name='link-8'>http://spicyboyd.blogspot.tw/2018/01/drama.html</b:widget-setting>
+              <b:widget-setting name='link-5'><![CDATA[https://spicyboyd.blogspot.tw/search/label/JavaScript?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-6'>#</b:widget-setting>
+              <b:widget-setting name='link-3'><![CDATA[http://spicyboyd.blogspot.tw/search/label/Bonita%20BPM&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-4'><![CDATA[https://spicyboyd.blogspot.tw/search/label/PrimeFaces?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-28'>https://spicyboyd.blogspot.tw/p/youtube.html</b:widget-setting>
+              <b:widget-setting name='link-27'>https://spicyboyd.blogspot.tw/p/2.html</b:widget-setting>
+              <b:widget-setting name='link-29'>https://spicyboyd.blogspot.tw/p/ps.html</b:widget-setting>
+              <b:widget-setting name='link-24'>https://spicyboyd.github.io/project2/index.html</b:widget-setting>
+              <b:widget-setting name='link-23'>https://spicyboyd.github.io/project1/index.html</b:widget-setting>
+              <b:widget-setting name='link-26'>https://github.com/SpicyBoyd/CoastLineApp</b:widget-setting>
+              <b:widget-setting name='link-25'>https://github.com/SpicyBoyd/SpicyBoyd.Blog.Platform</b:widget-setting>
               <b:widget-setting name='link-20'>#</b:widget-setting>
-              <b:widget-setting name='link-22'>https://spicyboyd.github.io/project1/index.html</b:widget-setting>
-              <b:widget-setting name='link-21'>https://github.com/SpicyBoyd</b:widget-setting>
+              <b:widget-setting name='link-22'>https://github.com/SpicyBoyd</b:widget-setting>
+              <b:widget-setting name='link-21'>#</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
             <div class='widget-content'>
@@ -2800,13 +2818,15 @@ $('.kaplan-navigation').after(codei);
                 <div data-tab='blogger'><div class='kaplan-blogger-comment'/></div>
               </div>
             </b:if>
-            <div id='fb-root'/><script>(function(d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = &quot;//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.0&quot;;fjs.parentNode.insertBefore(js, fjs);}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));</script>&lt;script&gt;$(&quot;.facebook-tab&quot;).append(&quot;&lt;div class=&#39;fb-comments&#39; data-href=&#39;<data:blog.canonicalUrl/>&#39; data-width=&#39;100%&#39; data-numposts=&#39;5&#39; data-colorscheme=&#39;light&#39;&gt;&lt;/div&gt;&quot;);&lt;/script&gt;
+
+            <div class='fb-comments' data-colorscheme='light' data-href='https://spicyboyd.blogspot.tw' data-numposts='5' data-width='100%'/>
+
          </div>  </b:if>
         </b:includable>
      </b:widget>
      <b:widget id='HTML989' locked='true' title='Disqus Shortname' type='HTML' version='1'>
        <b:widget-settings>
-         <b:widget-setting name='content'>spicyboyd</b:widget-setting>
+         <b:widget-setting name='content'/>
        </b:widget-settings>
        <b:includable id='main'>
           <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
@@ -2847,6 +2867,23 @@ $('.kaplan-navigation').after(codei);
 </div>
   <div id='sidebar-wrapper'>
     <b:section class='sidebar kaplan-widetize' id='sidebar(1)' name='SIDEBAR TOP' preferred='yes'>
+      <b:widget id='AdSense2' locked='false' title='' type='AdSense'>
+        <b:widget-settings>
+          <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
+          <b:widget-setting name='style.textcolor'>#ef476f</b:widget-setting>
+          <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+          <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
+          <b:widget-setting name='style.urlcolor'>#ef476f</b:widget-setting>
+          <b:widget-setting name='style.linkcolor'>#ef476f</b:widget-setting>
+          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <div class='widget-content'>
+    <data:adCode/>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+      </b:widget>
       <b:widget id='Attribution1' locked='false' title='' type='Attribution'>
         <b:widget-settings>
           <b:widget-setting name='copyright'/>
@@ -3201,7 +3238,7 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
     <b:widget-settings>
       <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
       <b:widget-setting name='display'>CLOUD</b:widget-setting>
-      <b:widget-setting name='selectedLabelsList'>APP,Alfresco,Android Studio,AngularJS,Bonita BPM,CSS,Chinese Drama,Codewars,Drama,Eclipse,Front end,Hardware,Intern,JSF,Japanese Drama,JavaScript,Korean Drama,Life,Liferay,Matlab,Movie,MySQL,Note,Photonics,Photoshop,PrimeFaces,Taiwan Drama,Travel,Web Design,Youtube,html,心得,推薦,自學,路徑概念,車站</b:widget-setting>
+      <b:widget-setting name='selectedLabelsList'>APP,Alfresco,Android Studio,AngularJS,Bonita BPM,CSS,Chinese Drama,Codewars,Drama,Eclipse,Front end,Hardware,Intern,JSF,JSP,Japanese Drama,JavaScript,Korean Drama,Life,Liferay,Matlab,Movie,MySQL,Note,Photonics,Photoshop,PrimeFaces,Taiwan Drama,Travel,Web Design,Youtube,book,html,受訓篇,心得,推薦,新訓篇,自學,路徑概念,車站,軍旅,高層大氣科學</b:widget-setting>
       <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
       <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
     </b:widget-settings>
@@ -3305,7 +3342,7 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
   </b:widget>
   <b:widget id='HTML2' locked='false' title='LinkedIn 關於我' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<div id="linkedInDiv" class="LI-profile-badge" style="clear: both; text-align: center;" data-version="v1" data-size="medium" data-locale="zh_TW" data-type="horizontal" data-theme="light" data-vanity="bo-yu-yang-a17b2413a"><a class="LI-simple-link" href='https://tw.linkedin.com/in/bo-yu-yang-a17b2413a?trk=profile-badge'>Bo-Yu Yang</a></div>]]></b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<div id="linkedInDiv" class="LI-profile-badge" style="clear: both; text-align: center;" data-version="v1" data-size="medium" data-locale="zh_TW" data-type="horizontal" data-theme="dark" data-vanity="bo-yu-yang-a17b2413a"><a class="LI-simple-link" href='https://tw.linkedin.com/in/bo-yu-yang-a17b2413a?trk=profile-badge'>Bo-Yu Yang</a></div>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -3351,23 +3388,6 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
   </div>
 
   <b:include name='quickedit'/>
-</b:includable>
-  </b:widget>
-  <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
-    <b:widget-settings>
-      <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
-      <b:widget-setting name='style.textcolor'>#ef476f</b:widget-setting>
-      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
-      <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
-      <b:widget-setting name='style.urlcolor'>#ef476f</b:widget-setting>
-      <b:widget-setting name='style.linkcolor'>#ef476f</b:widget-setting>
-      <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <div class='widget-content'>
-    <data:adCode/>
-    <b:include name='quickedit'/>
-  </div>
 </b:includable>
   </b:widget>
 </b:section>
@@ -4416,17 +4436,7 @@ $("#sidebar-wrapper").stick_in_parent();
 });
 //]]>
 </script>
-  <div id='fb-root'><script src='https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.0' type='text/javascript'/></div>
-<script>//<![CDATA[
-(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-//]]>
-</script>
+  
     <b:if cond='data:blog.url == data:blog.homepageUrl'>
 <script type='text/javascript'>
 //<![CDATA[
