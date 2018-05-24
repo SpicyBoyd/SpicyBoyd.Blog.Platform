@@ -1009,6 +1009,100 @@ h1, h2, h3, h4, h5, h6 {
 	#sidebar-wrapper{
 		width:95%;
 	}
+}/* 留言分頁 start*/
+#commTab { /* 整個分頁區塊 */
+height: 35px;
+margin-top: 50px;
+}
+#commTab img {
+align: left;
+padding: 0 px;
+vertical-align: -3px;
+}
+.commTab-area { /* 個別分頁區塊 */
+margin: 30px auto;
+}
+.commTab-tab { /* 分頁按鈕 */
+font: bold 20px Arial;
+margin-right: 10px;
+}
+.commTab-goTop { /* 回到分頁選單按鈕 */
+text-align: center;
+margin-top: 50px;
+font-size: 22px;
+cursor: pointer;
+}
+.commTab-menu { /* 整個分頁區塊 */
+margin: 0px;
+height: 25px;
+border-bottom: 1px dotted #ccc;
+}
+.commTab-in { /* 作用中的分頁 */
+color: #333;
+vertical-align: 5px;
+border: 1px solid #8abeb7;
+border-left: 4px solid #8abeb7;
+border-radius: 3px;
+padding: 4px;
+cursor: pointer;
+background-color: #ffffff;
+}
+.commTab-out { /* 非作用中的分頁 */
+color: #777;
+vertical-align: 5px;
+border: 1px solid #8abeb7;
+border-radius: 3px;
+padding: 4px 4px 4px 7px;
+cursor: pointer;
+background-color: #dde3dc;
+}
+.buttonAll { /* 回到分頁選單按鈕 */
+cursor: pointer;
+display: inline-block;
+text-decoration: none;
+font-weight: bold;
+color: #fff;
+color: rgba(255,255,255,1);
+padding: 1px 5px;
+border-style: solid;
+border-width: 1px;
+border-radius: 4px;
+box-shadow: 0 1px 1px rgba(255,255,255,0.5) inset;
+}
+.buttonAll:hover {
+box-shadow: 0 1px 1px rgba(255,255,255,0.5) inset,0 0 2px rgba(0,0,0,0.2);
+opacity: 0.9;
+}
+.buttonAll:active {
+box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.4) inset;
+opacity: 1;
+color: rgba(255,255,255,0.5);
+}
+.buttonGrey { /* 回到分頁選單按鈕 */
+cursor: pointer;
+border-radius: 4px;
+background: #f2f2f2;
+background: rgba(0,0,0,0.05);
+border-color: #eee;
+border-color: rgba(0,0,0,0.1);
+color: #999;
+color: rgba(0,0,0,0.5);
+padding: 3px 5px;
+}
+#showFBcomment.fb_iframe_widget {display:block!important;}
+/* 留言分頁 end*/
+
+.commTab-tab[title="使用 G+ 留言系統"]{
+display: none;
+}
+#showFBcomment span{
+width: 100% !important;
+}
+.commTab-goTop{
+display: none;
+}
+#commTab a{
+display: none;
 }]]></b:skin>
 <b:template-skin>
 <![CDATA[
@@ -2704,36 +2798,28 @@ $('.kaplan-navigation').after(codei);
           <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
  
 <div id='kaplan-comment-placer'>
-            <b:if cond='data:content == &quot;[blogger]&quot;'>
-              <div class='kaplan-tabs'>
-                <div data-tab='blogger'><div class='kaplan-blogger-comment'/></div>
-              </div>
-            </b:if>
-            <b:if cond='data:content == &quot;[facebook]&quot;'>
-                
-              <div class='kaplan-tabs'>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-              </div>
-              <script type='text/javascript'>
-              //<![CDATA[
-                $('#comments').remove();
-              //]]>
-              </script>    
-            </b:if>            
-            <b:if cond='data:content == &quot;[blogger][facebook]&quot;'>
-              <div class='kaplan-tabs'>
-                <div data-tab='blogger'><div class='kaplan-blogger-comment'/></div>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-              </div>
-            </b:if>            
-            <b:if cond='data:content == &quot;[facebook][blogger]&quot;'>
-              <div class='kaplan-tabs'>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-                <div data-tab='blogger'><div class='kaplan-blogger-comment'/></div>
-              </div>
-            </b:if>            
-
-            <div class='fb-comments' data-colorscheme='light' data-href='https://spicyboyd.blogspot.tw' data-numposts='5' data-width='100%'/>
+            
+<!-- Blogger 留言分頁 start -->
+<script>
+var commTab = {};
+commTab.url = &quot;<data:blog.canonicalUrl/>&quot;;
+//<![CDATA[
+commTab.deault = 3; // 預設打開的分頁, 1 代表 Blogger, 2 代表 G+, 3 代表 FB
+commTab.fbNumPost = 5; // FB 留言框最多顯示幾則留言
+commTab.fbColor = "light"; // FB 留言框底色預設值為淺色；若部落格底色為深色, 字串請改為 "dark"
+commTab.bloggerText = "Blogger";
+commTab.gplusText = "Google+";
+commTab.fbText = "Facebook";
+ 
+(function () {
+var url = "https://drive.google.com/uc?export=download&id=0BykclfTTti-0M3lEZHBIaHJTM00",
+script = document.createElement("script");
+script.src = url;
+document.documentElement.firstChild.appendChild(script);
+} )();
+//]]>
+</script>
+<!-- Blogger 留言分頁 end, Designed by WFU BLOG -->
 
          </div>  </b:if>
         </b:includable>
