@@ -2812,7 +2812,7 @@ commTab.gplusText = "Google+";
 commTab.fbText = "Facebook";
  
 (function () {
-var url = "https://drive.google.com/uc?export=download&id=0BykclfTTti-0M3lEZHBIaHJTM00",
+var url = "https://drive.google.com/uc?export=download&id=1vctfydWIaqf0URbjEAUckqo5Q3drpyim",
 script = document.createElement("script");
 script.src = url;
 document.documentElement.firstChild.appendChild(script);
@@ -2822,6 +2822,23 @@ document.documentElement.firstChild.appendChild(script);
 <!-- Blogger 留言分頁 end, Designed by WFU BLOG -->
 
          </div>  </b:if>
+        </b:includable>
+     </b:widget>
+     <b:widget id='HTML989' locked='false' title='Disqus Shortname' type='HTML' version='1'>
+       <b:widget-settings>
+         <b:widget-setting name='content'/>
+       </b:widget-settings>
+       <b:includable id='main'>
+          <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
+            &lt;script type=&#39;text/javascript&#39;&gt;
+            var disqus_shortname = &#39;<data:content/>&#39;;
+             (function() {
+              var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+              dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+              (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
+              })();
+            &lt;/script&gt;
+          </b:if>
         </b:includable>
      </b:widget>
    </b:section>  
@@ -3339,23 +3356,21 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
   <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
-  <b:widget id='Feed1' locked='false' title='Comments 訪客留言' type='Feed'>
+  <b:widget id='HTML986' locked='false' title='Comments 訪客留言' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='feedUrl'>http://spicyboyd.blogspot.com/feeds/comments/default</b:widget-setting>
-      <b:widget-setting name='openLinksInNewWindow'>false</b:widget-setting>
-      <b:widget-setting name='numItemsShow'>5</b:widget-setting>
-      <b:widget-setting name='showItemDate'>false</b:widget-setting>
-      <b:widget-setting name='showItemAuthor'>true</b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<span class="kaplan-cmnt" data-no="5"></span>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
-    <h2><data:title/></h2>
-    <div class='widget-content' expr:id='data:widget.instanceId + &quot;_feedItemListDisplay&quot;'>
-      <span style='filter: alpha(25); opacity: 0.25;'>
-        <a expr:href='data:feedUrl'><data:loadingMsg/></a>
-      </span>
-    </div>
-    <b:include name='quickedit'/>
-  </b:includable>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+ <!--b:include name='quickedit'/-->
+</b:includable>
   </b:widget>
   <b:widget id='HTML5' locked='false' title='BloggerAds 廣告' type='HTML'>
     <b:widget-settings>
