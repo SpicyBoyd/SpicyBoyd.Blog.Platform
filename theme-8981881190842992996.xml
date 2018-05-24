@@ -2719,126 +2719,23 @@ $('.kaplan-navigation').after(codei);
                 $('#comments').remove();
               //]]>
               </script>    
-            </b:if>
-            <b:if cond='data:content == &quot;[disqus]&quot;'>
-              <div class='kaplan-tabs'>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-              </div>
-              <script type='text/javascript'>
-              //<![CDATA[
-                $('#comments').remove();
-              //]]>
-              </script>
-            </b:if>
+            </b:if>            
             <b:if cond='data:content == &quot;[blogger][facebook]&quot;'>
               <div class='kaplan-tabs'>
                 <div data-tab='blogger'><div class='kaplan-blogger-comment'/></div>
                 <div data-tab='facebook'><div class='facebook-tab'/></div>
               </div>
-            </b:if>
-            <b:if cond='data:content == &quot;[blogger][disqus]&quot;'>
-              <div class='kaplan-tabs'>
-                <div data-tab='blogger'><div class='kaplan-blogger-comment'/></div>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-              </div>
-            </b:if>
+            </b:if>            
             <b:if cond='data:content == &quot;[facebook][blogger]&quot;'>
               <div class='kaplan-tabs'>
                 <div data-tab='facebook'><div class='facebook-tab'/></div>
                 <div data-tab='blogger'><div class='kaplan-blogger-comment'/></div>
               </div>
-            </b:if>
-            <b:if cond='data:content == &quot;[facebook][disqus]&quot;'>
-              <div class='kaplan-tabs'>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-              <script type='text/javascript'>
-              //<![CDATA[
-                $('#comments').remove();
-              //]]>
-              </script>
-              </div>
-            </b:if>
-            <b:if cond='data:content == &quot;[disqus][blogger]&quot;'>
-              <div class='kaplan-tabs'>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-                <div data-tab='blogger'><div class='kaplan-blogger-comment'/></div>
-              </div>
-            </b:if>
-            <b:if cond='data:content == &quot;[disqus][facebook]&quot;'>
-              <div class='kaplan-tabs'>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-              </div>
-              <script type='text/javascript'>
-              //<![CDATA[
-                $('#comments').remove();
-              //]]>
-              </script>
-            </b:if>
-            <b:if cond='data:content == &quot;[blogger][facebook][disqus]&quot;'>
-              <div class='kaplan-tabs'>
-                <div data-tab='blogger'><div class='kaplan-blogger-comment'/></div>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-              </div>
-            </b:if>
-            <b:if cond='data:content == &quot;[blogger][disqus][facebook]&quot;'>
-              <div class='kaplan-tabs'>
-                <div data-tab='blogger'><div class='kaplan-blogger-comment'/></div>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-              </div>
-            </b:if>
-            <b:if cond='data:content == &quot;[facebook][blogger][disqus]&quot;'>
-              <div class='kaplan-tabs'>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-                <div data-tab='blogger'><div class='kaplan-blogger-comment'/></div>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-              </div>
-            </b:if>
-            <b:if cond='data:content == &quot;[facebook][disqus][blogger]&quot;'>
-              <div class='kaplan-tabs'>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-                <div data-tab='blogger'><div class='kaplan-blogger-comment'/></div>
-              </div>
-            </b:if>
-            <b:if cond='data:content == &quot;[disqus][blogger][facebook]&quot;'>
-              <div class='kaplan-tabs'>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-                <div data-tab='blogger'><div class='kaplan-blogger-comment'/></div>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-              </div>
-            </b:if>
-            <b:if cond='data:content == &quot;[disqus][facebook][blogger]&quot;'>
-              <div class='kaplan-tabs'>
-                <div data-tab='disqus'><div class='disqus-tab'><div id='disqus_thread'/></div></div>
-                <div data-tab='facebook'><div class='facebook-tab'/></div>
-                <div data-tab='blogger'><div class='kaplan-blogger-comment'/></div>
-              </div>
-            </b:if>
+            </b:if>            
 
             <div class='fb-comments' data-colorscheme='light' data-href='https://spicyboyd.blogspot.tw' data-numposts='5' data-width='100%'/>
 
          </div>  </b:if>
-        </b:includable>
-     </b:widget>
-     <b:widget id='HTML989' locked='true' title='Disqus Shortname' type='HTML' version='1'>
-       <b:widget-settings>
-         <b:widget-setting name='content'/>
-       </b:widget-settings>
-       <b:includable id='main'>
-          <b:if cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'>
-            &lt;script type=&#39;text/javascript&#39;&gt;
-            var disqus_shortname = &#39;<data:content/>&#39;;
-             (function() {
-              var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
-              dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
-              (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
-              })();
-            &lt;/script&gt;
-          </b:if>
         </b:includable>
      </b:widget>
    </b:section>  
