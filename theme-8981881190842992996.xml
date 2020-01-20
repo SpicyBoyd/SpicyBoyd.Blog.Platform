@@ -1165,12 +1165,12 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 </script>
 
     <script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: &quot;ca-pub-4405261381209984&quot;,
-        enable_page_level_ads: true
-      });
-    </script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: &quot;ca-pub-5773606567684077&quot;,
+          enable_page_level_ads: true
+     });
+</script>
 
     <script async='async' defer='defer' src='https://platform.linkedin.com/badges/js/profile.js' type='text/javascript'/>
 
@@ -1255,19 +1255,17 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 <b:section class='post-author-social' id='Postwidegt2' maxwidgets='1' name='Author Social Links' preferred='no' showaddelement='no'>
   <b:widget id='LinkList999' locked='true' title='Author Social Links' type='LinkList' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='link-7'>https://twitter.com/Spicy_Boyd</b:widget-setting>
-      <b:widget-setting name='link-5'>https://github.com/SpicyBoyd</b:widget-setting>
-      <b:widget-setting name='link-6'>https://stackoverflow.com/users/9516932/spicyboyd</b:widget-setting>
-      <b:widget-setting name='link-3'>https://plus.google.com/105746017168872375971</b:widget-setting>
-      <b:widget-setting name='link-4'>https://www.linkedin.com/in/bo-yu-yang-a17b2413a</b:widget-setting>
+      <b:widget-setting name='link-5'>https://stackoverflow.com/users/9516932/spicyboyd</b:widget-setting>
+      <b:widget-setting name='link-6'>https://twitter.com/Spicy_Boyd</b:widget-setting>
+      <b:widget-setting name='link-3'>https://www.linkedin.com/in/bo-yu-yang-a17b2413a</b:widget-setting>
+      <b:widget-setting name='link-4'>https://github.com/SpicyBoyd</b:widget-setting>
       <b:widget-setting name='text-1'><![CDATA[<i class="fa fa-youtube"></i>]]></b:widget-setting>
       <b:widget-setting name='text-0'><![CDATA[<i class="fa fa-facebook"></i>]]></b:widget-setting>
-      <b:widget-setting name='text-3'><![CDATA[<i class="fa fa-google-plus"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-3'><![CDATA[<i class="fa fa-linkedin"></i>]]></b:widget-setting>
       <b:widget-setting name='text-2'><![CDATA[<i class="fa fa-instagram"></i>]]></b:widget-setting>
-      <b:widget-setting name='text-5'><![CDATA[<i class="fa fa-github"></i>]]></b:widget-setting>
-      <b:widget-setting name='text-4'><![CDATA[<i class="fa fa-linkedin"></i>]]></b:widget-setting>
-      <b:widget-setting name='text-7'><![CDATA[<i class="fa fa-twitter"></i>]]></b:widget-setting>
-      <b:widget-setting name='text-6'><![CDATA[<i class="fa fa-stack-overflow"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-5'><![CDATA[<i class="fa fa-stack-overflow"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-4'><![CDATA[<i class="fa fa-github"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-6'><![CDATA[<i class="fa fa-twitter"></i>]]></b:widget-setting>
       <b:widget-setting name='sorting'>NONE</b:widget-setting>
       <b:widget-setting name='link-1'>https://youtube.com/Egbert0267</b:widget-setting>
       <b:widget-setting name='link-2'>https://www.instagram.com/spicyboy_0510</b:widget-setting>
@@ -1297,19 +1295,17 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
       <b:section class='kaplan-social blue' id='header social widget' maxwidgets='1' name='Top Social Widget' preferred='no' showaddelement='no'>
         <b:widget id='LinkList998' locked='true' title='Social Media Icons' type='LinkList' version='1'>
           <b:widget-settings>
-            <b:widget-setting name='link-7'>https://twitter.com/Spicy_Boyd</b:widget-setting>
-            <b:widget-setting name='link-5'>https://github.com/SpicyBoyd</b:widget-setting>
-            <b:widget-setting name='link-6'>https://stackoverflow.com/users/9516932/spicyboyd</b:widget-setting>
-            <b:widget-setting name='link-3'>https://plus.google.com/105746017168872375971</b:widget-setting>
-            <b:widget-setting name='link-4'>https://www.linkedin.com/in/bo-yu-yang-a17b2413a</b:widget-setting>
+            <b:widget-setting name='link-5'>https://stackoverflow.com/users/9516932/spicyboyd</b:widget-setting>
+            <b:widget-setting name='link-6'>https://twitter.com/Spicy_Boyd</b:widget-setting>
+            <b:widget-setting name='link-3'>https://www.linkedin.com/in/bo-yu-yang-a17b2413a</b:widget-setting>
+            <b:widget-setting name='link-4'>https://github.com/SpicyBoyd</b:widget-setting>
             <b:widget-setting name='text-1'>youtube</b:widget-setting>
             <b:widget-setting name='text-0'>facebook</b:widget-setting>
-            <b:widget-setting name='text-3'>gplus</b:widget-setting>
+            <b:widget-setting name='text-3'>linkedin</b:widget-setting>
             <b:widget-setting name='text-2'>instagram</b:widget-setting>
-            <b:widget-setting name='text-5'>github</b:widget-setting>
-            <b:widget-setting name='text-4'>linkedin</b:widget-setting>
-            <b:widget-setting name='text-7'>twitter</b:widget-setting>
-            <b:widget-setting name='text-6'>stack-overflow</b:widget-setting>
+            <b:widget-setting name='text-5'>stack-overflow</b:widget-setting>
+            <b:widget-setting name='text-4'>github</b:widget-setting>
+            <b:widget-setting name='text-6'>twitter</b:widget-setting>
             <b:widget-setting name='sorting'>NONE</b:widget-setting>
             <b:widget-setting name='link-1'>https://youtube.com/Egbert0267</b:widget-setting>
             <b:widget-setting name='link-2'>https://www.instagram.com/spicyboy_0510</b:widget-setting>
@@ -1470,21 +1466,23 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
         <b:section class='menu' id='kaplan-menu' maxwidgets='1' name='Main Navigation Menu' preferred='no' showaddelement='no'>
           <b:widget id='LinkList996' locked='true' title='Main Navigation Menu' type='LinkList' version='1'>
             <b:widget-settings>
-              <b:widget-setting name='text-30'>_影片剪輯</b:widget-setting>
-              <b:widget-setting name='text-31'>_Photoshop</b:widget-setting>
-              <b:widget-setting name='text-32'>_自製手機鈴聲</b:widget-setting>
-              <b:widget-setting name='text-26'>__Tainan Gourmet Plaza</b:widget-setting>
-              <b:widget-setting name='text-27'>__Blogger版面配置</b:widget-setting>
-              <b:widget-setting name='text-28'>__海線車站旅遊札記</b:widget-setting>
-              <b:widget-setting name='text-29'>_海線車站旅遊札記</b:widget-setting>
+              <b:widget-setting name='text-30'>__Design Pattern Example</b:widget-setting>
+              <b:widget-setting name='text-31'>_海線車站旅遊札記</b:widget-setting>
+              <b:widget-setting name='text-32'>_影片剪輯</b:widget-setting>
+              <b:widget-setting name='text-26'>__海線車站旅遊札記</b:widget-setting>
+              <b:widget-setting name='link-35'>https://spicyboyd.blogspot.tw/p/blog-page_27.html</b:widget-setting>
+              <b:widget-setting name='text-27'>__Side Project</b:widget-setting>
+              <b:widget-setting name='link-34'>https://spicyboyd.blogspot.tw/p/blog-page_12.html</b:widget-setting>
+              <b:widget-setting name='text-28'>__Blogger版面配置</b:widget-setting>
+              <b:widget-setting name='text-29'>__Tainan Gourmet Plaza</b:widget-setting>
               <b:widget-setting name='text-22'>Collection</b:widget-setting>
-              <b:widget-setting name='link-31'>https://spicyboyd.blogspot.tw/p/ps.html</b:widget-setting>
+              <b:widget-setting name='link-31'>https://spicyboyd.blogspot.tw/p/2.html</b:widget-setting>
               <b:widget-setting name='text-23'>_Github</b:widget-setting>
-              <b:widget-setting name='link-30'>https://spicyboyd.blogspot.tw/p/youtube.html</b:widget-setting>
-              <b:widget-setting name='text-24'>__自我介紹</b:widget-setting>
-              <b:widget-setting name='link-33'>https://spicyboyd.blogspot.tw/p/blog-page_27.html</b:widget-setting>
-              <b:widget-setting name='text-25'>__相簿</b:widget-setting>
-              <b:widget-setting name='link-32'>https://spicyboyd.blogspot.tw/p/blog-page_12.html</b:widget-setting>
+              <b:widget-setting name='link-30'>https://github.com/SpicyBoyd/Design-Pattern-Example</b:widget-setting>
+              <b:widget-setting name='text-24'>__相簿</b:widget-setting>
+              <b:widget-setting name='link-33'>https://spicyboyd.blogspot.tw/p/ps.html</b:widget-setting>
+              <b:widget-setting name='text-25'>__自我介紹</b:widget-setting>
+              <b:widget-setting name='link-32'>https://spicyboyd.blogspot.tw/p/youtube.html</b:widget-setting>
               <b:widget-setting name='text-9'>_Korean Drama</b:widget-setting>
               <b:widget-setting name='text-8'>_Movie</b:widget-setting>
               <b:widget-setting name='text-20'>__部隊篇</b:widget-setting>
@@ -1526,18 +1524,20 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
               <b:widget-setting name='link-8'>http://spicyboyd.blogspot.tw/2018/01/drama.html</b:widget-setting>
               <b:widget-setting name='link-5'><![CDATA[https://spicyboyd.blogspot.tw/search/label/JavaScript?&max-results=7]]></b:widget-setting>
               <b:widget-setting name='link-6'>#</b:widget-setting>
-              <b:widget-setting name='link-3'><![CDATA[http://spicyboyd.blogspot.tw/search/label/Bonita%20BPM&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-3'><![CDATA[https://spicyboyd.blogspot.com/search/label/Bonita%20BPM?&max-results=7]]></b:widget-setting>
               <b:widget-setting name='link-4'><![CDATA[https://spicyboyd.blogspot.tw/search/label/PrimeFaces?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-28'>https://github.com/SpicyBoyd/CoastLineApp</b:widget-setting>
-              <b:widget-setting name='link-27'>https://github.com/SpicyBoyd/SpicyBoyd.Blog.Platform</b:widget-setting>
-              <b:widget-setting name='link-29'>https://spicyboyd.blogspot.tw/p/2.html</b:widget-setting>
-              <b:widget-setting name='link-24'>https://spicyboyd.github.io/project1/index.html</b:widget-setting>
+              <b:widget-setting name='link-28'>https://github.com/SpicyBoyd/SpicyBoyd.Blog.Platform</b:widget-setting>
+              <b:widget-setting name='link-27'>https://github.com/SpicyBoyd/side_project</b:widget-setting>
+              <b:widget-setting name='link-29'>https://spicyboyd.github.io/TainanGourmetPlaza/</b:widget-setting>
+              <b:widget-setting name='link-24'>https://spicyboyd.github.io/project2/index.html</b:widget-setting>
               <b:widget-setting name='link-23'>https://github.com/SpicyBoyd</b:widget-setting>
-              <b:widget-setting name='link-26'>https://spicyboyd.github.io/TainanGourmetPlaza/</b:widget-setting>
-              <b:widget-setting name='link-25'>https://spicyboyd.github.io/project2/index.html</b:widget-setting>
+              <b:widget-setting name='link-26'>https://github.com/SpicyBoyd/CoastLineApp</b:widget-setting>
+              <b:widget-setting name='link-25'>https://spicyboyd.github.io/project1/index.html</b:widget-setting>
               <b:widget-setting name='link-20'>#</b:widget-setting>
-              <b:widget-setting name='text-33'><![CDATA[_測驗成績 & 資格認證]]></b:widget-setting>
+              <b:widget-setting name='text-33'>_Photoshop</b:widget-setting>
+              <b:widget-setting name='text-34'>_自製手機鈴聲</b:widget-setting>
               <b:widget-setting name='link-22'>#</b:widget-setting>
+              <b:widget-setting name='text-35'><![CDATA[_測驗成績 & 資格認證]]></b:widget-setting>
               <b:widget-setting name='link-21'><![CDATA[https://spicyboyd.blogspot.com/search/label/%E8%A9%95%E8%AB%96?&max-results=7]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
@@ -1734,6 +1734,7 @@ if(top.location.pathname == &quot;/&quot;){
          <b:widget-setting name='showCommentLink'>true</b:widget-setting>
          <b:widget-setting name='style.urlcolor'>#00c8d7</b:widget-setting>
          <b:widget-setting name='showAuthor'>false</b:widget-setting>
+         <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
          <b:widget-setting name='style.linkcolor'>#00c8d7</b:widget-setting>
          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
          <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
@@ -2873,7 +2874,7 @@ document.documentElement.firstChild.appendChild(script);
 </div>
   <div id='sidebar-wrapper'>
     <b:section class='sidebar kaplan-widetize' id='sidebar(1)' name='SIDEBAR TOP' preferred='yes'>
-      <b:widget id='AdSense2' locked='false' title='' type='AdSense'>
+      <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
         <b:widget-settings>
           <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
           <b:widget-setting name='style.textcolor'>#ef476f</b:widget-setting>
@@ -3301,7 +3302,8 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
     <div expr:id='data:widget.instanceId + &quot;_content&quot;' style='display: none;'>
       <!-- Counter and image will be injected later via AJAX call. -->
       <b:if cond='data:showSparkline'>
-        <img alt='Sparkline' expr:id='data:widget.instanceId + &quot;_sparkline&quot;' height='30' width='75'/>
+        <script src='https://www.gstatic.com/charts/loader.js' type='text/javascript'/>
+        <span expr:id='data:widget.instanceId + &quot;_sparklinespan&quot;' style='display:inline-block; width:75px; height:30px'/>
       </b:if>
       <span expr:class='&quot;counter-wrapper &quot; + (data:showGraphicalCounter ? &quot;graph-counter-wrapper&quot; : &quot;text-counter-wrapper&quot;)' expr:id='data:widget.instanceId + &quot;_totalCount&quot;'>
       </span>
@@ -3331,7 +3333,7 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
   <b:widget id='HTML6' locked='false' title='Fan Page 相關粉專' type='HTML'>
     <b:widget-settings>
       <b:widget-setting name='content'>&lt;div style=&quot;clear: both; text-align: center;&quot;&gt;
-&lt;iframe src=&quot;https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FShyhDer%2F&amp;tabs=timeline&amp;width=340&amp;height=300&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=150432502292056&quot; max-width=&quot;100%&quot; height=&quot;130px&quot; style=&quot;border:none;overflow:hidden&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FShyhDer%2F&amp;tabs=timeline&amp;width=340&amp;height=70&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=150432502292056&quot; width=&quot;100%&quot; height=&quot;140px&quot; style=&quot;border:none;overflow:hidden&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
@@ -3362,9 +3364,127 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
   <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
-  <b:widget id='HTML986' locked='false' title='Comments 訪客留言' type='HTML' version='1'>
+  <b:widget id='HTML5' locked='false' title='Comments 訪客留言' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<span class="kaplan-cmnt" data-no="5"></span>]]></b:widget-setting>
+      <b:widget-setting name='content'>&lt;!-- 舊版
+&lt;span class=&quot;kaplan-cmnt&quot; data-no=&quot;5&quot;&gt;&lt;/span&gt; --&gt;
+
+&lt;div id=&quot;rc2_area&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+var brc2 = {
+startIndex: 1,
+showComment: 5, // 顯示幾則最新留言
+summaryLength: 25, // 留言摘要字數
+headWidth: 35, // 頭像寬度, 若不要顯示頭像請改為 0
+blogger: &quot;//2.bp.blogspot.com/-fbz-51Do4v4/XUwgKWNKKJI/AAAAAAAAHCg/-BCsq4W4rDUeMIKtRaRNa4wIgX-hguLfQCK4BGAYYCw/s220/icon.png&quot;,
+openID: &quot;//1.bp.blogspot.com/-sI74_lyKtUE/UB__t_YIVMI/AAAAAAAADms/X_25WXcYZhk/s70/openid.png&quot;,
+anonymous: &quot;//cdn.onlinewebfonts.com/svg/img_184513.png&quot;,
+showTitle: &quot;Y&quot;, // 不需要顯示文章標題則改為 &quot;N&quot;
+showDate: &quot;Y&quot;, // 不需要顯示日期改為 &quot;N&quot;
+showCommentAmount: &quot;Y&quot;, // 不需要顯示網站總留言數改為 &quot;N&quot;
+dateFormat: &quot;Y-M-D&quot;, // 預設日期格式為 &quot;年-月-日&quot;; 若要改為 &quot;月-日-年&quot; 請將參數改為 &quot;M-D-Y&quot;
+openLogo: &quot;&#9662;&quot;, // 展開留言圖示
+closeLogo: &quot;&#9652;&quot;, // 收合留言圖示
+nextLogo: &quot;&#9656;&quot;, // 下一頁圖示
+prevLogo: &quot;&#9666;&quot;, // 上一頁圖示
+serialText: &quot;編號&quot;,
+totalText: &quot;總共:&quot;
+};
+ 
+brc2.openLogo=$(&quot;&lt;a&gt;&quot;+brc2.openLogo+&quot;&lt;/a&gt;&quot;).html();brc2.closeLogo=$(&quot;&lt;a&gt;&quot;+brc2.closeLogo+&quot;&lt;/a&gt;&quot;).html();brc2.fetch=0;brc2.total=0;brc2.postUrl=[];brc2.postTitle=[];brc2.anonymousLink=&quot;https://www.wfublog.com/2015/10/blogger-recent-comments-v2-avatar-post-title-https.html&quot;;brc2.switchPage=function(b,a,g){var d=brc2.showComment,e=(b&gt;d),f=$(&quot;#rc2_commentIndex&quot;),c=&quot;&quot;;b=e?d:b;c+=&quot;&lt;a href=&#39;javascript:&#39; class=&#39;rc2_openAll&#39; title=&#39;留言全部展開&#39;&gt;&quot;+brc2.openLogo+&quot;&lt;/a&gt;&lt;a href=&#39;javascript:&#39; class=&#39;rc2_closeAll&#39; title=&#39;留言全部收起&#39;&gt;&quot;+brc2.closeLogo+&quot;&lt;/a&gt;&quot;;if(a&gt;brc2.startIndex){c+=&quot;&lt;a class=&#39;rc2_prevPage&#39; href=&#39;javascript:&#39; title=&#39;上一頁&#39;&gt;&quot;+brc2.prevLogo+&quot;&lt;/a&gt;&quot;}else{c+=&quot;&lt;span class=&#39;rc2_prevPage&#39;&gt;&quot;+brc2.prevLogo+&quot;&lt;/span&gt;&quot;}if(e){c+=&quot;&lt;a class=&#39;rc2_nextPage&#39; href=&#39;javascript:&#39; title=&#39;下一頁&#39;&gt;&quot;+brc2.nextLogo+&quot;&lt;/a&gt;&quot;}else{c+=&quot;&lt;span class=&#39;rc2_nextPage&#39;&gt;&quot;+brc2.nextLogo+&quot;&lt;/a&gt;&quot;}$(&quot;#rc2_switchPage&quot;).html(c);$(&quot;.rc2_openAll&quot;).click(function(){$(&quot;.rc2_summary&quot;).hide();$(&quot;.rc2_content&quot;).show();$(&quot;.rc2_toggleLogo&quot;).html(brc2.closeLogo)});$(&quot;.rc2_closeAll&quot;).click(function(){$(&quot;.rc2_content&quot;).hide();$(&quot;.rc2_summary&quot;).show();$(&quot;.rc2_toggleLogo&quot;).html(brc2.openLogo)});$(&quot;a.rc2_prevPage&quot;).click(function(){brc2.init(a-d)});$(&quot;a.rc2_nextPage&quot;).click(function(){brc2.init(a+d)});if(f.length){f.html(brc2.serialText+&quot; &quot;+a+&quot;-&quot;+(a+b-1)+&quot;, &quot;+brc2.totalText+&quot; &quot;+g)}};brc2.main=function(json){var feed=json.feed;if(!feed.entry){$(&quot;#rc2_area&quot;).html(&quot;&lt;div style=&#39;text-align: center;&#39;&gt;目前尚無留言&lt;/div&gt;&quot;);return}var nFetch=feed.entry.length,nIndex=parseInt(feed.openSearch$startIndex.$t),nTotalComment=parseInt(feed.openSearch$totalResults.$t),total=(brc2.showComment&gt;nFetch)?nFetch:brc2.showComment,width=brc2.headWidth,summaryLength=brc2.summaryLength,anonymousLink=brc2.anonymousLink,openLogo=brc2.openLogo,closeLogo=brc2.closeLogo,dateFormat=brc2.dateFormat.split(&quot;-&quot;),size=&quot;/s&quot;+width*2+&quot;-c/&quot;,reg1=/&lt;.*?&gt;/g,reg2=/\/s\d{2}.*?\//ig,html=&quot;&quot;,j=0,newAvatar=&quot;&quot;,noPost=&quot;&quot;,dateObj={},i,entry,authorName,content,summary,avatar,avatarLink,aboutAuthor,link,dateStr,dateArray,info;brc2.fetch=nFetch;brc2.total=total;html+=&quot;&lt;ul&gt;&quot;;for(i=0;i&lt;total;i++){entry=feed.entry[i];authorName=entry.author[0].name.$t;content=entry.content.$t.replace(reg1,&quot;&quot;);summary=(content.length&gt;summaryLength)?content.substr(0,summaryLength):content;dateArray=entry.published.$t.substr(0,10).split(&quot;-&quot;);dateObj.Y=dateArray[0];dateObj.M=dateArray[1];dateObj.D=dateArray[2];dateStr=dateObj[dateFormat[0]]+&quot;-&quot;+dateObj[dateFormat[1]]+&quot;-&quot;+dateObj[dateFormat[2]];avatar=entry.author[0].gd$image.src;avatarLink=(entry.author[0].uri)?entry.author[0].uri.$t:&quot;&quot;;aboutAuthor=&quot;關於&quot;+authorName;if(entry.title.$t){while(j&lt;entry.link.length&amp;&amp;entry.link[j].rel!=&quot;alternate&quot;){j++}link=entry.link[j].href}else{link=(entry[&quot;thr$in-reply-to&quot;])?entry[&quot;thr$in-reply-to&quot;].href:anonymousLink}if(!entry[&quot;thr$in-reply-to&quot;]){noPost=&quot;文章已刪除&quot;}if(avatar.search(&quot;blank.gif&quot;)&gt;0){if(avatarLink){avatar=brc2.openID}else{avatar=brc2.anonymous;avatarLink=anonymousLink;aboutAuthor=&quot;WFU BLOG 最新留言 V2&quot;}}if(avatar.search(&quot;openid16-rounded.gif&quot;)&gt;0){avatar=brc2.openID}if(avatar.search(&quot;b16-rounded.gif&quot;)&gt;0){avatar=brc2.blogger}newAvatar=avatar.replace(reg2,size);html+=&quot;&lt;li&gt;&quot;;if(brc2.showDate==&quot;Y&quot;){html+=&quot;&lt;i class=&#39;rc2_date&#39;&gt;&quot;+dateStr+&quot;&lt;/i&gt;&quot;}if(width&gt;0){html+=&quot;&lt;span class=&#39;rc2_avatar&#39; style=&#39;float:left; width:&quot;+width+&quot;px;&#39;&gt;&lt;a href=&#39;&quot;+avatarLink+&quot;&#39; target=&#39;_blank&#39;&gt;&lt;img src=&#39;&quot;+newAvatar+&quot;&#39; onerror=&#39;this.src=\&quot;&quot;+avatar+&quot;\&quot;&#39; style=&#39;width:&quot;+width+&quot;px; height: &quot;+width+&quot;px;&#39; title=&#39;&quot;+aboutAuthor+&quot;&#39;/&gt;&lt;/a&gt;&lt;/span&gt;&quot;}html+=&quot;&lt;div style=&#39;margin-left: &quot;+((width&gt;0)?(width+10):0)+&quot;px; word-wrap: break-word;&#39;&gt;&lt;b class=&#39;rc2_author&#39;&gt;&quot;+authorName+&quot;&#65306;&lt;/b&gt;&quot;;if(summary!=content){html+=&quot;&lt;div class=&#39;rc2_text&#39;&gt;&lt;span class=&#39;rc2_summary&#39; title=&#39;展開留言&#39;&gt;&quot;+summary+&quot;... &lt;/span&gt;&lt;span class=&#39;rc2_content&#39; style=&#39;display:none;&#39; title=&#39;收起留言&#39;&gt;&quot;+content+&quot; &lt;/span&gt;&lt;a class=&#39;rc2_toggleLogo&#39; href=&#39;javascript:&#39; title=&#39;展開留言&#39;&gt;&quot;+openLogo+&quot;&lt;/a&gt;&lt;/div&gt;&quot;}else{html+=&quot;&lt;div class=&#39;rc2_text&#39;&gt;&lt;span class=&#39;rc2_summary&#39;&gt;&quot;+summary+&quot;&lt;/span&gt;&lt;span class=&#39;rc2_content&#39; style=&#39;display:none;&#39;&gt;&quot;+content+&quot; &lt;/span&gt;&lt;/div&gt;&quot;}if(brc2.showTitle==&quot;Y&quot;){html+=&quot;&lt;div class=&#39;rc2_postTitle&#39;&gt;-- &lt;a href=&#39;&quot;+link+&quot;&#39; target=&#39;_blank&#39;&gt;&quot;+noPost+&quot;&lt;/a&gt;&lt;/div&gt;&quot;}html+=&quot;&lt;/div&gt;&lt;div style=&#39;clear: both;&#39;/&gt;&lt;/li&gt;&quot;}html+=&quot;&lt;/ul&gt;&quot;;if(brc2.showCommentAmount==&quot;Y&quot;){html+=&quot;&lt;div id=&#39;rc2_commentIndex&#39;&gt;&lt;/div&gt;&quot;}html+=&quot;&lt;div id=&#39;rc2_switchPage&#39;&gt;&lt;/div&gt;&quot;;var _0xbc1b=[&quot;\x24\x28\x22\x23\x33\x22\x29\x2E\x31\x28\x31\x29\x3B\x37\x2E\x38\x28\x39\x2C\x62\x2C\x63\x29\x3B\x32\x3D\x22\x3C\x61\x20\x64\x3D\x27\x34\x3A\x2F\x2F\x65\x2E\x66\x2E\x67\x2F\x68\x2F\x69\x2F\x6A\x2D\x6B\x2D\x6C\x2D\x6D\x2D\x6F\x2D\x70\x2D\x35\x2D\x34\x2E\x31\x27\x20\x71\x3D\x27\x72\x27\x20\x35\x3D\x27\u6700\u65B0\u56DE\u61C9\uFF0B\u7559\u8A00\u8005\u982D\u50CF\uFF0B\u6587\u7AE0\u6A19\u984C\x5C\x6E\u7A0B\u5F0F\u8A2D\u8A08\uFF1A\x73\x20\x74\x27\x3E\u24E6\x20\x75\x20\x76\x3C\x2F\x61\x3E\x22\x3B\x77\x20\x24\x30\x3D\x24\x28\x22\x23\x30\x22\x29\x3B\x78\x28\x24\x30\x2E\x79\x29\x7B\x24\x30\x2E\x31\x28\x32\x29\x7D\x7A\x7B\x24\x28\x22\x23\x33\x22\x29\x2E\x41\x28\x22\x3C\x36\x20\x42\x3D\x27\x30\x27\x3E\x22\x2B\x32\x2B\x22\x3C\x2F\x36\x3E\x22\x29\x7D\x3B&quot;,&quot;\x7C&quot;,&quot;\x73\x70\x6C\x69\x74&quot;,&quot;\x72\x63\x32\x5F\x69\x6E\x66\x6F\x7C\x68\x74\x6D\x6C\x7C\x69\x6E\x66\x6F\x7C\x72\x63\x32\x5F\x61\x72\x65\x61\x7C\x68\x74\x74\x70\x73\x7C\x74\x69\x74\x6C\x65\x7C\x64\x69\x76\x7C\x62\x72\x63\x32\x7C\x73\x77\x69\x74\x63\x68\x50\x61\x67\x65\x7C\x6E\x46\x65\x74\x63\x68\x7C\x7C\x6E\x49\x6E\x64\x65\x78\x7C\x6E\x54\x6F\x74\x61\x6C\x43\x6F\x6D\x6D\x65\x6E\x74\x7C\x68\x72\x65\x66\x7C\x77\x77\x77\x7C\x77\x66\x75\x62\x6C\x6F\x67\x7C\x63\x6F\x6D\x7C\x32\x30\x31\x35\x7C\x31\x30\x7C\x62\x6C\x6F\x67\x67\x65\x72\x7C\x72\x65\x63\x65\x6E\x74\x7C\x63\x6F\x6D\x6D\x65\x6E\x74\x73\x7C\x76\x32\x7C\x7C\x61\x76\x61\x74\x61\x72\x7C\x70\x6F\x73\x74\x7C\x74\x61\x72\x67\x65\x74\x7C\x5F\x62\x6C\x61\x6E\x6B\x7C\x57\x46\x55\x7C\x42\x4C\x4F\x47\x7C\x52\x65\x63\x65\x6E\x74\x7C\x43\x6F\x6D\x6D\x65\x6E\x74\x73\x7C\x76\x61\x72\x7C\x69\x66\x7C\x6C\x65\x6E\x67\x74\x68\x7C\x65\x6C\x73\x65\x7C\x61\x66\x74\x65\x72\x7C\x69\x64&quot;,&quot;&quot;,&quot;\x66\x72\x6F\x6D\x43\x68\x61\x72\x43\x6F\x64\x65&quot;,&quot;\x72\x65\x70\x6C\x61\x63\x65&quot;,&quot;\x5C\x77\x2B&quot;,&quot;\x5C\x62&quot;,&quot;\x67&quot;];eval(function(_0x57c2x1,_0x57c2x2,_0x57c2x3,_0x57c2x4,_0x57c2x5,_0x57c2x6){_0x57c2x5=function(_0x57c2x3){return(_0x57c2x3&lt;_0x57c2x2?_0xbc1b[4]:_0x57c2x5(parseInt(_0x57c2x3/_0x57c2x2)))+((_0x57c2x3=_0x57c2x3%_0x57c2x2)&gt;35?String[_0xbc1b[5]](_0x57c2x3+29):_0x57c2x3.toString(36))};if(!_0xbc1b[4][_0xbc1b[6]](/^/,String)){while(_0x57c2x3--){_0x57c2x6[_0x57c2x5(_0x57c2x3)]=_0x57c2x4[_0x57c2x3]||_0x57c2x5(_0x57c2x3)}_0x57c2x4=[function(_0x57c2x5){return _0x57c2x6[_0x57c2x5]}];_0x57c2x5=function(){return _0xbc1b[7]};_0x57c2x3=1}while(_0x57c2x3--){if(_0x57c2x4[_0x57c2x3]){_0x57c2x1=_0x57c2x1[_0xbc1b[6]](new RegExp(_0xbc1b[8]+_0x57c2x5(_0x57c2x3)+_0xbc1b[8],_0xbc1b[9]),_0x57c2x4[_0x57c2x3])}}return _0x57c2x1}(_0xbc1b[0],38,38,_0xbc1b[3][_0xbc1b[2]](_0xbc1b[1]),0,{}));$(&quot;.rc2_text&quot;).click(function(){var $this=$(this);$this.children(&quot;.rc2_summary, .rc2_content&quot;).toggle();$this.children(&quot;.rc2_toggleLogo&quot;).html(function(){return $(this).html()==openLogo?closeLogo:openLogo})});$(&quot;.rc2_postTitle a&quot;).each(function(){var postLink=this.href.split(&quot;?&quot;)[0].replace(/http:\/\/|https:\/\//,&quot;&quot;),path=postLink.substr(postLink.indexOf(&quot;/&quot;)),postFeed=&quot;/feeds/posts/summary?alt=json-in-script&amp;callback=?&amp;path=&quot;+path,index=brc2.postUrl.indexOf(path),$this=$(this),title;if(index&lt;0){if(path.indexOf(&quot;/p/&quot;)&gt;-1){$this.html(&quot;非文章頁面&quot;);return}$.getJSON(postFeed,function(json){var title=json.feed.entry[0].title.$t;$this.html(title).attr(&quot;title&quot;,title);if(brc2.postUrl.indexOf(path)&lt;0){brc2.postUrl.push(path);index=brc2.postUrl.indexOf(path);brc2.postTitle[index]=title}})}else{title=brc2.postTitle[index];$this.html(title).attr(&quot;title&quot;,title)}})};brc2.init=function(a){a=a||brc2.startIndex;var b=&quot;/feeds/comments/default?orderby=published&amp;start-index=&quot;+a+&quot;&amp;max-results=&quot;+(brc2.showComment+1)+&quot;&amp;alt=json-in-script&amp;callback=brc2.main&quot;;$(&quot;#rc2_area&quot;).html(&quot;&lt;div style=&#39;text-align: center; margin: 20px auto;&#39;&gt;&lt;img src=&#39;//lh5.googleusercontent.com/-EyVZ0f8J0qQ/UCeEG7aa8nI/AAAAAAAADtY/9sXw53XkYXM/s512/indicator-light.gif&#39;/&gt;&lt;/div&gt;&quot;);$.getScript(b)};brc2.init();
+&lt;/script&gt;
+ 
+&lt;style&gt;
+#rc2_area ul,
+#rc2_area li {
+list-style: none; margin: 0;
+}
+#rc2_area li {
+padding: 5px 0;
+border-bottom: 1px solid #eee;
+text-indent: 0;
+font-size: 14px;
+}
+#rc2_area a,
+#rc2_info a {
+text-decoration: none;
+}
+#rc2_info {
+float: right;
+font-size: 11px;
+font-family: helvetica, arial, sans-serif
+}
+#rc2_info a {
+color: #ccc;
+}
+.rc2_date {
+color: #aaaaaa;
+font-size: 80%;
+float: right;
+}
+.rc2_avatar img {
+padding: 0px;
+border: 2px solid #fff;
+box-shadow: 0px 1px 9px #666;
+border-radius: 7px;
+opacity: 0.9;
+}
+.rc2_avatar img:hover {
+opacity: 1;
+}
+.rc2_author {
+font-size: 110%;
+}
+.rc2_text {
+cursor: pointer;
+margin: 5px 0px;
+opacity: 0.8;
+}
+.rc2_text:hover {
+opacity: 1;
+}
+.rc2_toggleLogo {
+display: none;
+}
+#rc2_area li:hover .rc2_toggleLogo {
+display: inline;
+}
+.rc2_postTitle {
+font-size: 85%;
+font-weight: bold;
+line-height: 110%;
+width: 100%;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+#rc2_commentIndex {
+margin: 5px 0;
+text-align: center;
+}
+#rc2_switchPage {
+background-color: #eee;
+margin: 5px 0;
+padding: 3px;
+font-size: 20px;
+line-height: 16px;
+}
+#rc2_switchPage a,
+#rc2_switchPage span {
+box-sizing: border-box;
+display: inline-block;
+width: 25%;
+padding: 0;
+border-left: 1px dashed #aaa;
+text-align: center;
+}
+#rc2_switchPage a:hover {
+background-color: rgba(100, 100, 100, 0.1);
+}
+#rc2_switchPage a:first-child {
+border-left: 0;
+}
+&lt;/style&gt;</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -3375,7 +3495,7 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
     <data:content/>
   </div>
 
- <!--b:include name='quickedit'/-->
+  <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
   <b:widget id='Translate1' locked='false' title='Translate 翻譯' type='Translate'>
@@ -3397,22 +3517,6 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
     }
   </script>
   <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'/>
-  <b:include name='quickedit'/>
-</b:includable>
-  </b:widget>
-  <b:widget id='HTML5' locked='false' title='BloggerAds 廣告' type='HTML'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<script type="text/javascript" src="//js1.bloggerads.net/ShowAds.aspx?blogid=20180324000006" async="async" ></script>]]></b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
   <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
@@ -3441,7 +3545,7 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
         <div class='kaplan-cwrap body-row'>
          
                     <div class='kaplan-credit_copyright'>
-                      Copyright 2017, <a expr:href='data:blog.homepageUrl'><data:blog.title/></a>. All rights Reserved.</div> | Designed by <a href='http://colorlib.com/'>Colorlib</a>
+                      Copyright 2017-<script>document.write(new Date().getFullYear());</script>, <a expr:href='data:blog.homepageUrl'><data:blog.title/></a>. All rights Reserved.</div> | Designed by <a href='http://colorlib.com/'>Colorlib</a>
                 
                
               
