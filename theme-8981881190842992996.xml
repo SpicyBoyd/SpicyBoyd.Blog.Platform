@@ -446,7 +446,7 @@ article.hentry .kaplan-article-image {width: 45%;float: left;}
 
 /* Item Page */
 .post-body{margin:0;padding:10px;font-size:14px;line-height:26px;box-sizing:border-box}
-.post-body img{max-width:100%;padding:10px 0;position:relative;margin:0 auto}
+.post-body img{max-width:100%;padding:0;position:relative;margin:0}
 .comment-link{white-space:normal}
 .postmarg{padding: 10px 0px !important;}
 .postmarg h3{font-size:36px;line-height:38px;padding: 10px 0px;font-weight: 600}
@@ -921,7 +921,8 @@ padding: 20px 0px;
 }
 
 .post-body img {
- border-radius: 30px; 
+ border-radius: 16px;
+ border: 1px solid #ccc;
 }
 
 .post-body {
@@ -1155,6 +1156,7 @@ body#layout #content-wrapper{padding-left: 150px}
 </b:if>
 <b:include data='blog' name='google-analytics'/>
 <script async='async' src='https://code.jquery.com/jquery-1.11.3.min.js' type='text/javascript'/>
+<script async='async' src='https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert' type='text/javascript'/>
 <script async='async' type='text/javascript'>
 //<![CDATA[
 //CSS Ready
@@ -1173,6 +1175,7 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 </script>
 
     <script async='async' defer='defer' src='https://platform.linkedin.com/badges/js/profile.js' type='text/javascript'/>
+    <script async='async' src='https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert' type='text/javascript'/>
 
 </head>
 <body expr:class='data:blog.pageType'>
@@ -1255,21 +1258,15 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 <b:section class='post-author-social' id='Postwidegt2' maxwidgets='1' name='Author Social Links' preferred='no' showaddelement='no'>
   <b:widget id='LinkList999' locked='true' title='Author Social Links' type='LinkList' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='link-5'>https://stackoverflow.com/users/9516932/spicyboyd</b:widget-setting>
-      <b:widget-setting name='link-6'>https://twitter.com/Spicy_Boyd</b:widget-setting>
-      <b:widget-setting name='link-3'>https://www.linkedin.com/in/bo-yu-yang-a17b2413a</b:widget-setting>
-      <b:widget-setting name='link-4'>https://github.com/SpicyBoyd</b:widget-setting>
-      <b:widget-setting name='text-1'><![CDATA[<i class="fa fa-youtube"></i>]]></b:widget-setting>
-      <b:widget-setting name='text-0'><![CDATA[<i class="fa fa-facebook"></i>]]></b:widget-setting>
-      <b:widget-setting name='text-3'><![CDATA[<i class="fa fa-linkedin"></i>]]></b:widget-setting>
-      <b:widget-setting name='text-2'><![CDATA[<i class="fa fa-instagram"></i>]]></b:widget-setting>
-      <b:widget-setting name='text-5'><![CDATA[<i class="fa fa-stack-overflow"></i>]]></b:widget-setting>
-      <b:widget-setting name='text-4'><![CDATA[<i class="fa fa-github"></i>]]></b:widget-setting>
-      <b:widget-setting name='text-6'><![CDATA[<i class="fa fa-twitter"></i>]]></b:widget-setting>
+      <b:widget-setting name='link-3'>https://github.com/SpicyBoyd</b:widget-setting>
       <b:widget-setting name='sorting'>NONE</b:widget-setting>
-      <b:widget-setting name='link-1'>https://youtube.com/Egbert0267</b:widget-setting>
-      <b:widget-setting name='link-2'>https://www.instagram.com/spicyboy_0510</b:widget-setting>
+      <b:widget-setting name='text-1'><![CDATA[<i class="fa fa-instagram"></i>]]></b:widget-setting>
+      <b:widget-setting name='link-1'>https://www.instagram.com/spicyboy_0510</b:widget-setting>
+      <b:widget-setting name='text-0'><![CDATA[<i class="fa fa-facebook"></i>]]></b:widget-setting>
+      <b:widget-setting name='link-2'>https://www.linkedin.com/in/bo-yu-yang-a17b2413a</b:widget-setting>
+      <b:widget-setting name='text-3'><![CDATA[<i class="fa fa-github"></i>]]></b:widget-setting>
       <b:widget-setting name='link-0'>https://www.facebook.com/SpicyBoydBlogger/</b:widget-setting>
+      <b:widget-setting name='text-2'><![CDATA[<i class="fa fa-linkedin"></i>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
 
@@ -1295,21 +1292,15 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
       <b:section class='kaplan-social blue' id='header social widget' maxwidgets='1' name='Top Social Widget' preferred='no' showaddelement='no'>
         <b:widget id='LinkList998' locked='true' title='Social Media Icons' type='LinkList' version='1'>
           <b:widget-settings>
-            <b:widget-setting name='link-5'>https://stackoverflow.com/users/9516932/spicyboyd</b:widget-setting>
-            <b:widget-setting name='link-6'>https://twitter.com/Spicy_Boyd</b:widget-setting>
-            <b:widget-setting name='link-3'>https://www.linkedin.com/in/bo-yu-yang-a17b2413a</b:widget-setting>
-            <b:widget-setting name='link-4'>https://github.com/SpicyBoyd</b:widget-setting>
-            <b:widget-setting name='text-1'>youtube</b:widget-setting>
-            <b:widget-setting name='text-0'>facebook</b:widget-setting>
-            <b:widget-setting name='text-3'>linkedin</b:widget-setting>
-            <b:widget-setting name='text-2'>instagram</b:widget-setting>
-            <b:widget-setting name='text-5'>stack-overflow</b:widget-setting>
-            <b:widget-setting name='text-4'>github</b:widget-setting>
-            <b:widget-setting name='text-6'>twitter</b:widget-setting>
+            <b:widget-setting name='link-3'>https://github.com/SpicyBoyd</b:widget-setting>
             <b:widget-setting name='sorting'>NONE</b:widget-setting>
-            <b:widget-setting name='link-1'>https://youtube.com/Egbert0267</b:widget-setting>
-            <b:widget-setting name='link-2'>https://www.instagram.com/spicyboy_0510</b:widget-setting>
+            <b:widget-setting name='text-1'>instagram</b:widget-setting>
+            <b:widget-setting name='link-1'>https://www.instagram.com/spicyboy_0510</b:widget-setting>
+            <b:widget-setting name='text-0'>facebook</b:widget-setting>
+            <b:widget-setting name='link-2'>https://www.linkedin.com/in/bo-yu-yang-a17b2413a</b:widget-setting>
+            <b:widget-setting name='text-3'>github</b:widget-setting>
             <b:widget-setting name='link-0'>https://www.facebook.com/SpicyBoydBlogger/</b:widget-setting>
+            <b:widget-setting name='text-2'>linkedin</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
             <div class='widget-content'>
@@ -2875,15 +2866,6 @@ document.documentElement.firstChild.appendChild(script);
   <div id='sidebar-wrapper'>
     <b:section class='sidebar kaplan-widetize' id='sidebar(1)' name='SIDEBAR TOP' preferred='yes'>
       <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
-        <b:widget-settings>
-          <b:widget-setting name='style.bgcolor'>#000000</b:widget-setting>
-          <b:widget-setting name='style.textcolor'>#ef476f</b:widget-setting>
-          <b:widget-setting name='style.layout'>1x1</b:widget-setting>
-          <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
-          <b:widget-setting name='style.urlcolor'>#ef476f</b:widget-setting>
-          <b:widget-setting name='style.linkcolor'>#ef476f</b:widget-setting>
-          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-        </b:widget-settings>
         <b:includable id='main'>
   <div class='widget-content'>
     <data:adCode/>
@@ -3317,40 +3299,6 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
       <b:widget-setting name='content'>&lt;div style=&quot;clear: both; text-align: center;&quot;&gt;
 &lt;iframe allowtransparency=&#39;true&#39; scrolling=&#39;no&#39; src=&#39;//www.facebook.com/v2.5/plugins/page.php?href=https://www.facebook.com/SpicyBoydBlogger&amp;amp;width=300&amp;amp;show_facepile=true&amp;amp;small_header=false&amp;amp;hide_cover=false&amp;amp;show_posts=true&amp;amp;locale=zh_TW&#39; style=&#39;border:none; overflow:hidden;max-width: 100%; height: 300;&#39;&gt;&lt;/iframe&gt;
 &lt;/div&gt;</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
-</b:includable>
-  </b:widget>
-  <b:widget id='HTML6' locked='false' title='Fan Page 相關粉專' type='HTML'>
-    <b:widget-settings>
-      <b:widget-setting name='content'>&lt;div style=&quot;clear: both; text-align: center;&quot;&gt;
-&lt;iframe src=&quot;https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FShyhDer%2F&amp;tabs=timeline&amp;width=340&amp;height=70&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=150432502292056&quot; width=&quot;100%&quot; height=&quot;140px&quot; style=&quot;border:none;overflow:hidden&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
-</b:includable>
-  </b:widget>
-  <b:widget id='HTML2' locked='false' title='LinkedIn 關於我' type='HTML'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<div id="linkedInDiv" class="LI-profile-badge" style="clear: both; text-align: center;" data-version="v1" data-size="medium" data-locale="zh_TW" data-type="horizontal" data-theme="dark" data-vanity="bo-yu-yang-a17b2413a"><a class="LI-simple-link" href='https://tw.linkedin.com/in/bo-yu-yang-a17b2413a?trk=profile-badge'>Bo-Yu Yang</a></div>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
