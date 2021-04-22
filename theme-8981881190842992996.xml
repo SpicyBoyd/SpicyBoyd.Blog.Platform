@@ -1155,7 +1155,6 @@ body#layout #content-wrapper{padding-left: 150px}
   <style>.hidehome{display:none}</style>
 </b:if>
 <b:include data='blog' name='google-analytics'/>
-<script async='async' src='https://code.jquery.com/jquery-1.11.3.min.js' type='text/javascript'/>
 <script async='async' src='https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert' type='text/javascript'/>
 <script async='async' type='text/javascript'>
 //<![CDATA[
@@ -1164,14 +1163,6 @@ function loadCSS(e,t,n){"use strict";var i=window.document.createElement("link")
 loadCSS("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,600,700");loadCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 //]]>
-</script>
-
-    <script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: &quot;ca-pub-5773606567684077&quot;,
-          enable_page_level_ads: true
-     });
 </script>
 
     <script async='async' defer='defer' src='https://platform.linkedin.com/badges/js/profile.js' type='text/javascript'/>
@@ -1662,7 +1653,7 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 }
 &lt;/style&gt;
  
-&lt;script src=&#39;http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&#39;&gt;&lt;/script&gt;
+&lt;script src=&#39;http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js&#39;&gt;&lt;/script&gt;
 &lt;script&gt;
 function showBulletin(){
   $(&quot;#bulletin&quot;).html(&quot;&lt;img style=&#39;display:block; margin:auto;&#39; src=&#39;https://lh5.googleusercontent.com/-EyVZ0f8J0qQ/UCeEG7aa8nI/AAAAAAAADtY/9sXw53XkYXM/s512/indicator-light.gif&#39;/&gt;&quot;);
@@ -1738,7 +1729,7 @@ if(top.location.pathname == &quot;/&quot;){
          <b:widget-setting name='postsPerAd'>1</b:widget-setting>
          <b:widget-setting name='showBacklinks'>false</b:widget-setting>
          <b:widget-setting name='style.bordercolor'>#000000</b:widget-setting>
-         <b:widget-setting name='showInlineAds'>true</b:widget-setting>
+         <b:widget-setting name='showInlineAds'>false</b:widget-setting>
          <b:widget-setting name='backlinksLabel'>C&#65533;c li&#65533;n k?t v?i b&#65533;i n&#65533;y</b:widget-setting>
          <b:widget-setting name='showReactions'>false</b:widget-setting>
        </b:widget-settings>
@@ -2828,14 +2819,6 @@ $('.kaplan-navigation').after(codei);
 </div>
   <div id='sidebar-wrapper'>
     <b:section class='sidebar kaplan-widetize' id='sidebar(1)' name='SIDEBAR TOP' preferred='yes'>
-      <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
-        <b:includable id='main'>
-  <div class='widget-content'>
-    <data:adCode/>
-    <b:include name='quickedit'/>
-  </div>
-</b:includable>
-      </b:widget>
       <b:widget id='Attribution1' locked='false' title='' type='Attribution'>
         <b:widget-settings>
           <b:widget-setting name='copyright'/>
