@@ -32,7 +32,7 @@
     <!-- Blogger main head data and meta -->
     <b:include data='blog' name='all-head-content'/>
 
-    <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css' integrity='sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb' rel='stylesheet'/>
+    <link crossorigin='anonymous' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css' integrity='sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l' media='none' rel='stylesheet'/>
 
   <b:skin><![CDATA[
 /* Variable definitions
@@ -1167,13 +1167,22 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 
     <script async='async' defer='defer' src='https://platform.linkedin.com/badges/js/profile.js' type='text/javascript'/>
     <script async='async' src='https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert' type='text/javascript'/>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-NC32DGSTH2'/>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag(&#39;js&#39;, new Date());
+
+      gtag(&#39;config&#39;, &#39;G-NC32DGSTH2&#39;);
+    </script>
 
 </head>
 <body expr:class='data:blog.pageType'>
-
-  <div id='fb-root'/>
-<script async='async' crossorigin='anonymous' defer='defer' nonce='kjLpr9Yn' src='https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&amp;version=v10.0&amp;appId=150432502292056&amp;autoLogAppEvents=1'/>
-
+<div id='fb-root'/>
+<script async='async' crossorigin='anonymous' defer='defer' nonce='OBgrw76x' src='https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&amp;version=v11.0&amp;appId=150432502292056&amp;autoLogAppEvents=1'/>
+  
 <div class='searchform-wrap search-transition-wrap'><div class='search-transition-inner'><form action='/search' class='searchform' method='get'><div class='input-group'> <input class='form-control' name='q' placeholder='Search ... ' type='text' value=''/> <span class='input-group-btn'> <button class='btn btn-primary'><i class='ti-search'/></button> </span></div></form>                                <button class='btn-mini-close pull-right'><i class='ion-ios-close-empty'/></button></div></div>
 <div class='adminbar' style='display:none'>
 <div class='theme-opt'>
@@ -1240,17 +1249,13 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 <b:section class='post-author-social' id='Postwidegt2' maxwidgets='1' name='Author Social Links' preferred='no' showaddelement='no'>
   <b:widget id='LinkList999' locked='true' title='Author Social Links' type='LinkList' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='link-3'>https://www.linkedin.com/in/bo-yu-yang-a17b2413a</b:widget-setting>
       <b:widget-setting name='sorting'>NONE</b:widget-setting>
-      <b:widget-setting name='link-4'>https://github.com/SpicyBoyd</b:widget-setting>
       <b:widget-setting name='text-1'><![CDATA[<i class="fa fa-instagram"></i>]]></b:widget-setting>
       <b:widget-setting name='link-1'>https://www.instagram.com/spicyboyd</b:widget-setting>
       <b:widget-setting name='text-0'><![CDATA[<i class="fa fa-facebook"></i>]]></b:widget-setting>
       <b:widget-setting name='link-2'>https://www.youtube.com/c/SpicyBoyd</b:widget-setting>
-      <b:widget-setting name='text-3'><![CDATA[<i class="fa fa-linkedin"></i>]]></b:widget-setting>
       <b:widget-setting name='link-0'>https://www.facebook.com/SpicyBoydBlogger/</b:widget-setting>
       <b:widget-setting name='text-2'><![CDATA[<i class="fa fa-youtube"></i>]]></b:widget-setting>
-      <b:widget-setting name='text-4'><![CDATA[<i class="fa fa-github"></i>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
 
@@ -1276,17 +1281,13 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
       <b:section class='kaplan-social blue' id='header social widget' maxwidgets='1' name='Top Social Widget' preferred='no' showaddelement='no'>
         <b:widget id='LinkList998' locked='true' title='Social Media Icons' type='LinkList' version='1'>
           <b:widget-settings>
-            <b:widget-setting name='link-3'>https://www.linkedin.com/in/bo-yu-yang-a17b2413a</b:widget-setting>
             <b:widget-setting name='sorting'>NONE</b:widget-setting>
-            <b:widget-setting name='link-4'>https://github.com/SpicyBoyd</b:widget-setting>
             <b:widget-setting name='text-1'>instagram</b:widget-setting>
             <b:widget-setting name='link-1'>https://www.instagram.com/spicyboyd</b:widget-setting>
             <b:widget-setting name='text-0'>facebook</b:widget-setting>
             <b:widget-setting name='link-2'>https://www.youtube.com/c/SpicyBoyd</b:widget-setting>
-            <b:widget-setting name='text-3'>linkedin</b:widget-setting>
             <b:widget-setting name='link-0'>https://www.facebook.com/SpicyBoydBlogger/</b:widget-setting>
             <b:widget-setting name='text-2'>youtube</b:widget-setting>
-            <b:widget-setting name='text-4'>github</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
             <div class='widget-content'>
@@ -1329,13 +1330,6 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
       </div>
     </div>
   </div>
-
-	<script>
-		window.onload = function github(){
-			var x = document.getElementsByClassName(&quot;github&quot;);
-			x[0].innerHTML = &quot;<a class='github' href='https://github.com/SpicyBoyd' title='github'><i class='fa fa-github'/></a>&quot;;
-		}
-	</script>
 
 <!--   <div class='kaplan-top-slider wrapper'>
     <div class='kaplan-top-container body-row midalizer'>
@@ -1443,83 +1437,43 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
         <b:section class='menu' id='kaplan-menu' maxwidgets='1' name='Main Navigation Menu' preferred='no' showaddelement='no'>
           <b:widget id='LinkList996' locked='true' title='Main Navigation Menu' type='LinkList' version='1'>
             <b:widget-settings>
-              <b:widget-setting name='text-30'>__Side Project</b:widget-setting>
-              <b:widget-setting name='text-31'>__Blogger版面配置</b:widget-setting>
-              <b:widget-setting name='text-32'>__Tainan Gourmet Plaza</b:widget-setting>
-              <b:widget-setting name='text-26'>Collection</b:widget-setting>
-              <b:widget-setting name='link-35'>https://spicyboyd.blogspot.tw/p/youtube.html</b:widget-setting>
-              <b:widget-setting name='text-27'>_Github</b:widget-setting>
-              <b:widget-setting name='link-34'>https://spicyboyd.blogspot.tw/p/2.html</b:widget-setting>
-              <b:widget-setting name='text-28'>__相簿</b:widget-setting>
-              <b:widget-setting name='link-37'>https://spicyboyd.blogspot.tw/p/blog-page_12.html</b:widget-setting>
-              <b:widget-setting name='text-29'>__海線車站旅遊札記</b:widget-setting>
-              <b:widget-setting name='link-36'>https://spicyboyd.blogspot.tw/p/ps.html</b:widget-setting>
-              <b:widget-setting name='text-22'>__教召篇</b:widget-setting>
-              <b:widget-setting name='link-31'>https://github.com/SpicyBoyd/SpicyBoyd.Blog.Platform</b:widget-setting>
-              <b:widget-setting name='text-23'>___加祿堂</b:widget-setting>
-              <b:widget-setting name='link-30'>https://github.com/SpicyBoyd/side_project</b:widget-setting>
-              <b:widget-setting name='text-24'>___鳳山步校</b:widget-setting>
-              <b:widget-setting name='link-33'>https://github.com/SpicyBoyd/Design-Pattern-Example</b:widget-setting>
-              <b:widget-setting name='text-25'>_評論</b:widget-setting>
-              <b:widget-setting name='link-32'>https://spicyboyd.github.io/TainanGourmetPlaza/</b:widget-setting>
-              <b:widget-setting name='text-9'>__海報牆</b:widget-setting>
-              <b:widget-setting name='text-8'>__總表</b:widget-setting>
-              <b:widget-setting name='text-20'>__受訓篇</b:widget-setting>
-              <b:widget-setting name='text-21'>__部隊篇</b:widget-setting>
+              <b:widget-setting name='text-10'>_評論</b:widget-setting>
+              <b:widget-setting name='link-17'>https://spicyboyd.blogspot.tw/p/blog-page_12.html</b:widget-setting>
+              <b:widget-setting name='link-16'>https://spicyboyd.blogspot.tw/p/ps.html</b:widget-setting>
+              <b:widget-setting name='sorting'>NONE</b:widget-setting>
+              <b:widget-setting name='link-1'><![CDATA[https://spicyboyd.blogspot.tw/search/label/APP?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-13'>https://spicyboyd.github.io/TainanGourmetPlaza/</b:widget-setting>
+              <b:widget-setting name='link-2'><![CDATA[https://spicyboyd.blogspot.tw/search/label/JavaScript?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-12'>https://github.com/SpicyBoyd</b:widget-setting>
+              <b:widget-setting name='link-15'>https://spicyboyd.blogspot.tw/p/youtube.html</b:widget-setting>
+              <b:widget-setting name='link-0'>#</b:widget-setting>
+              <b:widget-setting name='link-14'>https://spicyboyd.blogspot.tw/p/2.html</b:widget-setting>
+              <b:widget-setting name='link-11'>#</b:widget-setting>
+              <b:widget-setting name='link-10'><![CDATA[https://spicyboyd.blogspot.com/search/label/%E8%A9%95%E8%AB%96?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='text-9'>_軍旅</b:widget-setting>
+              <b:widget-setting name='link-9'><![CDATA[https://spicyboyd.blogspot.com/search/label/%E8%BB%8D%E6%97%85?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='text-8'>_Travel</b:widget-setting>
+              <b:widget-setting name='link-7'>#</b:widget-setting>
+              <b:widget-setting name='link-8'><![CDATA[https://spicyboyd.blogspot.tw/search/label/Travel?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-5'>https://www.notion.so/spicyboyd/b03905cbe58641508d37cac12439f0ba?v=4dffb1a5ae8243daac1b9c1835e210e8</b:widget-setting>
+              <b:widget-setting name='link-6'>https://www.notion.so/spicyboyd/b03905cbe58641508d37cac12439f0ba?v=459a208cccc3404a81e61310f74278a6</b:widget-setting>
+              <b:widget-setting name='link-3'>#</b:widget-setting>
+              <b:widget-setting name='link-4'>https://www.notion.so/spicyboyd/23b72d8ae26c4ce7a3903b36994d09ae</b:widget-setting>
               <b:widget-setting name='text-1'>_APP/Android</b:widget-setting>
               <b:widget-setting name='text-0'>Programming</b:widget-setting>
-              <b:widget-setting name='text-3'>_Bonita BPM</b:widget-setting>
-              <b:widget-setting name='text-2'>_Web/HTML</b:widget-setting>
-              <b:widget-setting name='text-5'>_JavaScript</b:widget-setting>
-              <b:widget-setting name='text-4'>_PrimeFaces</b:widget-setting>
-              <b:widget-setting name='text-7'>_韓劇</b:widget-setting>
-              <b:widget-setting name='text-6'>Drama</b:widget-setting>
-              <b:widget-setting name='text-19'>__新訓篇</b:widget-setting>
-              <b:widget-setting name='text-15'>__總表</b:widget-setting>
-              <b:widget-setting name='text-16'>Life Journal</b:widget-setting>
-              <b:widget-setting name='text-17'>_Travel</b:widget-setting>
-              <b:widget-setting name='text-18'>_軍旅</b:widget-setting>
-              <b:widget-setting name='text-11'>__Spicy評分表</b:widget-setting>
-              <b:widget-setting name='text-12'>__高分榜</b:widget-setting>
-              <b:widget-setting name='text-13'>__2020</b:widget-setting>
-              <b:widget-setting name='text-14'>_台劇</b:widget-setting>
-              <b:widget-setting name='text-10'>__演員榜</b:widget-setting>
-              <b:widget-setting name='link-17'><![CDATA[https://spicyboyd.blogspot.tw/search/label/Travel?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-16'>#</b:widget-setting>
-              <b:widget-setting name='link-19'><![CDATA[https://spicyboyd.blogspot.tw/search/label/%E6%96%B0%E8%A8%93%E7%AF%87?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='link-18'>#</b:widget-setting>
-              <b:widget-setting name='link-1'><![CDATA[https://spicyboyd.blogspot.tw/search/label/APP?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-13'>https://www.notion.so/spicyboyd/b03905cbe58641508d37cac12439f0ba?v=096c49cf206e434e80e7632c99037231</b:widget-setting>
-              <b:widget-setting name='link-2'><![CDATA[https://spicyboyd.blogspot.tw/search/label/Web%20Design?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-12'>https://www.notion.so/spicyboyd/b03905cbe58641508d37cac12439f0ba?v=459a208cccc3404a81e61310f74278a6</b:widget-setting>
-              <b:widget-setting name='link-15'>https://www.notion.so/spicyboyd/393f569aa77d4d4bbd584a52b5268c0a?v=ee4cb9a05f544896be9f71561a60a224</b:widget-setting>
-              <b:widget-setting name='link-0'>#</b:widget-setting>
-              <b:widget-setting name='link-14'>#</b:widget-setting>
-              <b:widget-setting name='link-11'>https://www.notion.so/spicyboyd/b03905cbe58641508d37cac12439f0ba?v=7129c346b05c4bc2abb89e159e309e87</b:widget-setting>
-              <b:widget-setting name='link-10'>https://www.notion.so/spicyboyd/b03905cbe58641508d37cac12439f0ba?v=324111b021454fc0b8d4582331fb2dcf</b:widget-setting>
-              <b:widget-setting name='link-9'>https://www.notion.so/spicyboyd/b03905cbe58641508d37cac12439f0ba?v=c296a3ac8bc04b9f8cc332d909c03ae3</b:widget-setting>
-              <b:widget-setting name='link-7'>#</b:widget-setting>
-              <b:widget-setting name='link-8'>https://www.notion.so/spicyboyd/b03905cbe58641508d37cac12439f0ba?v=4dffb1a5ae8243daac1b9c1835e210e8</b:widget-setting>
-              <b:widget-setting name='link-5'><![CDATA[https://spicyboyd.blogspot.tw/search/label/JavaScript?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-6'>#</b:widget-setting>
-              <b:widget-setting name='link-3'><![CDATA[https://spicyboyd.blogspot.com/search/label/Bonita%20BPM?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-4'><![CDATA[https://spicyboyd.blogspot.tw/search/label/PrimeFaces?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-28'>https://spicyboyd.github.io/project2/index.html</b:widget-setting>
-              <b:widget-setting name='link-27'>https://github.com/SpicyBoyd</b:widget-setting>
-              <b:widget-setting name='link-29'>https://github.com/SpicyBoyd/CoastLineApp</b:widget-setting>
-              <b:widget-setting name='link-24'>https://spicyboyd.blogspot.com/p/blog-page_17.html</b:widget-setting>
-              <b:widget-setting name='text-37'>_自製手機鈴聲</b:widget-setting>
-              <b:widget-setting name='link-23'>https://spicyboyd.blogspot.com/p/blog-page_2.html</b:widget-setting>
-              <b:widget-setting name='link-26'>#</b:widget-setting>
-              <b:widget-setting name='link-25'><![CDATA[https://spicyboyd.blogspot.com/search/label/%E8%A9%95%E8%AB%96?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-20'><![CDATA[https://spicyboyd.blogspot.tw/search/label/%E5%8F%97%E8%A8%93%E7%AF%87?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='text-33'>__Design Pattern Example</b:widget-setting>
-              <b:widget-setting name='text-34'>_海線車站旅遊札記</b:widget-setting>
-              <b:widget-setting name='link-22'>#</b:widget-setting>
-              <b:widget-setting name='text-35'>_影片剪輯</b:widget-setting>
-              <b:widget-setting name='link-21'>#</b:widget-setting>
-              <b:widget-setting name='text-36'>_Photoshop</b:widget-setting>
+              <b:widget-setting name='text-3'>Drama</b:widget-setting>
+              <b:widget-setting name='text-2'>_JavaScript</b:widget-setting>
+              <b:widget-setting name='text-5'>_韓劇總表</b:widget-setting>
+              <b:widget-setting name='text-4'>_電視劇</b:widget-setting>
+              <b:widget-setting name='text-7'>Life Journal</b:widget-setting>
+              <b:widget-setting name='text-6'>__韓劇高分榜</b:widget-setting>
+              <b:widget-setting name='text-15'>_影片剪輯</b:widget-setting>
+              <b:widget-setting name='text-16'>_Photoshop</b:widget-setting>
+              <b:widget-setting name='text-17'>_自製手機鈴聲</b:widget-setting>
+              <b:widget-setting name='text-11'>Collection</b:widget-setting>
+              <b:widget-setting name='text-12'>_Github</b:widget-setting>
+              <b:widget-setting name='text-13'>_Tainan Gourmet Plaza</b:widget-setting>
+              <b:widget-setting name='text-14'>_海線車站旅遊札記</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
             <div class='widget-content'>
@@ -2882,6 +2836,23 @@ head.appendChild(script);
 &lt;/script&gt;
 </b:includable>
       </b:widget>
+      <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
+        <b:widget-settings>
+          <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+          <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <div class='widget-content'>
+    <data:adCode/>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+      </b:widget>
       <b:widget id='Followers1' locked='false' title='Follower 追蹤者' type='Followers'>
         <b:widget-settings>
           <b:widget-setting name='borderColorTransparent'>true</b:widget-setting>
@@ -3014,7 +2985,7 @@ li.r-p-title { padding: 5px 0px;}
 .r-p-summ { border-left: 1px solid #69B7E2; color: #777; padding: 0px 5px 0px 20px; margin-left: 11px; font-family: Garamond,Baskerville,&quot;Baskerville Old Face&quot;,&quot;Hoefler Text&quot;,&quot;Times New Roman&quot;,serif; font-size: 15px;}
 &lt;/style&gt;
 &lt;script type = &quot;text/JavaScript&quot;&gt;
-function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var entry = json.feed.entry[i];var posttitle = entry.title.$t;var posturl;if (i == json.feed.entry.length) break; for (var k = 0; k &lt; entry.link.length; k++) {if (entry.link[k].rel == &#39;alternate&#39;) {posturl = entry.link[k].href;break;}} posttitle = posttitle.link(posturl);var readmorelink = &quot;... read more&quot;;readmorelink = readmorelink.link(posturl); var postdate = entry.published.$t;var showyear = postdate.substring(0,4);var showmonth = postdate.substring(5,7);var showday = postdate.substring(8,10);var monthnames = new Array(); monthnames[1] = &quot;Jan&quot;;monthnames[2] = &quot;Feb&quot;;monthnames[3] = &quot;Mar&quot;;monthnames[4] = &quot;Apr&quot;;monthnames[5] = &quot;May&quot;;monthnames[6] = &quot;Jun&quot;;monthnames[7] = &quot;Jul&quot;;monthnames[8] = &quot;Aug&quot;;monthnames[9] = &quot;Sep&quot;;monthnames[10] = &quot;Oct&quot;;monthnames[11] = &quot;Nov&quot;;monthnames[12] = &quot;Dec&quot;; if (&quot;content&quot; in entry) {var postcontent = entry.content.$t;}else if (&quot;summary&quot; in entry) { var postcontent = entry.summary.$t;} else var postcontent = &quot;&quot;; var re = /&lt;\S[^&gt;]*&gt;/g; postcontent = postcontent.replace(re, &quot;&quot;); document.write(&#39;&lt;li class=&quot;r-p-title&quot;&gt;&#39;);document.write(posttitle);document.write(&#39;&lt;/li&gt;&lt;div class=&quot;r-p-summ&quot;&gt;&#39;);if (post_summary == true) {if (postcontent.length &lt; summary_chars) {document.write(postcontent);} else { postcontent = postcontent.substring(0, summary_chars);var quoteEnd = postcontent.lastIndexOf(&quot; &quot;);postcontent = postcontent.substring(0,quoteEnd);document.write(postcontent + &#39; &#39; + readmorelink);}} document.write(&#39;&lt;/div&gt;&#39;); if (posts_date == true) document.write(&#39;&lt;div class=&quot;recent-post-date&quot;&gt;&#39; + monthnames[parseInt(showmonth,10)] + &#39; &#39; + showday + &#39; &#39; + showyear + &#39;&lt;/div&gt;&#39;); }}
+function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var entry = json.feed.entry[i];var posttitle = entry.title.$t;var posturl;if (i == json.feed.entry.length) break; for (var k = 0; k &lt; entry.link.length; k++) {if (entry.link[k].rel == &#39;alternate&#39;) {posturl = entry.link[k].href;break;}} posttitle = posttitle.link(posturl);var readmorelink = &quot;... read more&quot;;readmorelink = readmorelink.link(posturl); var postdate = entry.published.$t;var showyear = postdate.substring(0,4);var showmonth = postdate.substring(5,7);var showday = postdate.substring(8,10);var monthnames = new Array(); monthnames[1] = &quot;Jan&quot;;monthnames[2] = &quot;Feb&quot;;monthnames[3] = &quot;Mar&quot;;monthnames[4] = &quot;Apr&quot;;monthnames[5] = &quot;May&quot;;monthnames[6] = &quot;Jun&quot;;monthnames[7] = &quot;Jul&quot;;monthnames[8] = &quot;Aug&quot;;monthnames[9] = &quot;Sep&quot;;monthnames[10] = &quot;Oct&quot;;monthnames[11] = &quot;Nov&quot;;monthnames[12] = &quot;Dec&quot;; if (&quot;content&quot; in entry) {var postcontent = entry.content.$t;}else if (&quot;summary&quot; in entry) { var postcontent = entry.summary.$t;} else var postcontent = &quot;&quot;; var re = /&lt;\S[^&gt;]*&gt;/g; postcontent = postcontent.replace(re, &quot;&quot;); new DOMParser().parseFromString(&#39;&lt;li class=&quot;r-p-title&quot;&gt;&#39;);new DOMParser().parseFromString(posttitle);new DOMParser().parseFromString(&#39;&lt;/li&gt;&lt;div class=&quot;r-p-summ&quot;&gt;&#39;);if (post_summary == true) {if (postcontent.length &lt; summary_chars) {new DOMParser().parseFromString(postcontent);} else { postcontent = postcontent.substring(0, summary_chars);var quoteEnd = postcontent.lastIndexOf(&quot; &quot;);postcontent = postcontent.substring(0,quoteEnd);new DOMParser().parseFromString(postcontent + &#39; &#39; + readmorelink);}} new DOMParser().parseFromString(&#39;&lt;/div&gt;&#39;); if (posts_date == true) new DOMParser().parseFromString(&#39;&lt;div class=&quot;recent-post-date&quot;&gt;&#39; + monthnames[parseInt(showmonth,10)] + &#39; &#39; + showday + &#39; &#39; + showyear + &#39;&lt;/div&gt;&#39;); }}
  &lt;/script&gt;
  &lt;script&gt;
  var posts_number = 5;
@@ -3165,9 +3136,9 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
   </b:widget>
   <b:widget id='Label1' locked='false' title='Tags 文章分類' type='Label' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-      <b:widget-setting name='display'>CLOUD</b:widget-setting>
-      <b:widget-setting name='selectedLabelsList'>AOP,APP,Alfresco,Android Studio,AngularJS,Big Data,Bonita BPM,Bootstrap,CSS,Chinese Drama,Cloud Computing,Design Pattern,Drama,Eclipse,Edge Computing,Front end,Git,Github,Google Drive,HackMD,Hadoop,Image,Intern,JSF,JSP,Japanese Drama,Java,JavaScript,Korean Drama,LDAP,Life,Liferay,Linux,Matlab,Movie,MySQL,Note,Photonics,Photoshop,PostgreSQL,PrimeFaces,Proxy,SOAP,SQL,Scala,Sourcetree,SpaceX,Spark,Spring,Taiwan Drama,TensorFlow,Tomcat,Travel,UI Designer,UML,Ubuntu,Web Design,Web Service,Xshell,Youtube,ajax,book,html,iframe,jQuery,og,srt,video,xwiki,公告,加祿堂,受訓篇,台中,台南,周末短篇,士官,大氣資料分析,天文,小技巧,心得,推薦,教召,新訓篇,網路磁碟,衛星網路,評論,車站,軍旅,邊緣運算,雲端運算,高層大氣科學</b:widget-setting>
+      <b:widget-setting name='sorting'>FREQUENCY</b:widget-setting>
+      <b:widget-setting name='display'>LIST</b:widget-setting>
+      <b:widget-setting name='selectedLabelsList'>APP,DevOps,Drama,Java,JavaScript,Linux,Note,Travel,book,小技巧,心得,評論,軍旅</b:widget-setting>
       <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
       <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
     </b:widget-settings>
@@ -3232,24 +3203,6 @@ function showrecentposts(json) {for (var i = 0; i &lt; posts_number; i++) { var 
       <b:include name='quickedit'/>
     </div>
   </div>
-</b:includable>
-  </b:widget>
-  <b:widget id='HTML3' locked='false' title='Fan Page 粉絲專頁' type='HTML'>
-    <b:widget-settings>
-      <b:widget-setting name='content'>&lt;div style=&quot;clear: both; text-align: center;&quot;&gt;
-&lt;iframe allowtransparency=&#39;true&#39; scrolling=&#39;no&#39; src=&#39;//www.facebook.com/v2.5/plugins/page.php?href=https://www.facebook.com/SpicyBoydBlogger&amp;amp;width=400&amp;amp;show_facepile=true&amp;amp;small_header=false&amp;amp;hide_cover=false&amp;amp;locale=zh_TW&#39; style=&#39;border:none; overflow:hidden;max-width: 100%; height: 300;&#39;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
   <b:widget id='HTML5' locked='false' title='Comments 訪客留言' type='HTML'>
@@ -3386,28 +3339,6 @@ border-left: 0;
   <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
-  <b:widget id='Translate1' locked='false' title='Translate 翻譯' type='Translate'>
-    <b:widget-settings>
-      <b:widget-setting name='displayMode'>HORIZONTAL</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div id='google_translate_element'/>
-  <script>
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: &#39;<data:pageLanguage/>&#39;,
-        autoDisplay: &#39;true&#39;,
-        layout: google.translate.TranslateElement.InlineLayout.<data:layout/>
-      }, &#39;google_translate_element&#39;);
-    }
-  </script>
-  <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'/>
-  <b:include name='quickedit'/>
-</b:includable>
-  </b:widget>
 </b:section>
     </div>
  <div style='clear: both;'/>
@@ -3433,7 +3364,7 @@ border-left: 0;
         <div class='kaplan-cwrap body-row'>
          
                     <div class='kaplan-credit_copyright'>
-                      Copyright 2017-<script>document.write(new Date().getFullYear());</script>, <a expr:href='data:blog.homepageUrl'><data:blog.title/></a>. All rights Reserved.</div> | Designed by <a href='http://colorlib.com/'>Colorlib</a>
+                      Copyright 2017-<script>new DOMParser().parseFromString(new Date().getFullYear());</script>, <a expr:href='data:blog.homepageUrl'><data:blog.title/></a>. All rights Reserved.</div> | Designed by <a href='http://colorlib.com/'>Colorlib</a>
                 
                
               
@@ -4384,7 +4315,7 @@ article {
               } else {
                   currentPageNo = 1
               }
-              document.write("<script src=\"" + home_page + "feeds/posts/summary?max-results=1&alt=json-in-script&callback=totalcountdata\"><\/script>")
+              new DOMParser().parseFromString("<script src=\"" + home_page + "feeds/posts/summary?max-results=1&alt=json-in-script&callback=totalcountdata\"><\/script>")
           } else {
               currentPage = "label";
               if (thisUrl.indexOf("&max-results=") == -1) {
@@ -4395,7 +4326,7 @@ article {
               } else {
                   currentPageNo = 1
               }
-              document.write('<script src="' + home_page + 'feeds/posts/summary/-/' + postLabel + '?alt=json-in-script&callback=totalcountdata&max-results=1" ><\/script>')
+              new DOMParser().parseFromString('<script src="' + home_page + 'feeds/posts/summary/-/' + postLabel + '?alt=json-in-script&callback=totalcountdata&max-results=1" ><\/script>')
           }
       }
   }
