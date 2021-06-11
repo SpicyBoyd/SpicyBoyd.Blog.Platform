@@ -31,7 +31,7 @@
 
     <!-- Blogger main head data and meta -->
     <b:include data='blog' name='all-head-content'/>
-    <script crossorigin='anonymous' integrity='sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=' src='https://code.jquery.com/jquery-3.6.0.min.js'/>
+    <script async='async' src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'/>
     <link crossorigin='anonymous' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css' integrity='sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l' media='none' rel='stylesheet'/>
 
   <b:skin><![CDATA[
@@ -1163,11 +1163,7 @@ function loadCSS(e,t,n){"use strict";var i=window.document.createElement("link")
 loadCSS("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,600,700");loadCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 //]]>
-</script>
-
-    <script async='async' defer='defer' src='https://platform.linkedin.com/badges/js/profile.js' type='text/javascript'/>
-    <script async='async' src='https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert' type='text/javascript'/>
-    
+</script>   
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-NC32DGSTH2'/>
     <script>
@@ -1247,13 +1243,19 @@ loadCSS("//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 <b:section class='post-author-social' id='Postwidegt2' maxwidgets='1' name='Author Social Links' preferred='no' showaddelement='no'>
   <b:widget id='LinkList999' locked='true' title='Author Social Links' type='LinkList' version='1'>
     <b:widget-settings>
+      <b:widget-setting name='link-5'>https://maps.app.goo.gl/jJ6ibTNvp8vWZeqU6</b:widget-setting>
+      <b:widget-setting name='link-3'>https://www.notion.so/spicyboyd/23b72d8ae26c4ce7a3903b36994d09ae</b:widget-setting>
+      <b:widget-setting name='link-4'>https://photos.app.goo.gl/Z9rZVU78AMqkim4z9</b:widget-setting>
+      <b:widget-setting name='text-1'><![CDATA[<i class="fa fa-instagram" aria-hidden="true" title="IG"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-0'><![CDATA[<i class="fa fa-facebook-official" aria-hidden="true" title="FB"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-3'><![CDATA[<i class="fa fa-television" aria-hidden="true" title="影劇"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-2'><![CDATA[<i class="fa fa-youtube-play" aria-hidden="true" title="YT"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-5'><![CDATA[<i class="fa fa-map-marker" aria-hidden="true" title="在地嚮導"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-4'><![CDATA[<i class="fa fa-picture-o" aria-hidden="true" title="相片作品集"></i>]]></b:widget-setting>
       <b:widget-setting name='sorting'>NONE</b:widget-setting>
-      <b:widget-setting name='text-1'><![CDATA[<i class="fa fa-instagram"></i>]]></b:widget-setting>
       <b:widget-setting name='link-1'>https://www.instagram.com/spicyboyd</b:widget-setting>
-      <b:widget-setting name='text-0'><![CDATA[<i class="fa fa-facebook"></i>]]></b:widget-setting>
       <b:widget-setting name='link-2'>https://www.youtube.com/c/SpicyBoyd</b:widget-setting>
       <b:widget-setting name='link-0'>https://www.facebook.com/SpicyBoydBlogger/</b:widget-setting>
-      <b:widget-setting name='text-2'><![CDATA[<i class="fa fa-youtube"></i>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
 
@@ -2657,7 +2659,7 @@ $('.kaplan-navigation').after(codei);
      </b:widget>
      <b:widget id='HTML990' locked='true' title='Comments System' type='HTML' version='1'>
        <b:widget-settings>
-         <b:widget-setting name='content'>[blogger]</b:widget-setting>
+         <b:widget-setting name='content'>[blogger][facebook]</b:widget-setting>
        </b:widget-settings>
        <b:includable id='main'>
 
@@ -2693,6 +2695,23 @@ $('.kaplan-navigation').after(codei);
 </div>
   <div id='sidebar-wrapper'>
     <b:section class='sidebar kaplan-widetize' id='sidebar(1)' name='SIDEBAR TOP' preferred='yes'>
+      <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
+        <b:widget-settings>
+          <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='style.layout'>300x250</b:widget-setting>
+          <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <div class='widget-content'>
+    <data:adCode/>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+      </b:widget>
       <b:widget id='BlogSearch2' locked='false' title='站內搜尋' type='BlogSearch'>
         <b:includable id='main'>
     <!-- only display title if it's non-empty -->
@@ -2856,23 +2875,6 @@ $('.kaplan-navigation').after(codei);
   </style>
 </b:includable>
       </b:widget>
-      <b:widget id='AdSense1' locked='false' title='' type='AdSense'>
-        <b:widget-settings>
-          <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
-          <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
-          <b:widget-setting name='style.layout'>300x250</b:widget-setting>
-          <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-          <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
-          <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
-          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-        </b:widget-settings>
-        <b:includable id='main'>
-  <div class='widget-content'>
-    <data:adCode/>
-    <b:include name='quickedit'/>
-  </div>
-</b:includable>
-      </b:widget>
       <b:widget id='Attribution1' locked='false' title='' type='Attribution'>
         <b:widget-settings>
           <b:widget-setting name='copyright'/>
@@ -2979,6 +2981,22 @@ $('.kaplan-navigation').after(codei);
       </b:if>
     </span>
   </a>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML1' locked='false' title='訪客留言' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<span class="kaplan-cmnt" data-no="5"></span>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
   <b:widget id='ContactForm1' locked='false' title='聯絡我' type='ContactForm'>
