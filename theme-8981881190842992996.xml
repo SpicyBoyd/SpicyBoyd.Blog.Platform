@@ -538,6 +538,7 @@ function loadCSS(e,o,n){"use strict";var s=window.document.createElement("link")
               <b:widget-setting name='text-10'>作品集</b:widget-setting>
               <b:widget-setting name='link-17'>https://spicyboyd.blogspot.com/p/blog-page.html</b:widget-setting>
               <b:widget-setting name='link-16'>https://spicyboyd.blogspot.tw/p/blog-page_12.html</b:widget-setting>
+              <b:widget-setting name='link-19'>https://github.com/SpicyBoyd/SpicyBoyd.Blog.Platform/issues</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
               <b:widget-setting name='link-18'>https://spicyboyd.blogspot.com/p/about-me.html</b:widget-setting>
               <b:widget-setting name='link-1'><![CDATA[https://spicyboyd.blogspot.tw/search/label/APP?&max-results=7]]></b:widget-setting>
@@ -566,6 +567,7 @@ function loadCSS(e,o,n){"use strict";var s=window.document.createElement("link")
               <b:widget-setting name='text-4'>_Linux</b:widget-setting>
               <b:widget-setting name='text-7'>_Drama</b:widget-setting>
               <b:widget-setting name='text-6'>_Note</b:widget-setting>
+              <b:widget-setting name='text-19'>本站錯誤回報</b:widget-setting>
               <b:widget-setting name='text-15'>_Photoshop</b:widget-setting>
               <b:widget-setting name='text-16'>_自製手機鈴聲</b:widget-setting>
               <b:widget-setting name='text-17'>公告</b:widget-setting>
@@ -1445,7 +1447,7 @@ function loadCSS(e,o,n){"use strict";var s=window.document.createElement("link")
     <div class='author-content'>
       <div class='top-author'>
         <h5>
-          <a expr:href='data:post.authorUrl' rel='author' title='Posts by Diago'><data:post.author/>
+          <a expr:href='data:post.authorProfileUrl' expr:title='&quot;Posts by &quot; + data:post.author' rel='author'><data:post.author/>
           </a>
         </h5>
       </div>
