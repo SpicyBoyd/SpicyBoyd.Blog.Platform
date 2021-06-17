@@ -1,4 +1,6 @@
 # Blog PlatForm
+## Blogger
+Link：https://spicyboyd.blogspot.com/
 
-1. 版本1
-2. 版本2
+## Version
+參考模板：http://gooyaabitemplates.com/livepreview/faster-fast-loading/
