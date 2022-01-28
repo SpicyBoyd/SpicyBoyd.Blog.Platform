@@ -20,7 +20,6 @@
     <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
     <meta content='5B0012D6AF3036ED342495DA4596C2B5' name='msvalidate.01'/>
     <meta content='website' property='og:type'/>
-    <meta content='//4.bp.blogspot.com/-I4yK_XTmN18/WoMF2y_zC1I/AAAAAAAAF3w/-R1tVNDdE6cwmT7FffNBGgoafgK2jt78QCK4BGAYYCw/s1600/9h6Vq5N.jpg' property='og:image'/>
     <meta content='T8mbGxNubBcEzVlSi8MHXFyw7IINUTKmYuOHpAy9OJ8' name='google-site-verification'/>
     <meta content='fdf34baad6a0debc11ee4cbce76cf247' name='p:domain_verify'/>
     <meta content='150432502292056' property='fb:app_id'/>
@@ -430,9 +429,9 @@ body#layout .adminbar{display:block!important;width:280px;float:left;height:100%
             <b:widget-settings>
               <b:widget-setting name='shownum'/>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='item-2'><![CDATA[<div class="text-lg-center">✅ 有任何意見、想法，歡迎留言給<span style="color: red;"><b>Spicy</b></span>知道喔</div>]]></b:widget-setting>
-              <b:widget-setting name='item-1'><![CDATA[<div class="text-lg-center">✅ 固定於每周一至周五更新Blogger文章，並於週六、日會有短篇</div>]]></b:widget-setting>
-              <b:widget-setting name='item-0'><![CDATA[<div class="text-lg-center">✅ 已優化本站載入速度，提升使用者體驗，<a href="https://spicyboyd.blogspot.com/p/blog-page.html">詳情請參考公告</a></div>]]></b:widget-setting>
+              <b:widget-setting name='item-2'><![CDATA[<div class="text-lg-center">✅ 固定於每周一至周五更新Blogger文章，周末不定期會有短篇</div>]]></b:widget-setting>
+              <b:widget-setting name='item-1'><![CDATA[<div class="text-lg-center">✅ 有任何意見、想法，歡迎留言給<span style="color: red;"><b>Spicy</b></span>知道喔</div>]]></b:widget-setting>
+              <b:widget-setting name='item-0'><![CDATA[<div class="text-lg-center">✅ 本站維護及更新歷史紀錄，<a href="https://spicyboyd.blogspot.com/p/blog-page.html">詳情請參考公告</a></div>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
  <h2><data:title/></h2>
@@ -1818,7 +1817,7 @@ var codei='<div class="messager-text kaplan-wrapper slidebg"><div class="body-ro
   </b:widget>
   <b:widget id='PageList1' locked='false' title='本站網頁' type='PageList'>
     <b:widget-settings>
-      <b:widget-setting name='pageListJson'><![CDATA[{'8637296033862277091': {'href': '//spicyboyd.blogspot.com/p/blog-page_2.html', 'title': '\u3010\u8ecd\u65c5\u3011\u52a0\u797f\u5802\u6559\u53ec\u7bc7 \u5206\u96c6\u5287\u60c5\u3001\u4eba\u7269\u4ecb\u7d39', 'position': 0}, '6690015348795920763': {'href': '//spicyboyd.blogspot.com/p/blog-page_17.html', 'title': '\u3010\u8ecd\u65c5\u3011\u9cf3\u5c71\u6b65\u6821\u6559\u53ec\u7bc7 \u5206\u96c6\u5287\u60c5\u3001\u4eba\u7269\u4ecb\u7d39', 'position': 1}, '4586643773562853156': {'href': '//spicyboyd.blogspot.com/p/blog-page_30.html', 'title': '\u3010\u99d5\u8a13\u73ed/\u624b\u6392\u3011\u624b\u6392\u5b78\u7fd2\u7d93\u9a57\u5206\u4eab', 'position': 2}, '3858794562818367564': {'href': '//spicyboyd.blogspot.com/p/blog-page_12.html', 'title': '\u3010Ringtone\u3011\u81ea\u88fd\u624b\u6a5f\u9234\u8072', 'position': 3}, '4715684573488447592': {'href': '//spicyboyd.blogspot.com/p/ps.html', 'title': '\u3010PS\u3011\u4f5c\u54c1\u96c6', 'position': 4}, '2872828334244220496': {'href': '//spicyboyd.blogspot.com/p/youtube.html', 'title': '\u3010Youtube\u3011\u5f71\u7247\u526a\u8f2f', 'position': 5}, '7821233261451714941': {'href': '//spicyboyd.blogspot.com/p/2.html', 'title': '\u3010APP/Android\u3011\u6d77\u7dda\u8eca\u7ad9\u65c5\u904a\u672d\u8a18', 'position': 6}}]]></b:widget-setting>
+      <b:widget-setting name='pageListJson'><![CDATA[{"3858794562818367564":{"href":"//spicyboyd.blogspot.com/p/blog-page_12.html","position":3,"title":"【Ringtone】自製手機鈴聲"},"2872828334244220496":{"href":"//spicyboyd.blogspot.com/p/youtube.html","position":5,"title":"【Youtube】影片剪輯"},"4715684573488447592":{"href":"//spicyboyd.blogspot.com/p/ps.html","position":4,"title":"【PS】作品集"},"6690015348795920763":{"href":"//spicyboyd.blogspot.com/p/blog-page_17.html","position":1,"title":"【軍旅】鳳山步校教召篇 分集劇情、人物介紹"},"7821233261451714941":{"href":"//spicyboyd.blogspot.com/p/2.html","position":6,"title":"【APP/Android】海線車站旅遊札記"},"8637296033862277091":{"href":"//spicyboyd.blogspot.com/p/blog-page_2.html","position":0,"title":"【軍旅】加祿堂教召篇 分集劇情、人物介紹"},"4586643773562853156":{"href":"//spicyboyd.blogspot.com/p/blog-page_30.html","position":2,"title":"【駕訓班/手排】手排學習經驗分享"}}]]></b:widget-setting>
       <b:widget-setting name='homeTitle'>首頁</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
@@ -1944,7 +1943,7 @@ var codei='<div class="messager-text kaplan-wrapper slidebg"><div class="body-ro
 <b:section class='kaplan-fcols-inner kaplan-widetize' id='Footer widget(1)' name='Footer Column [1]' preferred='yes'>
    <b:widget id='PageList2' locked='false' title='快速連結' type='PageList'>
      <b:widget-settings>
-       <b:widget-setting name='pageListJson'><![CDATA[{'home': {'href': 'https://spicyboyd.blogspot.com/', 'title': '\u9996\u9801', 'position': 0}, '3926003952872619336': {'href': 'https://spicyboyd.blogspot.com/p/blog-page.html', 'title': '\u516c\u544a', 'position': 1}, '7418769381818340576': {'href': 'https://spicyboyd.blogspot.com/p/about-me.html', 'title': 'About Me', 'position': 2}}]]></b:widget-setting>
+       <b:widget-setting name='pageListJson'><![CDATA[{"7418769381818340576":{"href":"https://spicyboyd.blogspot.com/p/about-me.html","position":2,"title":"About Me"},"3926003952872619336":{"href":"https://spicyboyd.blogspot.com/p/blog-page.html","position":1,"title":"公告"},"home":{"href":"https://spicyboyd.blogspot.com/","position":0,"title":"首頁"}}]]></b:widget-setting>
        <b:widget-setting name='homeTitle'>首頁</b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
