@@ -159,7 +159,7 @@ body#layout .adminbar{display:block!important;width:280px;float:left;height:100%
       <b:widget-setting name='text-5'><![CDATA[<i class="fa fa-map-marker" aria-hidden="true" title="在地嚮導"></i>]]></b:widget-setting>
       <b:widget-setting name='text-4'><![CDATA[<i class="fa fa-picture-o" aria-hidden="true" title="相片作品集"></i>]]></b:widget-setting>
       <b:widget-setting name='sorting'>NONE</b:widget-setting>
-      <b:widget-setting name='link-1'>//www.instagram.com/spicyboyd</b:widget-setting>
+      <b:widget-setting name='link-1'>//www.instagram.com/spicyboyd_blog</b:widget-setting>
       <b:widget-setting name='link-2'>//www.youtube.com/c/SpicyBoyd</b:widget-setting>
       <b:widget-setting name='link-0'>//www.facebook.com/SpicyBoydBlogger/</b:widget-setting>
     </b:widget-settings>
@@ -189,10 +189,10 @@ body#layout .adminbar{display:block!important;width:280px;float:left;height:100%
           <b:widget-settings>
             <b:widget-setting name='sorting'>NONE</b:widget-setting>
             <b:widget-setting name='text-1'>instagram</b:widget-setting>
-            <b:widget-setting name='link-1'>//www.instagram.com/spicyboyd</b:widget-setting>
+            <b:widget-setting name='link-1'>//www.instagram.com/spicyboyd_blog</b:widget-setting>
             <b:widget-setting name='text-0'>facebook</b:widget-setting>
             <b:widget-setting name='link-2'>//www.youtube.com/c/SpicyBoyd</b:widget-setting>
-            <b:widget-setting name='link-0'>//www.facebook.com/SpicyBoydBlogger/</b:widget-setting>
+            <b:widget-setting name='link-0'>//www.facebook.com/SpicyBoydBlogger</b:widget-setting>
             <b:widget-setting name='text-2'>youtube</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
@@ -321,30 +321,29 @@ body#layout .adminbar{display:block!important;width:280px;float:left;height:100%
         <b:section class='menu' id='kaplan-menu' maxwidgets='1' name='Main Navigation Menu' preferred='no' showaddelement='no'>
           <b:widget id='LinkList996' locked='true' title='Main Navigation Menu' type='LinkList' version='1'>
             <b:widget-settings>
-              <b:widget-setting name='text-10'>作品集</b:widget-setting>
-              <b:widget-setting name='link-17'>//spicyboyd.github.io/TainanGourmetPlaza/</b:widget-setting>
-              <b:widget-setting name='link-16'>//github.com/SpicyBoyd</b:widget-setting>
-              <b:widget-setting name='link-19'>//github.com/SpicyBoyd/SpicyBoyd.Blog.Platform/issues</b:widget-setting>
+              <b:widget-setting name='text-10'>_海線車站旅遊札記</b:widget-setting>
+              <b:widget-setting name='link-17'>//www.notion.so/spicyboyd/23b72d8ae26c4ce7a3903b36994d09ae</b:widget-setting>
+              <b:widget-setting name='link-16'>//spicyboyd.github.io/TainanGourmetPlaza/</b:widget-setting>
+              <b:widget-setting name='link-19'>https://spicyboyd.blogspot.com/p/blog-page.html</b:widget-setting>
               <b:widget-setting name='sorting'>NONE</b:widget-setting>
-              <b:widget-setting name='link-18'>//www.notion.so/spicyboyd/23b72d8ae26c4ce7a3903b36994d09ae</b:widget-setting>
+              <b:widget-setting name='link-18'>//github.com/SpicyBoyd/SpicyBoyd.Blog.Platform/issues</b:widget-setting>
               <b:widget-setting name='link-1'><![CDATA[//spicyboyd.blogspot.tw/search/label/APP?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-13'>//spicyboyd.blogspot.tw/p/ps.html</b:widget-setting>
+              <b:widget-setting name='link-13'>//spicyboyd.blogspot.tw/p/blog-page_12.html</b:widget-setting>
               <b:widget-setting name='link-2'><![CDATA[//spicyboyd.blogspot.tw/search/label/Java?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='link-12'>//spicyboyd.blogspot.tw/p/youtube.html</b:widget-setting>
-              <b:widget-setting name='link-15'>#</b:widget-setting>
+              <b:widget-setting name='link-12'>//spicyboyd.blogspot.tw/p/ps.html</b:widget-setting>
+              <b:widget-setting name='link-15'>//github.com/SpicyBoyd</b:widget-setting>
               <b:widget-setting name='link-0'>#</b:widget-setting>
-              <b:widget-setting name='link-14'>//spicyboyd.blogspot.tw/p/blog-page_12.html</b:widget-setting>
-              <b:widget-setting name='link-11'>//spicyboyd.blogspot.tw/p/2.html</b:widget-setting>
-              <b:widget-setting name='link-10'>#</b:widget-setting>
-              <b:widget-setting name='text-9'>_軍旅</b:widget-setting>
-              <b:widget-setting name='link-9'><![CDATA[//spicyboyd.blogspot.com/search/label/%E8%BB%8D%E6%97%85?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='text-8'>_Travel</b:widget-setting>
-              <b:widget-setting name='link-7'><![CDATA[//spicyboyd.blogspot.com/search/label/Note?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='text-20'>公告</b:widget-setting>
-              <b:widget-setting name='link-8'><![CDATA[//spicyboyd.blogspot.tw/search/label/Travel?&max-results=7]]></b:widget-setting>
-              <b:widget-setting name='text-21'>關於我</b:widget-setting>
+              <b:widget-setting name='link-14'>#</b:widget-setting>
+              <b:widget-setting name='link-11'>//spicyboyd.blogspot.tw/p/youtube.html</b:widget-setting>
+              <b:widget-setting name='link-10'>//spicyboyd.blogspot.tw/p/2.html</b:widget-setting>
+              <b:widget-setting name='text-9'>作品集</b:widget-setting>
+              <b:widget-setting name='link-9'>#</b:widget-setting>
+              <b:widget-setting name='text-8'>_Military 軍旅</b:widget-setting>
+              <b:widget-setting name='link-7'><![CDATA[//spicyboyd.blogspot.tw/search/label/旅行?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='text-20'>關於我</b:widget-setting>
+              <b:widget-setting name='link-8'><![CDATA[//spicyboyd.blogspot.com/search/label/軍旅?&max-results=7]]></b:widget-setting>
               <b:widget-setting name='link-5'>#</b:widget-setting>
-              <b:widget-setting name='link-6'><![CDATA[//spicyboyd.blogspot.com/search/label/Drama?&max-results=7]]></b:widget-setting>
+              <b:widget-setting name='link-6'><![CDATA[//spicyboyd.blogspot.com/search/label/影劇?&max-results=7]]></b:widget-setting>
               <b:widget-setting name='link-3'><![CDATA[//spicyboyd.blogspot.tw/search/label/JavaScript?&max-results=7]]></b:widget-setting>
               <b:widget-setting name='link-4'><![CDATA[ //spicyboyd.blogspot.tw/search/label/Linux?&max-results=7]]></b:widget-setting>
               <b:widget-setting name='text-1'>_APP</b:widget-setting>
@@ -353,19 +352,18 @@ body#layout .adminbar{display:block!important;width:280px;float:left;height:100%
               <b:widget-setting name='text-2'>_Java</b:widget-setting>
               <b:widget-setting name='text-5'>隨筆/生活</b:widget-setting>
               <b:widget-setting name='text-4'>_Linux</b:widget-setting>
-              <b:widget-setting name='text-7'>_Note</b:widget-setting>
-              <b:widget-setting name='text-6'>_Drama</b:widget-setting>
-              <b:widget-setting name='text-19'>_本站錯誤回報</b:widget-setting>
-              <b:widget-setting name='text-15'>站外連結</b:widget-setting>
-              <b:widget-setting name='text-16'>_Github</b:widget-setting>
-              <b:widget-setting name='text-17'>_台南市小吃</b:widget-setting>
-              <b:widget-setting name='text-18'>_電視劇紀錄</b:widget-setting>
-              <b:widget-setting name='text-11'>_海線車站旅遊札記</b:widget-setting>
-              <b:widget-setting name='link-20'>https://spicyboyd.blogspot.com/p/blog-page.html</b:widget-setting>
-              <b:widget-setting name='text-12'>_影片剪輯</b:widget-setting>
-              <b:widget-setting name='text-13'>_Photoshop</b:widget-setting>
-              <b:widget-setting name='text-14'>_自製手機鈴聲</b:widget-setting>
-              <b:widget-setting name='link-21'>//spicyboyd.blogspot.com/p/about-me.html</b:widget-setting>
+              <b:widget-setting name='text-7'>_Travel 行旅</b:widget-setting>
+              <b:widget-setting name='text-6'>_Drama 影劇</b:widget-setting>
+              <b:widget-setting name='text-19'>公告</b:widget-setting>
+              <b:widget-setting name='text-15'>_Github</b:widget-setting>
+              <b:widget-setting name='text-16'>_台南市小吃</b:widget-setting>
+              <b:widget-setting name='text-17'>_電視劇紀錄</b:widget-setting>
+              <b:widget-setting name='text-18'>_本站錯誤回報</b:widget-setting>
+              <b:widget-setting name='text-11'>_影片剪輯</b:widget-setting>
+              <b:widget-setting name='link-20'>//spicyboyd.blogspot.com/p/about-me.html</b:widget-setting>
+              <b:widget-setting name='text-12'>_Photoshop</b:widget-setting>
+              <b:widget-setting name='text-13'>_自製手機鈴聲</b:widget-setting>
+              <b:widget-setting name='text-14'>站外連結</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
             <div class='widget-content'>
@@ -454,7 +452,6 @@ body#layout .adminbar{display:block!important;width:280px;float:left;height:100%
          <b:widget-setting name='commentLabel'>comments</b:widget-setting>
          <b:widget-setting name='showShareButtons'>false</b:widget-setting>
          <b:widget-setting name='authorLabel'>By</b:widget-setting>
-         <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
          <b:widget-setting name='timestampLabel'>v&#65533;o l&#65533;c</b:widget-setting>
          <b:widget-setting name='reactionsLabel'/>
@@ -1254,7 +1251,7 @@ body#layout .adminbar{display:block!important;width:280px;float:left;height:100%
   </b:if>
 </b:includable>
        <b:includable id='shareButtons' var='post'>
-  <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if><b:if cond='data:top.showTwitterButton'><a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToTwitterMsg/></span></a></b:if><b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if><b:if cond='data:top.showPinterestButton'><a class='goog-inline-block share-button sb-pinterest' expr:href='data:post.sharePostUrl + &quot;&amp;target=pinterest&quot;' expr:title='data:top.shareToPinterestMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToPinterestMsg/></span></a></b:if><b:if cond='data:top.showPlusOne'><div class='goog-inline-block google-plus-share-container'><data:post.googlePlusShareTag/></div></b:if>
+  <b:if cond='data:top.showEmailButton'><a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'><span class='share-button-link-text'><data:top.emailThisMsg/></span></a></b:if><b:if cond='data:top.showBlogThisButton'><a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'><span class='share-button-link-text'><data:top.blogThisMsg/></span></a></b:if><b:if cond='data:top.showTwitterButton'><a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &quot;&amp;target=twitter&quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToTwitterMsg/></span></a></b:if><b:if cond='data:top.showFacebookButton'><a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &quot;&amp;target=facebook&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToFacebookMsg/></span></a></b:if><b:if cond='data:top.showPinterestButton'><a class='goog-inline-block share-button sb-pinterest' expr:href='data:post.sharePostUrl + &quot;&amp;target=pinterest&quot;' expr:title='data:top.shareToPinterestMsg' target='_blank'><span class='share-button-link-text'><data:top.shareToPinterestMsg/></span></a></b:if>
 </b:includable>
        <b:includable id='status-message'>
   <b:if cond='data:navMessage'>
@@ -1544,6 +1541,23 @@ var codei='<div class="messager-text kaplan-wrapper slidebg"><div class="body-ro
 </div>
   <div id='sidebar-wrapper'>
     <b:section class='sidebar kaplan-widetize' id='sidebar(1)' name='SIDEBAR TOP' preferred='yes'>
+      <b:widget id='HTML4' locked='false' title='網頁主題' type='HTML'>
+        <b:widget-settings>
+          <b:widget-setting name='content'>&lt;button id=&quot;theme_switch&quot; type=&quot;button&quot; class=&quot;btn btn-dark&quot;&gt;切換成深色模式&lt;/button&gt;
+&lt;script&gt;$(&quot;#theme_switch&quot;).on(&quot;click&quot;,function(){DarkReader.isEnabled()?(DarkReader.disable(),$(&quot;#theme_switch&quot;).addClass(&quot;btn-dark&quot;).removeClass(&quot;btn-light&quot;).html(&quot;\u5207\u63DB\u6210\u6DF1\u8272\u6A21\u5F0F&quot;)):(DarkReader.enable(),$(&quot;#theme_switch&quot;).addClass(&quot;btn-light&quot;).removeClass(&quot;btn-dark&quot;).html(&quot;\u5207\u63DB\u6210\u666E\u901A\u6A21\u5F0F&quot;))})&lt;/script&gt;</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+      </b:widget>
       <b:widget id='BlogSearch2' locked='false' title='站內搜尋' type='BlogSearch'>
         <b:includable id='main'>
     <!-- only display title if it's non-empty -->
@@ -1578,7 +1592,7 @@ var codei='<div class="messager-text kaplan-wrapper slidebg"><div class="body-ro
         <b:widget-settings>
           <b:widget-setting name='sorting'>FREQUENCY</b:widget-setting>
           <b:widget-setting name='display'>LIST</b:widget-setting>
-          <b:widget-setting name='selectedLabelsList'>APP,DevOps,Drama,Java,JavaScript,Linux,Note,Travel,book,小技巧,心得,評論,軍旅</b:widget-setting>
+          <b:widget-setting name='selectedLabelsList'>APP,Android 安卓,Bonita BPM,Design Pattern,DevOps,Google,InTouch,Java,JavaScript,Life,Linux,Note,Photonics,Photoshop,Windows,Youtube,book,上課筆記,周末短篇,影劇,旅行,硬體,程式,資料庫,軍旅,駕訓班</b:widget-setting>
           <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
           <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
         </b:widget-settings>
@@ -1670,7 +1684,7 @@ var codei='<div class="messager-text kaplan-wrapper slidebg"><div class="body-ro
       </b:widget>
       <b:widget id='FeaturedPost1' locked='false' title='精選文章' type='FeaturedPost' version='1'>
         <b:widget-settings>
-          <b:widget-setting name='showSnippet'>true</b:widget-setting>
+          <b:widget-setting name='showSnippet'>false</b:widget-setting>
           <b:widget-setting name='showPostTitle'>true</b:widget-setting>
           <b:widget-setting name='postId'>453390169833003259</b:widget-setting>
           <b:widget-setting name='showFirstImage'>true</b:widget-setting>
@@ -1986,7 +2000,7 @@ var codei='<div class="messager-text kaplan-wrapper slidebg"><div class="body-ro
        <b:widget-setting name='link-3'>//spicyboyd.notion.site/393f569aa77d4d4bbd584a52b5268c0a?v=ee4cb9a05f544896be9f71561a60a224</b:widget-setting>
        <b:widget-setting name='link-4'>//spicyboyd.notion.site/91df4c819ed14e30a2a2a3b12c5a343e?v=3b19c1a1b6d24f66813c22008657fc24</b:widget-setting>
        <b:widget-setting name='text-1'>韓劇高分榜</b:widget-setting>
-       <b:widget-setting name='text-0'>韓劇2021</b:widget-setting>
+       <b:widget-setting name='text-0'>韓劇2022</b:widget-setting>
        <b:widget-setting name='text-3'>台劇</b:widget-setting>
        <b:widget-setting name='text-2'>韓劇</b:widget-setting>
        <b:widget-setting name='text-5'>行程規劃</b:widget-setting>
@@ -1996,7 +2010,7 @@ var codei='<div class="messager-text kaplan-wrapper slidebg"><div class="body-ro
        <b:widget-setting name='sorting'>NONE</b:widget-setting>
        <b:widget-setting name='link-1'>//spicyboyd.notion.site/b03905cbe58641508d37cac12439f0ba?v=459a208cccc3404a81e61310f74278a6</b:widget-setting>
        <b:widget-setting name='link-2'>//spicyboyd.notion.site/b03905cbe58641508d37cac12439f0ba?v=4dffb1a5ae8243daac1b9c1835e210e8</b:widget-setting>
-       <b:widget-setting name='link-0'>//spicyboyd.notion.site/b03905cbe58641508d37cac12439f0ba?v=82f573e615e041c6b8b30e0ae80c6462</b:widget-setting>
+       <b:widget-setting name='link-0'>//spicyboyd.notion.site/b03905cbe58641508d37cac12439f0ba?v=6f8d3e2c8a0c418bba527c5c0ec1611c</b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
 
@@ -2099,6 +2113,7 @@ var no_image="//3.bp.blogspot.com/-Yw8BIuvwoSQ/VsjkCIMoltI/AAAAAAAAC4c/s55PW6xEK
 //]]>
 </script>
   <script async='async' src='//cdn.jsdelivr.net/npm/lite-youtube-embed@0.2.0/src/lite-yt-embed.min.js'/>
+  <script async='async' src='//cdn.jsdelivr.net/npm/darkreader@4.9.52/darkreader.min.js'/>
   <script async='async' src='//cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert'/>
   <script async='async' crossorigin='anonymous' nonce='wkW6sYz9' src='//connect.facebook.net/zh_TW/sdk.js#xfbml=1&amp;version=v11.0&amp;appId=150432502292056&amp;autoLogAppEvents=1'/>
 <script async='async' type='text/javascript'>
