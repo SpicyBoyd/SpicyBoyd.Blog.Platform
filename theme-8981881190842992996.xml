@@ -43,6 +43,9 @@
 
 /* 自定義 */
 .post-body img{height:100%;border-radius:16px;border:1px solid #ccc}.post-body{font-family:"微軟正黑體","Microsoft JhengHei","Times New Roman",Times,serif}.comments h4,h3.post-title{font-family:"微軟正黑體","Microsoft JhengHei","Times New Roman",Times,serif}h1,h2,h3,h4,h5,h6{font-family:"微軟正黑體","Microsoft JhengHei","Times New Roman",Times,serif}#nav li a:hover{color:#49a8d1!important}.post-body iframe{border-radius:20px}.post-body lite-youtube{border-radius:20px}@media screen{#main-wrapper{max-width:1440px;width:73%}#sidebar-wrapper{max-width:480px;width:25%}.body-row{width:90%}.markdown-body{max-width:1440px!important}.kaplan-top-menu ul li a{font-size:16px}#kaplan-menu ul>li>a{font-size:16px}#kaplan-menu ul>li>ul>li a{font-size:14px}.r-p-title a{font-size:16px!important}.PopularPosts ul li a{font-size:16px!important}.kaplan-social #social a{font-size:22px}}.widget-content li a:hover{color:$maincolor}#kaplan-footer .widget-content li a:hover{color:$maincolor!important}#Stats1_content{color:#2f2f33}.prettyprint{padding:10px;border-radius:4px}@media screen and (max-width:992px){#main-wrapper{width:95%}#sidebar-wrapper{width:95%}.fa-5x{font-size:3em!important}.kaplan-fcols-inner .widget{width:95%;margin:0 auto;padding:0}#kaplan-footer .contact-form-widget,#kaplan-footer .widget-content{padding:10px 0}}.post-body .stackedit__html{width:100%;margin:0;padding:0;max-width:unset}.contact-form-widget{padding:10px 0}
+
+/* Button Dark Mode */
+.ind-darkmode i{color:#fff;font-size:22px}.ind-icon{cursor:pointer;display:block;padding:8px;background-position:center;transition:.5s linear}.ind-icon:hover i{color:#ef476f}.ind-check,.ind-darkmode .ind-check:checked~.ind-icon .ind-openmode,.ind-darkmode .ind-icon .ind-closemode{display:none}.ind-darkmode .ind-check:checked~.ind-icon .ind-closemode,.ind-darkmode .ind-icon .ind-openmode{display:block}
 ]]></b:skin>
 <b:template-skin>
 <![CDATA[
@@ -207,8 +210,13 @@ body#layout .adminbar{display:block!important;width:280px;float:left;height:100%
         </b:widget>
       </b:section>
       <div class='kaplan-kaplan-top-menu'>
-
-
+		<div class='ind-darkmode'>
+          <input class='ind-check' id='ind-darkmode' title='Mode Dark' type='checkbox'/>
+          <label class='ind-icon' for='ind-darkmode'>
+            <i aria-hidden='true' class='ind-openmode fa fa-moon-o'> 深色模式</i>
+            <i aria-hidden='true' class='ind-closemode fa fa-sun-o'> 普通模式</i>
+          </label>
+        </div>
         <div class='kaplan-top-menu'>
           <b:section class='kaplan-top-menu' id='kaplan-top-menu' maxwidgets='1' name='Top Navigation Menu' preferred='no' showaddelement='no'>
             <b:widget id='LinkList997' locked='true' title='Top Navigation Menu' type='LinkList' version='1'>
@@ -1541,23 +1549,6 @@ var codei='<div class="messager-text kaplan-wrapper slidebg"><div class="body-ro
 </div>
   <div id='sidebar-wrapper'>
     <b:section class='sidebar kaplan-widetize' id='sidebar(1)' name='SIDEBAR TOP' preferred='yes'>
-      <b:widget id='HTML4' locked='false' title='網頁主題' type='HTML'>
-        <b:widget-settings>
-          <b:widget-setting name='content'>&lt;button id=&quot;theme_switch&quot; type=&quot;button&quot; class=&quot;btn btn-dark&quot;&gt;切換成深色模式&lt;/button&gt;
-&lt;script&gt;$(&quot;#theme_switch&quot;).on(&quot;click&quot;,function(){DarkReader.isEnabled()?(DarkReader.disable(),$(&quot;#theme_switch&quot;).addClass(&quot;btn-dark&quot;).removeClass(&quot;btn-light&quot;).html(&quot;\u5207\u63DB\u6210\u6DF1\u8272\u6A21\u5F0F&quot;)):(DarkReader.enable(),$(&quot;#theme_switch&quot;).addClass(&quot;btn-light&quot;).removeClass(&quot;btn-dark&quot;).html(&quot;\u5207\u63DB\u6210\u666E\u901A\u6A21\u5F0F&quot;))})&lt;/script&gt;</b:widget-setting>
-        </b:widget-settings>
-        <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
-</b:includable>
-      </b:widget>
       <b:widget id='BlogSearch2' locked='false' title='站內搜尋' type='BlogSearch'>
         <b:includable id='main'>
     <!-- only display title if it's non-empty -->
@@ -2207,6 +2198,11 @@ var $=jQuery;$(".custwid .kaplan-widget").map(function(){var a=$(this),e=a.attr(
 //<![CDATA[
 $(document).ready(function(){$("img").map(function(){var e=$(this),t=e.attr("src");e.attr("title",t.substring(t.lastIndexOf("/")+1,t.lastIndexOf("."))),e.attr("alt",t.substring(t.lastIndexOf("/")+1,t.lastIndexOf(".")))})}),$(".Label a, .kaplan-max-limit").attr("href",function(e,t){return t.replace(t,t+"?&max-results="+perPage)}),$(document).ready(function(){$(".kaplan-top-slider").map(function(){var e=$(this),t=$(this).attr("data-label"),a=$(this).attr("data-count");$.ajax({url:"/feeds/posts/default/-/"+t+"?alt=json-in-script&max-results="+a,type:"get",dataType:"jsonp",success:function(t){if(t.feed.entry){for(var a='<div class="row slider-bg-carso owl-carousel">',i=!0,r=0;r<t.feed.entry.length;r++){var l=t.feed.entry[r],s=l.title.$t;for(k=0;k<l.link.length;k++)if("alternate"==l.link[k].rel)var n=l.link[k].href;l.author[0].name.$t,l.author[0].uri.$t,l.published.$t,l.content.$t;var o=l.published.$t.split("T"),d=" "+["January","February","March","April","May","June","July","August","September","October","November","December"][(o=o[0].split("-"))[1]-1]+" "+o[2]+", "+o[0];if(l.media$thumbnail.url)-1!==(u=l.media$thumbnail.url).indexOf("/s72-c")&&(u=u.replace("/s72-c","/s1600")),-1!==u.indexOf("img.youtube.com")&&(u=u.replace("/default.jpg","/maxresdefault.jpg"));else var u="//4.bp.blogspot.com/-wPwjv7-YYGY/Wc98wlDT8qI/AAAAAAAAAEE/mH8YkPl8qJAH9FMuFKcShQvXXYMmVyrIgCLcBGAs/s1600/notfound.png";if(i){var c='<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="150%" height="1000%" id="blurred_qwouv0fjq" class="bg-blur" preserveAspectRatio="none"><filter id="blur_qwouv0fjq"><feGaussianBlur in="SourceGraphic" stdDeviation="5"></feGaussianBlur></filter><image x="-10" y="-50" width="100%" height="100%" externalResourcesRequired="true" xlink:href="'+u+'" style="filter:url(#blur_qwouv0fjq)" preserveAspectRatio="none"></image></svg>';i=!1}a=a+'<div class="col-md-4 item"><div class="slithumb" data-img="'+u+'"> <a href="'+n+'" class="kaplan-click-trap"></a><div  class="kaplan-slider-thumb" style="background:url(\''+u+'\')"></div></div><div class="kaplan-spost-deta"><a class="slp_t" href="'+n+'">'+s+'</a> <span class="posted-on"><i class="ion-ios-clock-outline"></i><a href="//particle-blossom.blogspot.com/2017/11/everyone-wants-to-achieve-sky.html" rel="bookmark">'+d+"</a></span></div></div>"}a+="</div>",$(".kaplan-top-slider").prepend(c),e.html(a)}},error:function(e){console.log(e)},complete:function(){$(".slider-bg-carso").owlCarousel({loop:!0,margin:0,nav:!1,autoplay:!0,loop:!0,responsive:{0:{items:1},600:{items:2},1000:{items:3}},onChanged:function(){var e=$(".slider-bg-carso .owl-item.active:eq(0)").find(".slithumb").attr("data-img");e&&$(".kaplan-top-slider").find(".bg-blur").find("image").attr("href",e)},onDragged:function(){var e=$(".slider-bg-carso .owl-item.active:eq(0)").find(".slithumb").attr("data-img");e&&$(".kaplan-top-slider").find(".bg-blur").find("image").attr("href",e)},onInitialized:function(){var e=$(".slider-bg-carso .owl-item.active:eq(0)").find(".slithumb").attr("data-img");e&&$(".kaplan-top-slider").find(".bg-blur").find("image").attr("href",e)}})}})})});
   //]]>
+</script>
+<script type='text/javascript'>
+//<![CDATA[ 
+$(document).ready(function(){$("#ind-darkmode").on("click",function(){"nightmode"!=localStorage.toggled?(DarkReader.setFetchMethod(window.fetch),DarkReader.enable(),localStorage.toggled="nightmode"):(DarkReader.disable(),localStorage.toggled="")}),"nightmode"!=localStorage.toggled?(DarkReader.disable(),$("#ind-darkmode").prop("checked",0)):(DarkReader.setFetchMethod(window.fetch),DarkReader.enable(),$("#ind-darkmode").prop("checked",1))})
+//]]>
 </script>
 </body>
 </html>
